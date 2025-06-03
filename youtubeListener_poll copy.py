@@ -50,8 +50,9 @@ def read_channel_ids():
         reader = csv.DictReader(f)
         for row in reader:
             channel_id = row.get('channel_id')
+            username = row.get('username')
             if channel_id:
-                ids.append(channel_id)
+                ids.append((channel_id, username))
     return ids
 
 
