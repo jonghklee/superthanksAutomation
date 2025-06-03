@@ -9,8 +9,6 @@ import atexit
 import logging
 import requests
 import json
-import websocket
-import uuid
 
 stop_event = Event()
 atexit.register(stop_event.set)
@@ -41,79 +39,55 @@ def click_button(x, y, wait_time):
 
 # 좌표 구하기 함수 정의
 
-def get_element_coordinates(url):
-    # JavaScript 실행을 위한 HTTP 요청
+
+def execute_javascript(js_code):
+    # AppleScript는 JavaScript 실행 결과를 직접 반환하도록 수정해야 합니다.
+    # JavaScript 코드의 마지막 표현식이 반환 값이 됩니다.
+    script = f'''
+    tell application "Google Chrome"
+        return execute front window's active tab javascript "{js_code}"
+    end tell
+    '''
+    # AppleScript 실행 시 text=True를 사용하면 stdout이 문자열로 디코딩됩니다.
+    # JavaScript가 null을 반환하면 AppleScript는 "missing value"를 반환할 수 있고,
+    # 이는 Python에서 빈 문자열이나 특정 문자열로 나타날 수 있습니다.
+    # 또는 JavaScript에서 JSON.stringify()를 사용하여 객체를 문자열로 명시적으로 반환하는 것이 좋습니다.
+    process = subprocess.run(["osascript", "-e", script], capture_output=True, text=True, check=False)
+    if process.returncode == 0:
+        # AppleScript가 "missing value"를 반환하는 경우, stdout이 비어있거나 특정 문자열일 수 있습니다.
+        # JavaScript에서 null을 반환하면 stdout이 'null' 문자열이 아닐 수 있으므로 주의해야 합니다.
+        # 가장 확실한 방법은 JavaScript에서 JSON.stringify를 사용하는 것입니다.
+        return process.stdout.strip()
+    else:
+        # 오류 로깅 등을 추가할 수 있습니다.
+        print(f"AppleScript 실행 오류: {process.stderr}")
+        return None
+
+def get_button_coordinates():
+    # JavaScript 함수가 객체를 반환하도록 하고, 이를 JSON 문자열로 변환하여 반환합니다.
     js_code = """
     function getElementCoordinates(selector) {
         const element = document.querySelector(selector);
-        if (!element) return null;
+        if (!element) return null; // 요소가 없으면 null 반환
         const rect = element.getBoundingClientRect();
-        return {
+        return JSON.stringify({ // 결과를 JSON 문자열로 변환
             x: Math.round(rect.left + rect.width/2),
             y: Math.round(rect.top + rect.height/2)
-        };
+        });
     }
-    getElementCoordinates('button.ytp-super-thanks-button');
+    getElementCoordinates('#button-shape > button');
     """
     
-    # CDP HTTP 엔드포인트로 요청
-    response = requests.post(
-        'http://localhost:9222/json/new',
-        json={
-            "url": url
-        }
-    )
+    js_result_str = execute_javascript(js_code)
     
-    if response.status_code == 200:
-        tab_id = response.json()['id']
-        
-        # JavaScript 실행
-        js_response = requests.post(
-            f'http://localhost:9222/json/send/{tab_id}',
-            json={
-                "id": 1,
-                "method": "Runtime.evaluate",
-                "params": {
-                    "expression": js_code
-                }
-            }
-        )
-        
-        if js_response.status_code == 200:
-            result = js_response.json()
-            if 'result' in result and 'result' in result['result']:
-                value = result['result']['result'].get('value')
-                if value:
-                    return json.loads(value)
-    
-    return None
-
-def get_button_coordinates():
-    script = '''
-    tell application "Google Chrome"
-        execute front window's active tab javascript "
-            function getElementCoordinates(selector) {
-                const element = document.querySelector(selector);
-                if (!element) return null;
-                const rect = element.getBoundingClientRect();
-                return {
-                    x: Math.round(rect.left + rect.width/2),
-                    y: Math.round(rect.top + rect.height/2)
-                };
-            }
-            getElementCoordinates('button.ytp-super-thanks-button');
-        "
-    end tell
-    '''
-    result = subprocess.run(["osascript", "-e", script], capture_output=True, text=True)
-    if result.returncode == 0:
+    if js_result_str and js_result_str != "missing value" and js_result_str.lower() != "null":
         try:
-            return json.loads(result.stdout.strip())
-        except:
+            # JavaScript에서 JSON.stringify()를 사용했으므로, Python에서 json.loads()로 파싱합니다.
+            return json.loads(js_result_str)
+        except json.JSONDecodeError as e:
+            print(f"JSON 파싱 오류: {e}, 원본 문자열: '{js_result_str}'")
             return None
     return None
-
-
 
 def sendSuperThanks(url, message):
     # 창의 위치 및 크기 설정: {x, y, width, height}
@@ -134,11 +108,15 @@ def sendSuperThanks(url, message):
     if result.returncode != 0:
         return f"URL 열기 실패: {result.stderr}"
 
-    # 좌표 구하기 함수 호출
-    coords = get_element_coordinates(url)
+    time.sleep(2)  # 페이지 로딩 대기
+    
+    # Super Thanks 버튼 좌표 구하기
+    coords = get_button_coordinates()
     if coords:
         click_button(coords['x'], coords['y'], 0.5)
+        print(f"Super Thanks 버튼 좌표: {coords}")
     else:
+        print("Super Thanks 버튼 좌표 구하기 실패")
         click_button(566, 575, 0.5)  # 기본 좌표 사용
 
     # 버튼 클릭 함수 호출

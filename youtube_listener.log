@@ -6193,3 +6193,21 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.youtube.com', por
 2025-06-03 19:44:51 [INFO] [yL6P7OR5WOM] sending super thanks...
 2025-06-03 19:45:22 [INFO] [yL6P7OR5WOM] 성공적으로 완료되었습니다.
 2025-06-03 19:45:22 [INFO] [yL6P7OR5WOM] 작업 끝
+2025-06-03 20:23:56 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:23:56 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:23:56 [INFO] [mTJdHpAHKKk] 영상ID: mTJdHpAHKKk
+2025-06-03 20:23:56 [INFO] [mTJdHpAHKKk] sending super thanks...
+2025-06-03 20:23:58 [INFO] [mTJdHpAHKKk] 오류 발생: HTTPConnectionPool(host='localhost', port=9222): Max retries exceeded with url: /json/new (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b251550>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-06-03 20:23:58 [INFO] [mTJdHpAHKKk] 작업 끝
+2025-06-03 20:32:19 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:32:19 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:32:19 [INFO] [mTJdHpAHKKk] 영상ID: mTJdHpAHKKk
+2025-06-03 20:32:19 [INFO] [mTJdHpAHKKk] sending super thanks...
+2025-06-03 20:33:00 [INFO] [mTJdHpAHKKk] 성공적으로 완료되었습니다.
+2025-06-03 20:33:00 [INFO] [mTJdHpAHKKk] 작업 끝
+2025-06-03 20:37:27 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:37:27 [INFO] [mTJdHpAHKKk] 작업 시작
+2025-06-03 20:37:27 [INFO] [mTJdHpAHKKk] 영상ID: mTJdHpAHKKk
+2025-06-03 20:37:27 [INFO] [mTJdHpAHKKk] sending super thanks...
+2025-06-03 20:38:01 [INFO] [mTJdHpAHKKk] 성공적으로 완료되었습니다.
+2025-06-03 20:38:01 [INFO] [mTJdHpAHKKk] 작업 끝
