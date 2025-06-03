@@ -36,6 +36,14 @@ def click_button(x, y, wait_time):
 
 # 열고자 하는 URL
 
+def click_with_img(img_path):
+    img = pyautogui.locateOnScreen(img_path, confidence=0.8)
+    if img:
+        pyautogui.click(img.left + img.width / 2, img.top + img.height / 2)
+    else:
+        return False
+    return True
+
 
 def sendSuperThanks(url, message):
     # 창의 위치 및 크기 설정: {x, y, width, height}
@@ -57,8 +65,26 @@ def sendSuperThanks(url, message):
         return f"URL 열기 실패: {result.stderr}"
 
     # 버튼 클릭 함수 호출
-    click_button(566, 575, 0.5)  # dot_button
-    click_button(505, 656, 0.5)  # thanks_button
+    #
+    # img/superthanks1.png 이미지를 직접 찾아 클릭 시도
+    if click_with_img("img/superthanks1.png"):
+        # superthanks1.png 클릭 성공
+        pass
+    else:
+        # superthanks1.png 찾기 실패. img/dots.png를 찾은 후 img/superthanks2.png 클릭 시도
+        if click_with_img("img/dots.png"):
+            # img/dots.png 클릭 성공, 잠시 대기 후 img/superthanks2.png 시도
+            time.sleep(1)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
+            if click_with_img("img/superthanks2.png"):
+                # img/superthanks2.png 클릭 성공
+                pass
+            else:
+                # img/dots.png 클릭 후 img/superthanks2.png 찾기 실패
+                return "superthanks를 받지 않는 영상입니다."
+        else:
+            # img/superthanks1.png 와 img/dots.png 모두 찾기 실패
+            return "superthanks를 받지 않는 영상입니다."
+
     time.sleep(1)
     click_button(321, 464, 0.5)  # message_input
     pyautogui.write(message)
