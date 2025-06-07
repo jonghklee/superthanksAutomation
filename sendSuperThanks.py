@@ -6,6 +6,10 @@ import random
 import xml.etree.ElementTree as ET
 import sys
 import atexit
+import logging
+import pyperclip
+from concurrent.futures import ThreadPoolExecutor
+
 
 stop_event = Event()
 atexit.register(stop_event.set)
@@ -16,6 +20,7 @@ namespaces = {
     'yt': 'http://www.youtube.com/xml/schemas/2015'
 }
 
+executor = ThreadPoolExecutor(max_workers=1)
 
 # 특정 위치로 이동하여 클릭하는 함수 정의
 def click_button(x, y, wait_time):
@@ -37,12 +42,16 @@ def click_button(x, y, wait_time):
 # 열고자 하는 URL
 
 def click_with_img(img_path):
-    img = pyautogui.locateOnScreen(img_path, confidence=0.8)
-    if img:
-        pyautogui.click(img.left + img.width / 2, img.top + img.height / 2)
-    else:
-        return False
-    return True
+    for attempt in range(15):
+        try:
+            img = pyautogui.locateOnScreen(img_path, confidence=0.8)
+        except Exception as e:
+            print(f"이미지 찾기 시도 {attempt + 1} 실패, 다시 시도합니다...")
+            continue
+        if img:
+            click_button(img.left + img.width / 2, img.top + img.height / 2, 0.5)
+            return True
+    return False
 
 
 def sendSuperThanks(url, message):
@@ -65,33 +74,34 @@ def sendSuperThanks(url, message):
         return f"URL 열기 실패: {result.stderr}"
 
     # 버튼 클릭 함수 호출
-    #
+
     # img/superthanks1.png 이미지를 직접 찾아 클릭 시도
-    if click_with_img("img/superthanks1.png"):
-        # superthanks1.png 클릭 성공
-        pass
-    else:
-        # superthanks1.png 찾기 실패. img/dots.png를 찾은 후 img/superthanks2.png 클릭 시도
-        if click_with_img("img/dots.png"):
-            # img/dots.png 클릭 성공, 잠시 대기 후 img/superthanks2.png 시도
-            time.sleep(1)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
-            if click_with_img("img/superthanks2.png"):
-                # img/superthanks2.png 클릭 성공
-                pass
-            else:
-                # img/dots.png 클릭 후 img/superthanks2.png 찾기 실패
-                return "superthanks를 받지 않는 영상입니다."
+    time.sleep(2)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
+    if click_with_img("img/dots.png"):
+        # img/dots.png 클릭 성공, 잠시 대기 후 img/superthanks2.png 시도
+        time.sleep(1)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
+        if click_with_img("img/superthanks2.png"):
+            pass
         else:
-            # img/superthanks1.png 와 img/dots.png 모두 찾기 실패
             return "superthanks를 받지 않는 영상입니다."
+    else:
+        return "superthanks를 받지 않는 영상입니다."
 
     time.sleep(1)
-    click_button(321, 464, 0.5)  # message_input
-    pyautogui.write(message)
+    click_with_img("img/3_text.png")
+    pyautogui.hotkey('command', 'a')  # cmd + a로 지우기
+    pyautogui.press('backspace')
+    # 메시지 입력 전 잠시 대기
+    time.sleep(0.5)
+    # 메시지를 한 글자씩 입력
+    pyperclip.copy(message)
+    pyautogui.hotkey('command', 'v')
+    
+    time.sleep(0.1)  # 각 글자 입력 사이에 약간의 딜레이
     time.sleep(1)
-    click_button(484, 637, 0.5)  # buy_and_send_button
+    click_with_img("img/4_buyandsend.png")
     time.sleep(5)
-    click_button(312, 513, 0.5)  # buy_button
+    click_with_img("img/5_buy.png")
     time.sleep(2)
     #click_button(312, 476, 0.5)  # Verify_button
     time.sleep(5)
@@ -120,7 +130,7 @@ def sendSuperThanks(url, message):
 
     return "성공적으로 완료되었습니다."
 
-def process_super_thanks(video_id, logger):
+def process_super_thanks(video_id, logger, message):
     logger.info(f"[{video_id}] 작업 시작")
     try:
         if not video_id:
@@ -135,23 +145,20 @@ def process_super_thanks(video_id, logger):
 
 
 
-execution_lock = Lock()
-current_thread = None
-
-def run_in_sequence(func, video_id, logger):
-        logger.info(f"[{video_id}] 작업 시작")
-        def runner():
-            global current_thread
-            with execution_lock:
-                if current_thread is not None:
-                    logger.info("이전 작업 대기 중...")
-                    current_thread.join()
-                current_thread = Thread(target=process_super_thanks, args=(video_id, logger))
-                current_thread.start()
-
-        Thread(target=runner).start()
-
 
 if __name__ == "__main__":
-    test_url = "https://www.youtube.com/watch?v=yL6P7OR5WOM"
-    sendSuperThanks(test_url)
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    # 콘솔 핸들러
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s'))
+
+    # 파일 핸들러
+    file_handler = logging.FileHandler('youtube_listener.log', encoding='utf-8')
+    file_handler.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S'))
+
+    # 핸들러 등록
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+    run_in_sequence(sendSuperThanks, "mTJdHpAHKKk", logger, "감사합니다!")
