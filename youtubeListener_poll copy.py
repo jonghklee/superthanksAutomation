@@ -1,6 +1,6 @@
 import time
 import requests
-from sendSuperThanks import process_super_thanks
+ㅈfrom sendSuperThanks import process_super_thanks
 import csv
 from pathlib import Path
 import concurrent.futures
@@ -84,7 +84,8 @@ def fetch_and_process(channel_id, mother_executor, message):
                             Ticket -= 1
                             logger.info(f"[{channel_id}] 새 영상 발견! {video_id}")
                             last_video_ids[channel_id] = video_id
-                            mother_executor.submit(process_super_thanks, video_id, logger, message)
+                            #mother_executor.submit(process_super_thanks, video_id, logger, message)
+                            print(f"----------------------------------------[{channel_id}] 저장 완료 {video_id}----------------------------------------")
                         else:
                             #logger.info(f"[{channel_id}] 새 영상 없음({video_id})")
                             pass
