@@ -1,15 +1,11 @@
 import time
 import requests
-import xml.etree.ElementTree as ET
-from flask import Flask
 from sendSuperThanks import process_super_thanks
 import csv
 from pathlib import Path
 import concurrent.futures
-import sys
 import atexit
 from threading import Event
-from xml.dom import minidom
 from bs4 import BeautifulSoup
 import re
 import logging
