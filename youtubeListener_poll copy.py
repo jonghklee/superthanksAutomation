@@ -1,6 +1,6 @@
 import time
 import requests
-ㅈfrom sendSuperThanks import process_super_thanks
+#from sendSuperThanks import process_super_thanks
 import csv
 from pathlib import Path
 import concurrent.futures
