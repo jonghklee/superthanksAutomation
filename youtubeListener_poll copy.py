@@ -34,7 +34,7 @@ stop_event = Event()
 atexit.register(stop_event.set)
 
 CSV_PATH = Path("./channel_list.csv")
-POLL_INTERVAL = 3  # 1초 간격
+POLL_INTERVAL = 10  # 10초 간격
 last_video_ids = {}
 
 namespaces = {
