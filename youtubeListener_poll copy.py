@@ -11,7 +11,7 @@ import re
 import logging
 
 isTest = 0
-Ticket = 3
+Ticket = 100
 
 
 # 로거 생성
@@ -34,7 +34,7 @@ stop_event = Event()
 atexit.register(stop_event.set)
 
 CSV_PATH = Path("./channel_list.csv")
-POLL_INTERVAL = 10  # 10초 간격
+POLL_INTERVAL = 5.5  # 10초 간격
 last_video_ids = {}
 
 namespaces = {
@@ -85,7 +85,7 @@ def fetch_and_process(channel_id, mother_executor, message):
                             logger.info(f"[{channel_id}] 새 영상 발견! {video_id}")
                             last_video_ids[channel_id] = video_id
                             #mother_executor.submit(process_super_thanks, video_id, logger, message)
-                            print(f"----------------------------------------[{channel_id}] 저장 완료 {video_id}----------------------------------------")
+                            logger.info(f"\n----------------------------------------[{channel_id}] 저장 완료 {video_id}----------------------------------------")
                         else:
                             #logger.info(f"[{channel_id}] 새 영상 없음({video_id})")
                             pass
