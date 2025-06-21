@@ -34,7 +34,7 @@ stop_event = Event()
 atexit.register(stop_event.set)
 
 CSV_PATH = Path("./channel_list.csv")
-POLL_INTERVAL = 5.5  # 10초 간격
+POLL_INTERVAL = 1  # 10초 간격
 last_video_ids = {}
 
 namespaces = {
@@ -125,8 +125,35 @@ def poll_feed():
                 try:
                     logger.info("[피드 체크 중...]")
                     channel_ids = read_channel_ids()
+                    messages = read_message()
+                    
+                    # 각 채널별로 작업 시작 시간을 추적
+                    channel_start_times = {}
+                    
+                    def fetch_and_process_with_delay(channel_id, mother_executor, message):
+                        start_time = time.time()
+                        channel_start_times[channel_id] = start_time
+                        
+                        # 실제 작업 수행
+                        fetch_and_process(channel_id, mother_executor, message)
+                        
+                        # 작업 완료 후 딜레이 계산
+                        elapsed_time = time.time() - start_time
+                        if elapsed_time < 5.0:  # 작업이 5초 미만이면 딜레이 적용
+                            sleep_time = 5.0 - elapsed_time
+                            time.sleep(sleep_time)
+                    
                     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-                        executor.map(fetch_and_process, channel_ids, [mother_executor] * len(channel_ids), read_message())
+                        # 각 채널에 대해 작업 제출
+                        futures = []
+                        for i, channel_id in enumerate(channel_ids):
+                            message = messages[i] if i < len(messages) else ""
+                            future = executor.submit(fetch_and_process_with_delay, channel_id, mother_executor, message)
+                            futures.append(future)
+                        
+                        # 모든 작업 완료 대기
+                        concurrent.futures.wait(futures)
+                        
                 except Exception as e:
                     logger.error("[피드 전체 오류]", exc_info=True)
                 time.sleep(POLL_INTERVAL)
@@ -136,6 +163,10 @@ def poll_feed():
             raise
 
 if __name__ == '__main__':
+    logger.info("")
+    logger.info("=" * 50)
+    logger.info("------- 프로그램 시작 -------")
+    logger.info("=" * 50)
     logger.info(f"isTest: {isTest}, Ticket: {Ticket}")
     logger.info("초기화 중...")
     initialize_last_video_ids()
