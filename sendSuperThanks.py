@@ -9,6 +9,10 @@ import atexit
 import logging
 import pyperclip
 from concurrent.futures import ThreadPoolExecutor
+import cv2
+import numpy as np
+from PIL import Image
+import os
 
 
 stop_event = Event()
@@ -76,22 +80,65 @@ def click_button(x, y, wait_time):
 # 열고자 하는 URL
 
 def click_with_img(img_path, max_attempts=15, confidence=0.8):
-    """이미지를 찾아서 클릭하는 함수 - 개선된 딜레이 적용"""
+    """macOS screencapture를 사용한 이미지 찾기 함수 - Retina 디스플레이 지원"""
+    # 해상도 스케일 계산 (한 번만)
+    def get_display_scale():
+        pyautogui_size = pyautogui.size()
+        subprocess.run(["screencapture", "-x", "temp_scale_check.png"], capture_output=True)
+        if os.path.exists("temp_scale_check.png"):
+            real_img = Image.open("temp_scale_check.png")
+            scale_x = real_img.size[0] / pyautogui_size[0]
+            scale_y = real_img.size[1] / pyautogui_size[1]
+            os.remove("temp_scale_check.png")
+            return scale_x, scale_y
+        return 2.0, 2.0  # Retina 기본값
+
+    scale_x, scale_y = get_display_scale()
+    
     for attempt in range(max_attempts):
         try:
-            img = pyautogui.locateOnScreen(img_path, confidence=confidence)
-            if img:
-                center_x = img.left + img.width / 2
-                center_y = img.top + img.height / 2
-                click_button(center_x, center_y, smart_delay('click'))
+            # macOS screencapture로 고해상도 스크린샷
+            subprocess.run(["screencapture", "-x", "temp_screen.png"], capture_output=True)
+            if not os.path.exists("temp_screen.png"):
+                continue
+                
+            screen_img = Image.open("temp_screen.png")
+            screen_np = cv2.cvtColor(np.array(screen_img), cv2.COLOR_RGB2BGR)
+            target_img = cv2.imread(img_path)
+            
+            if target_img is None:
+                print(f"타겟 이미지 {img_path} 로드 실패")
+                os.remove("temp_screen.png")
+                return False
+            
+            # 템플릿 매칭
+            result = cv2.matchTemplate(screen_np, target_img, cv2.TM_CCOEFF_NORMED)
+            min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
+            
+            if max_val >= confidence:
+                # PyAutoGUI 좌표계로 변환 (중심점 계산)
+                click_x = max_loc[0] / scale_x + target_img.shape[1] / (2 * scale_x)
+                click_y = max_loc[1] / scale_y + target_img.shape[0] / (2 * scale_y)
+                
+                print(f"✅ 이미지 {img_path} 발견 (confidence: {max_val:.3f}, 시도: {attempt + 1})")
+                print(f"   클릭 좌표: ({click_x:.1f}, {click_y:.1f})")
+                
+                os.remove("temp_screen.png")
+                click_button(click_x, click_y, smart_delay('click'))
                 return True
+            
+            os.remove("temp_screen.png")
+            
         except Exception as e:
             print(f"이미지 찾기 시도 {attempt + 1} 실패: {e}")
+            if os.path.exists("temp_screen.png"):
+                os.remove("temp_screen.png")
         
         # 재시도 전 딜레이
-        smart_delay('short', multiplier=0.5)
+        if attempt < max_attempts - 1:
+            smart_delay('short', multiplier=0.5)
     
-    print(f"이미지 {img_path}를 찾을 수 없습니다. ({max_attempts}회 시도)")
+    print(f"❌ 이미지 {img_path}를 찾을 수 없습니다. ({max_attempts}회 시도, confidence: {confidence})")
     return False
 
 
@@ -114,72 +161,78 @@ def sendSuperThanks(url, message):
     if result.returncode != 0:
         return f"URL 열기 실패: {result.stderr}"
 
-    # 페이지 로딩 대기
-    smart_delay('ui_update')
-    
-    # dots 버튼 클릭 시도
-    if click_with_img("img/dots.png"):
-        smart_delay('ui_update')  # 메뉴가 나타날 시간 대기
+    try:
+        # 페이지 로딩 대기
+        smart_delay('ui_update')
         
-        if click_with_img("img/superthanks2.png"):
-            print("Super Thanks 메뉴 클릭 성공")
+        # dots 버튼 클릭 시도
+        if click_with_img("img/dots.png"):
+            smart_delay('ui_update')  # 메뉴가 나타날 시간 대기
+            
+            if click_with_img("img/superthanks2.png"):
+                print("Super Thanks 메뉴 클릭 성공")
+            else:
+                return "superthanks를 받지 않는 영상입니다."
         else:
             return "superthanks를 받지 않는 영상입니다."
-    else:
-        return "superthanks를 받지 않는 영상입니다."
 
-    # 텍스트 입력 필드 클릭 및 메시지 입력
-    smart_delay('medium')
-    if click_with_img("img/3_text.png"):
-        smart_delay('click')
-        pyautogui.hotkey('command', 'a')  # 기존 텍스트 선택
-        smart_delay('type')
-        pyautogui.press('backspace')  # 삭제
-        smart_delay('click')
-        
-        # 메시지 입력
-        pyperclip.copy(message)
-        pyautogui.hotkey('command', 'v')
+        # 텍스트 입력 필드 클릭 및 메시지 입력
         smart_delay('medium')
-    
-    # Buy and Send 버튼 클릭
-    if click_with_img("img/4_buyandsend.png"):
-        smart_delay('long')  # 결제 페이지 로딩 대기
+        if click_with_img("img/3_text.png"):
+            smart_delay('click')
+            pyautogui.hotkey('command', 'a')  # 기존 텍스트 선택
+            smart_delay('type')
+            pyautogui.press('backspace')  # 삭제
+            smart_delay('click')
+            
+            # 메시지 입력
+            pyperclip.copy(message)
+            pyautogui.hotkey('command', 'v')
+            smart_delay('medium')
         
-        # Buy 버튼 클릭
-        if click_with_img("img/5_buy.png"):
-            smart_delay('long', multiplier=2)  # 결제 처리 대기
+        # Buy and Send 버튼 클릭
+        if click_with_img("img/4_buyandsend.png"):
+            smart_delay('long')  # 결제 페이지 로딩 대기
+            
+            # Buy 버튼 클릭
+            if click_with_img("img/5_buy.png"):
+                smart_delay('long', multiplier=2)  # 결제 처리 대기
+            else:
+                print("Buy 버튼을 찾을 수 없습니다.")
         else:
-            print("Buy 버튼을 찾을 수 없습니다.")
-    else:
-        print("Buy and Send 버튼을 찾을 수 없습니다.")
-    
-    # 최종 처리 완료 대기
-    smart_delay('long')
+            print("Buy and Send 버튼을 찾을 수 없습니다.")
+        
+        # 최종 처리 완료 대기
+        smart_delay('long')
 
-    # 크롬 탭 닫기 AppleScript 명령어 수정
-    close_script = '''
-    tell application "Google Chrome"
-        set tabIndex to 0
-        repeat with t in (tabs of front window)
-            set tabIndex to tabIndex + 1
-            if URL of t is equal to "{url}" then
-                close tab tabIndex of front window
-                exit repeat
-            end if
-        end repeat
-    end tell
-    '''.format(url=url)
-    
-    # AppleScript 실행하여 특정 URL의 크롬 탭 닫기
-    close_result = subprocess.run(["osascript", "-e", close_script], capture_output=True, text=True)
+        return "성공적으로 완료되었습니다."
 
-    smart_delay('medium')  # 탭 닫기 후 안정화 대기
-    
-    if close_result.returncode != 0:
-        return f"탭 닫기 실패: {close_result.stderr}"
-
-    return "성공적으로 완료되었습니다."
+    finally:
+        # 크롬 탭 닫기 AppleScript 명령어 - 함수가 어떻게 끝나든 항상 실행
+        close_script = '''
+        tell application "Google Chrome"
+            set tabIndex to 0
+            repeat with t in (tabs of front window)
+                set tabIndex to tabIndex + 1
+                if URL of t is equal to "{url}" then
+                    close tab tabIndex of front window
+                    exit repeat
+                end if
+            end repeat
+        end tell
+        '''.format(url=url)
+        
+        try:
+            # AppleScript 실행하여 특정 URL의 크롬 탭 닫기
+            close_result = subprocess.run(["osascript", "-e", close_script], capture_output=True, text=True)
+            smart_delay('medium')  # 탭 닫기 후 안정화 대기
+            
+            if close_result.returncode != 0:
+                print(f"탭 닫기 실패: {close_result.stderr}")
+            else:
+                print("탭 닫기 성공")
+        except Exception as e:
+            print(f"탭 닫기 중 예외 발생: {e}")
 
 def process_super_thanks(video_id, logger, message):
     logger.info(f"[{video_id}] 작업 시작")
