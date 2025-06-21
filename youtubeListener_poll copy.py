@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import re
 import logging
 
-isTest = 3
+isTest = 0
 Ticket = 100
 
 
@@ -85,7 +85,6 @@ def fetch_and_process(channel_id, mother_executor, message):
                             logger.info(f"[{channel_id}] 새 영상 발견! {video_id}")
                             last_video_ids[channel_id] = video_id
                             mother_executor.submit(process_super_thanks, video_id, logger, message)
-                            logger.info(f"\n----------------------------------------[{channel_id}] 저장 완료 {video_id}----------------------------------------")
                         else:
                             #logger.info(f"[{channel_id}] 새 영상 없음({video_id})")
                             pass
