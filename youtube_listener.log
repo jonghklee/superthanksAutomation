@@ -30069,3 +30069,496 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.youtube.com', por
 2025-06-21 14:17:18 [INFO] [피드 체크 중...]
 2025-06-21 14:18:14 [INFO] [피드 체크 중...]
 2025-06-21 14:18:34 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-21 14:19:23 [INFO] 
+2025-06-21 14:19:23 [INFO] ==================================================
+2025-06-21 14:19:23 [INFO] ------- 프로그램 시작 -------
+2025-06-21 14:19:23 [INFO] ==================================================
+2025-06-21 14:19:23 [INFO] isTest: 0, Ticket: 100
+2025-06-21 14:19:23 [INFO] 초기화 중...
+2025-06-21 14:19:24 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-21 14:19:24 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: XpAYJu7nw7A
+2025-06-21 14:19:24 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-21 14:19:25 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-21 14:19:25 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: CCV1sX9Jaog
+2025-06-21 14:19:26 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-21 14:19:26 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-21 14:19:26 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-21 14:19:27 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-21 14:19:27 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-21 14:19:28 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-21 14:19:28 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-21 14:19:29 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-21 14:19:29 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM
+2025-06-21 14:19:29 [INFO] [UCWgXoKQ4rl7SY9UHuAwxvzQ] 초기화 완료: k9yiB5dAAeQ
+2025-06-21 14:19:30 [INFO] [UCQ1Rn1d6FfB3x2b0n0J6pMQ] 초기화 완료: OhtwAh3aKTo
+2025-06-21 14:19:30 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 초기화 완료: 4HGKYvdPsV4
+2025-06-21 14:19:31 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 초기화 완료: MaYi_EwM9nY
+2025-06-21 14:19:31 [INFO] [UCO-e0J-Qsilkv_4tBa3LyYw] 초기화 완료: 0qtbvAPL2AA
+2025-06-21 14:19:32 [INFO] [UCQ2DWm5Md16Dc3xRwwhVE7Q] 초기화 완료: YFUVMPOIeAo
+2025-06-21 14:19:32 [INFO] [UC_KjTyC5e0DFNxn6GIgBxcQ] 초기화 완료: y5V0My-arCA
+2025-06-21 14:19:32 [INFO] [UCBbJv4YWyu89pP1tg9laatw] 초기화 완료: -zV_W5NMFWw
+2025-06-21 14:19:33 [INFO] [UC9cCBxBAQW2CzLYeT20q49A] 초기화 완료: N9NNw8wzu4I
+2025-06-21 14:19:33 [INFO] [UCPhP8VrLREoTLTON63of0GA] 초기화 완료: KdM_aEW_sG4
+2025-06-21 14:19:34 [INFO] [UCKsJpdKhf5aqxsVo6pxjlcw] 초기화 완료: UHchEnB8iig
+2025-06-21 14:19:34 [INFO] [UCK2YrOMgAbsAraGrWyyAvdw] 초기화 완료: DQ-K2dUNZIk
+2025-06-21 14:19:34 [INFO] [UCgheNMc3gGHLsT-RISdCzDQ] 초기화 완료: -4p-7dTLdK8
+2025-06-21 14:19:35 [INFO] [UC30q8UbkZhQw9zloU4ZhnZw] 초기화 완료: -1dIa5BBLbM
+2025-06-21 14:19:35 [INFO] [UC5ZqaJ9klJrwgsKjYW42JtA] 초기화 완료: Cc2UbgkQFc0
+2025-06-21 14:19:36 [INFO] [UC2xkO7XCiStWfR3fKbzkbqw] 초기화 완료: 5mgbdhZpyqA
+2025-06-21 14:19:36 [INFO] [UC4Aa3OPkMenwTANpf0oWVRQ] 초기화 완료: ckAo79oDdjA
+2025-06-21 14:19:36 [INFO] [UC80zFRpqbg1rmuQUbO6HABQ] 초기화 완료: TcdELA21Ado
+2025-06-21 14:19:37 [INFO] [UC3hRpIQ4x5niJDwjajQSVPg] 초기화 완료: tMXihTcjdxI
+2025-06-21 14:19:37 [INFO] [UC3IZKseVpdzPSBaWxBxundA] 초기화 완료: Flc76dRcIdQ
+2025-06-21 14:19:38 [INFO] [UCm3IV_RvXMOWczBbarPSQSg] 초기화 완료: hasF3aRW4xI
+2025-06-21 14:19:38 [INFO] [UCyPYQTT20IgzVw92LDvtClw] 초기화 완료: iI2Gke8ctAk
+2025-06-21 14:19:38 [INFO] [UCbifFcHncE89RrKSm3HlNAg] 초기화 완료: TjnPCbfh5Uo
+2025-06-21 14:19:39 [INFO] [UCQZ1iBgGYGSTYhe5RnXsC1w] 초기화 완료: LE7C22Qg_J8
+2025-06-21 14:19:39 [INFO] [UC4wbC_nZ6xT5RLYf8U4preg] 초기화 완료: qMwkD4rSKN8
+2025-06-21 14:19:39 [INFO] [UCqC_GY2ZiENFz2pwL0cSfAw] 초기화 완료: 2SCgbcwEY98
+2025-06-21 14:19:40 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 초기화 완료: czosWwTxn1Y
+2025-06-21 14:19:40 [INFO] [UCXA6AK9-wpHs7BjEB2JRZEg] 초기화 완료: Y1FSYVnKUU4
+2025-06-21 14:19:41 [INFO] [UCr8P1J6sVkzP9hDGkV5r8AA] 초기화 완료: I0EQZEtixD8
+2025-06-21 14:19:41 [INFO] [UCsT0YIqwnpJCM-mx7-gSA4Q] 초기화 완료: VMuHHVr3Nbg
+2025-06-21 14:19:41 [INFO] [UCpVm7bg6pXKo1Pr6k5kxG9A] 초기화 완료: GqTaW7ZzXog
+2025-06-21 14:19:42 [INFO] [UCLXo7UDZvByw2ixzpQCufnA] 초기화 완료: sYj09lx15ik
+2025-06-21 14:19:42 [INFO] [UCsXVk37bltHxD1rDPwtNM8Q] 초기화 완료: zxq60I5RSW8
+2025-06-21 14:19:43 [INFO] [UCHnyfMqiRRG1u-2MsSQLbXA] 초기화 완료: x32Zq-XvID4
+2025-06-21 14:19:43 [INFO] [UCZYTClx2T1of7BRZ86-8fow] 초기화 완료: G0H3nu18HIc
+2025-06-21 14:19:43 [INFO] [UCX6b17PVsYBQ0ip5gyeme-Q] 초기화 완료: 27zUjzYG4gY
+2025-06-21 14:19:44 [INFO] [UCUHW94eEFW7hkUMVaZz4eDg] 초기화 완료: WIu38oWkCTc
+2025-06-21 14:19:44 [INFO] [UCC552Sd-3nyi_tk2BudLUzA] 초기화 완료: Urgf5zoJNzU
+2025-06-21 14:19:45 [INFO] [UC6107grRI4m0o2-emgoDnAA] 초기화 완료: 3ZTGwcHQfLY
+2025-06-21 14:19:45 [INFO] [UC6n8I1UDTKP1IWjQMg6_TwA] 초기화 완료: 8d1ugv8vQ4w
+2025-06-21 14:19:45 [INFO] [UCR1IuLEqb6UEA_zQ81kwXfg] 초기화 완료: z_PlyQAWT4g
+2025-06-21 14:19:46 [INFO] [UCY1kMZp36IQSyNx_9h4mpCg] 초기화 완료: qr1AvisQcV8
+2025-06-21 14:19:47 [INFO] [UCzPsEwQIN1jHfDHUPjhHIgA] 초기화 완료: KBqvXH4tsZI
+2025-06-21 14:19:47 [INFO] [UCJHA_jMfCvEnv-3kRjTCQXw] 초기화 완료: 0y27oRNuoYM
+2025-06-21 14:19:47 [INFO] [UCbpMy0Fg74eXXkvxJrtEn3w] 초기화 완료: JSH2GW2Aaxw
+2025-06-21 14:19:48 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 초기화 완료: GfY4V-ubHjY
+2025-06-21 14:19:48 [INFO] [UCcjhYlL1WRBjKaJsMH_h7Lg] 초기화 완료: SL_fNEFj2Eo
+2025-06-21 14:19:49 [INFO] [UCRIZtPl9nb9RiXc9btSTQNw] 초기화 완료: ffKCdtIDGs8
+2025-06-21 14:19:49 [INFO] [UCJFp8uSYCjXOMnkUyb3CQ3Q] 초기화 완료: pZIN_LDkreE
+2025-06-21 14:19:49 [INFO] [UC8gFadPgK2r1ndqLI04Xvvw] 초기화 완료: tLZ8V1HJFQ0
+2025-06-21 14:19:50 [INFO] [UCRxAgfYexGLlu1WHGIMUDqw] 초기화 완료: RSu5EyD5wIw
+2025-06-21 14:19:50 [INFO] [UCQBG3PzyQKY8ieMG2gDAyOQ] 초기화 완료: RGF3X_-wpp0
+2025-06-21 14:19:51 [INFO] [UCzH5n3Ih5kgQoiDAQt2FwLw] 초기화 완료: F7iWdYtTWNE
+2025-06-21 14:19:51 [INFO] [UCsTcErHg8oDvUnTzoqsYeNw] 초기화 완료: 3ARGa97OFxM
+2025-06-21 14:19:51 [INFO] [UCBJycsmduvYEL83R_U4JriQ] 초기화 완료: alDhOLhbkbY
+2025-06-21 14:19:52 [INFO] [UCXuqSBlHAE6Xw-yeJA0Tunw] 초기화 완료: fTTiECufO1s
+2025-06-21 14:19:52 [INFO] [UCVYamHliCI9rw1tHR1xbkfw] 초기화 완료: b6mo-rTiJoE
+2025-06-21 14:19:53 [INFO] [UCey_c7U86mJGz1VJWH5CYPA] 초기화 완료: f6NrcuXmaxc
+2025-06-21 14:19:53 [INFO] [UCXGgrKt94gR6lmN4aN3mYTg] 초기화 완료: C7I1-H5FUiY
+2025-06-21 14:19:54 [INFO] [UCddiUEpeqJcYeBxX1IVBKvQ] 초기화 완료: LcjUkzmkI4U
+2025-06-21 14:19:54 [INFO] [UC-6OW5aJYBFM33zXQlBKPNA] 초기화 완료: VETpWr-_fRk
+2025-06-21 14:19:54 [INFO] [UCOmcA3f_RrH6b9NmcNa4tdg] 초기화 완료: M1oZ3iUQKHU
+2025-06-21 14:19:55 [INFO] [UCCjyq_K1Xwfg8Lndy7lKMpA] 초기화 완료: mZAi102kUY4
+2025-06-21 14:19:55 [INFO] [UCSpFnDQr88xCZ80N-X7t0nQ] 초기화 완료: DPkRwUR7eoc
+2025-06-21 14:19:55 [INFO] [UC3DkFux8Iv-aYnTRWzwaiBA] 초기화 완료: PfDtHx-Aq4s
+2025-06-21 14:19:56 [INFO] [UC5bp5_6h-ZxkBz6S_33ZUVg] 초기화 완료: nEupzATExWA
+2025-06-21 14:19:56 [INFO] [UCpnxVX81-qPyCdJ8NY0cTRg] 초기화 완료: zdsK66suuYg
+2025-06-21 14:19:57 [INFO] [UCvK4bOhULCpmLabd2pDMtnA] 초기화 완료: TosLIg3o91k
+2025-06-21 14:19:57 [INFO] [UC4ijq8Cg-8zQKx8OH12dUSw] 초기화 완료: ekWc5TlNjK4
+2025-06-21 14:19:58 [INFO] [UCt_NLJ4McJlCyYM-dSPRo7Q] 초기화 완료: sVkFvXB5Slc
+2025-06-21 14:19:58 [INFO] [UC0Ize0RLIbGdH5x4wI45G-A] 초기화 완료: RsRRa9MAEdc
+2025-06-21 14:19:58 [INFO] [UCyEd6QBSgat5kkC6svyjudA] 초기화 완료: X208zbkkmAE
+2025-06-21 14:19:59 [INFO] [UCXOKEdfOFxsHO_-Su3K8SHg] 초기화 완료: h6i98isWWt4
+2025-06-21 14:19:59 [INFO] [UCiAq_SU0ED1C6vWFMnw8Ekg] 초기화 완료: 5QVdLXpqCto
+2025-06-21 14:20:00 [INFO] [UCbqZsserFV_YjPk0subGEmA] 초기화 완료: WzI8o743bUk
+2025-06-21 14:20:00 [INFO] [UCzqbfYjQmf9nLQPMxVgPhiA] 초기화 완료: ylp2kRGb3o4
+2025-06-21 14:20:00 [INFO] [UCfE5Cz44GlZVyoaYTHJbuZw] 초기화 완료: 8Nzwd3eSAeU
+2025-06-21 14:20:01 [INFO] [UCfyehHM_eo4g5JUyWmms2LA] 초기화 완료: t0q7KO8IE9s
+2025-06-21 14:20:01 [INFO] [UC9_p50tH3WmMslWRWKnM7dQ] 초기화 완료: Vdy1Jup1jHA
+2025-06-21 14:20:02 [INFO] [UCX6OQ3DkcsbYNE6H8uQQuVA] 초기화 완료: hTSaweR8qMI
+2025-06-21 14:20:02 [INFO] [UC-lHJZR3Gqxm24_Vd_AJ5Yw] 초기화 완료: 4uqo-brP3xs
+2025-06-21 14:20:02 [INFO] [UCq-Fj5jknLsUf-MWSy4_brA] 초기화 완료: 9FdcRExAIi8
+2025-06-21 14:20:03 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 초기화 완료: rE3oDApi3XY
+2025-06-21 14:20:03 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 초기화 완료: INyhg352onw
+2025-06-21 14:20:04 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 초기화 완료: Ih06WyWArRA
+2025-06-21 14:20:04 [INFO] {'UCu0elhwDIhuEIEwJa2xs3fw': 'PDTMYs5nfXY', 'UCu1yyUnlvqj4qZM5WZtUONg': 'XpAYJu7nw7A', 'UCg-Fh9r6mN0XjLQLfQOFWOA': 'UOHtl-jJmk8', 'UCmgRYMK5d65PbjN8qkjAUBA': 'QWE_U4nDmVY', 'UCMc4EmuDxnHPc6pgGW-QWvQ': 'CCV1sX9Jaog', 'UC9_Cw4aS3khZg3-lUV_R8fg': 'HdiWfnXkkCQ', 'UCQNE2JmbasNYbjGAcuBiRRg': 'yf-KIyXa62U', 'UC_iT-dQV96rPviS4G4p5b9A': '-f7o6mAT4eQ', 'UCXG8hH02Em6_6pF38THOlSg': 'nmVW9BC4UZ4', 'UCOcC03WTSNOCoAkCDide6jA': 'FLf0kDDI3yA', 'UCzmyfZl7lxV-lLZxpSJWsWQ': 'Mp3RxzLfPFg', 'UCM0h5eNMPQTyZibB9GtW3yA': 'dpcXQKe19Dc', 'UCj-MI9DaXgAz412O9ybQ9WA': 'dg7bUP9Xipw', 'UCF97u_Y5C3FxAcD0nn1DCKQ': 'x3Z63NXDXRM', 'UCWgXoKQ4rl7SY9UHuAwxvzQ': 'k9yiB5dAAeQ', 'UCQ1Rn1d6FfB3x2b0n0J6pMQ': 'OhtwAh3aKTo', 'UCvil4OAt-zShzkKHsg9EQAw': '4HGKYvdPsV4', 'UC8a6z7i9qypp9PqJ_0HhBrw': 'MaYi_EwM9nY', 'UCO-e0J-Qsilkv_4tBa3LyYw': '0qtbvAPL2AA', 'UCQ2DWm5Md16Dc3xRwwhVE7Q': 'YFUVMPOIeAo', 'UC_KjTyC5e0DFNxn6GIgBxcQ': 'y5V0My-arCA', 'UCBbJv4YWyu89pP1tg9laatw': '-zV_W5NMFWw', 'UC9cCBxBAQW2CzLYeT20q49A': 'N9NNw8wzu4I', 'UCPhP8VrLREoTLTON63of0GA': 'KdM_aEW_sG4', 'UCKsJpdKhf5aqxsVo6pxjlcw': 'UHchEnB8iig', 'UCK2YrOMgAbsAraGrWyyAvdw': 'DQ-K2dUNZIk', 'UCgheNMc3gGHLsT-RISdCzDQ': '-4p-7dTLdK8', 'UC30q8UbkZhQw9zloU4ZhnZw': '-1dIa5BBLbM', 'UC5ZqaJ9klJrwgsKjYW42JtA': 'Cc2UbgkQFc0', 'UC2xkO7XCiStWfR3fKbzkbqw': '5mgbdhZpyqA', 'UC4Aa3OPkMenwTANpf0oWVRQ': 'ckAo79oDdjA', 'UC80zFRpqbg1rmuQUbO6HABQ': 'TcdELA21Ado', 'UC3hRpIQ4x5niJDwjajQSVPg': 'tMXihTcjdxI', 'UC3IZKseVpdzPSBaWxBxundA': 'Flc76dRcIdQ', 'UCm3IV_RvXMOWczBbarPSQSg': 'hasF3aRW4xI', 'UCyPYQTT20IgzVw92LDvtClw': 'iI2Gke8ctAk', 'UCbifFcHncE89RrKSm3HlNAg': 'TjnPCbfh5Uo', 'UCQZ1iBgGYGSTYhe5RnXsC1w': 'LE7C22Qg_J8', 'UC4wbC_nZ6xT5RLYf8U4preg': 'qMwkD4rSKN8', 'UCqC_GY2ZiENFz2pwL0cSfAw': '2SCgbcwEY98', 'UCCIOK_muw3wg0vWEAkBueAA': 'czosWwTxn1Y', 'UCXA6AK9-wpHs7BjEB2JRZEg': 'Y1FSYVnKUU4', 'UCr8P1J6sVkzP9hDGkV5r8AA': 'I0EQZEtixD8', 'UCsT0YIqwnpJCM-mx7-gSA4Q': 'VMuHHVr3Nbg', 'UCpVm7bg6pXKo1Pr6k5kxG9A': 'GqTaW7ZzXog', 'UCLXo7UDZvByw2ixzpQCufnA': 'sYj09lx15ik', 'UCsXVk37bltHxD1rDPwtNM8Q': 'zxq60I5RSW8', 'UCHnyfMqiRRG1u-2MsSQLbXA': 'x32Zq-XvID4', 'UCZYTClx2T1of7BRZ86-8fow': 'G0H3nu18HIc', 'UCX6b17PVsYBQ0ip5gyeme-Q': '27zUjzYG4gY', 'UCUHW94eEFW7hkUMVaZz4eDg': 'WIu38oWkCTc', 'UCC552Sd-3nyi_tk2BudLUzA': 'Urgf5zoJNzU', 'UC6107grRI4m0o2-emgoDnAA': '3ZTGwcHQfLY', 'UC6n8I1UDTKP1IWjQMg6_TwA': '8d1ugv8vQ4w', 'UCR1IuLEqb6UEA_zQ81kwXfg': 'z_PlyQAWT4g', 'UCY1kMZp36IQSyNx_9h4mpCg': 'qr1AvisQcV8', 'UCzPsEwQIN1jHfDHUPjhHIgA': 'KBqvXH4tsZI', 'UCJHA_jMfCvEnv-3kRjTCQXw': '0y27oRNuoYM', 'UCbpMy0Fg74eXXkvxJrtEn3w': 'JSH2GW2Aaxw', 'UChBEbMKI1eCcejTtmI32UEw': 'GfY4V-ubHjY', 'UCcjhYlL1WRBjKaJsMH_h7Lg': 'SL_fNEFj2Eo', 'UCRIZtPl9nb9RiXc9btSTQNw': 'ffKCdtIDGs8', 'UCJFp8uSYCjXOMnkUyb3CQ3Q': 'pZIN_LDkreE', 'UC8gFadPgK2r1ndqLI04Xvvw': 'tLZ8V1HJFQ0', 'UCRxAgfYexGLlu1WHGIMUDqw': 'RSu5EyD5wIw', 'UCQBG3PzyQKY8ieMG2gDAyOQ': 'RGF3X_-wpp0', 'UCzH5n3Ih5kgQoiDAQt2FwLw': 'F7iWdYtTWNE', 'UCsTcErHg8oDvUnTzoqsYeNw': '3ARGa97OFxM', 'UCBJycsmduvYEL83R_U4JriQ': 'alDhOLhbkbY', 'UCXuqSBlHAE6Xw-yeJA0Tunw': 'fTTiECufO1s', 'UCVYamHliCI9rw1tHR1xbkfw': 'b6mo-rTiJoE', 'UCey_c7U86mJGz1VJWH5CYPA': 'f6NrcuXmaxc', 'UCXGgrKt94gR6lmN4aN3mYTg': 'C7I1-H5FUiY', 'UCddiUEpeqJcYeBxX1IVBKvQ': 'LcjUkzmkI4U', 'UC-6OW5aJYBFM33zXQlBKPNA': 'VETpWr-_fRk', 'UCOmcA3f_RrH6b9NmcNa4tdg': 'M1oZ3iUQKHU', 'UCCjyq_K1Xwfg8Lndy7lKMpA': 'mZAi102kUY4', 'UCSpFnDQr88xCZ80N-X7t0nQ': 'DPkRwUR7eoc', 'UC3DkFux8Iv-aYnTRWzwaiBA': 'PfDtHx-Aq4s', 'UC5bp5_6h-ZxkBz6S_33ZUVg': 'nEupzATExWA', 'UCpnxVX81-qPyCdJ8NY0cTRg': 'zdsK66suuYg', 'UCvK4bOhULCpmLabd2pDMtnA': 'TosLIg3o91k', 'UC4ijq8Cg-8zQKx8OH12dUSw': 'ekWc5TlNjK4', 'UCt_NLJ4McJlCyYM-dSPRo7Q': 'sVkFvXB5Slc', 'UC0Ize0RLIbGdH5x4wI45G-A': 'RsRRa9MAEdc', 'UCyEd6QBSgat5kkC6svyjudA': 'X208zbkkmAE', 'UCXOKEdfOFxsHO_-Su3K8SHg': 'h6i98isWWt4', 'UCiAq_SU0ED1C6vWFMnw8Ekg': '5QVdLXpqCto', 'UCbqZsserFV_YjPk0subGEmA': 'WzI8o743bUk', 'UCzqbfYjQmf9nLQPMxVgPhiA': 'ylp2kRGb3o4', 'UCfE5Cz44GlZVyoaYTHJbuZw': '8Nzwd3eSAeU', 'UCfyehHM_eo4g5JUyWmms2LA': 't0q7KO8IE9s', 'UC9_p50tH3WmMslWRWKnM7dQ': 'Vdy1Jup1jHA', 'UCX6OQ3DkcsbYNE6H8uQQuVA': 'hTSaweR8qMI', 'UC-lHJZR3Gqxm24_Vd_AJ5Yw': '4uqo-brP3xs', 'UCq-Fj5jknLsUf-MWSy4_brA': '9FdcRExAIi8', 'UCbCmjCuTUZos6Inko4u57UQ': 'rE3oDApi3XY', 'UCpEhnqL0y41EpW2TvWAHD7Q': 'INyhg352onw', 'UC295-Dw_tDNtZXFeAPAW6Aw': 'Ih06WyWArRA'}
+2025-06-21 14:20:04 [INFO] 초기화 완료
+2025-06-21 14:20:04 [INFO] [피드 체크 중...]
+2025-06-21 14:21:00 [INFO] [피드 체크 중...]
+2025-06-21 14:21:56 [INFO] [피드 체크 중...]
+2025-06-21 14:22:52 [INFO] [피드 체크 중...]
+2025-06-21 14:23:48 [INFO] [피드 체크 중...]
+2025-06-21 14:24:44 [INFO] [피드 체크 중...]
+2025-06-21 14:25:40 [INFO] [피드 체크 중...]
+2025-06-21 14:26:36 [INFO] [피드 체크 중...]
+2025-06-21 14:27:32 [INFO] [피드 체크 중...]
+2025-06-21 14:28:28 [INFO] [피드 체크 중...]
+2025-06-21 14:29:24 [INFO] [피드 체크 중...]
+2025-06-21 14:30:21 [INFO] [피드 체크 중...]
+2025-06-21 14:31:17 [INFO] [피드 체크 중...]
+2025-06-21 14:32:13 [INFO] [피드 체크 중...]
+2025-06-21 14:33:09 [INFO] [피드 체크 중...]
+2025-06-21 14:34:05 [INFO] [피드 체크 중...]
+2025-06-21 14:35:01 [INFO] [피드 체크 중...]
+2025-06-21 14:35:57 [INFO] [피드 체크 중...]
+2025-06-21 14:36:53 [INFO] [피드 체크 중...]
+2025-06-21 14:37:49 [INFO] [피드 체크 중...]
+2025-06-21 14:38:46 [INFO] [피드 체크 중...]
+2025-06-21 14:39:42 [INFO] [피드 체크 중...]
+2025-06-21 14:40:38 [INFO] [피드 체크 중...]
+2025-06-21 14:41:34 [INFO] [피드 체크 중...]
+2025-06-21 14:42:30 [INFO] [피드 체크 중...]
+2025-06-21 14:43:26 [INFO] [피드 체크 중...]
+2025-06-21 14:44:22 [INFO] [피드 체크 중...]
+2025-06-21 14:45:18 [INFO] [피드 체크 중...]
+2025-06-21 14:46:15 [INFO] [피드 체크 중...]
+2025-06-21 14:47:11 [INFO] [피드 체크 중...]
+2025-06-21 14:48:07 [INFO] [피드 체크 중...]
+2025-06-21 14:49:03 [INFO] [피드 체크 중...]
+2025-06-21 14:49:59 [INFO] [피드 체크 중...]
+2025-06-21 14:50:55 [INFO] [피드 체크 중...]
+2025-06-21 14:51:51 [INFO] [피드 체크 중...]
+2025-06-21 14:52:47 [INFO] [피드 체크 중...]
+2025-06-21 14:52:48 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 새 영상 발견! H8oAtIEM5yg
+2025-06-21 14:52:48 [INFO] [H8oAtIEM5yg] 작업 시작
+2025-06-21 14:52:48 [INFO] [H8oAtIEM5yg] 영상ID: H8oAtIEM5yg
+2025-06-21 14:52:48 [INFO] [H8oAtIEM5yg] sending super thanks...
+2025-06-21 14:53:30 [INFO] [H8oAtIEM5yg] 성공적으로 완료되었습니다.
+2025-06-21 14:53:30 [INFO] [H8oAtIEM5yg] 작업 끝
+2025-06-21 14:53:43 [INFO] [피드 체크 중...]
+2025-06-21 14:54:39 [INFO] [피드 체크 중...]
+2025-06-21 14:55:36 [INFO] [피드 체크 중...]
+2025-06-21 14:56:32 [INFO] [피드 체크 중...]
+2025-06-21 14:57:28 [INFO] [피드 체크 중...]
+2025-06-21 14:58:24 [INFO] [피드 체크 중...]
+2025-06-21 14:59:20 [INFO] [피드 체크 중...]
+2025-06-21 15:00:16 [INFO] [피드 체크 중...]
+2025-06-21 15:01:12 [INFO] [피드 체크 중...]
+2025-06-21 15:02:08 [INFO] [피드 체크 중...]
+2025-06-21 15:02:09 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 새 영상 발견! zIAAvrxT_-U
+2025-06-21 15:02:09 [INFO] [zIAAvrxT_-U] 작업 시작
+2025-06-21 15:02:09 [INFO] [zIAAvrxT_-U] 영상ID: zIAAvrxT_-U
+2025-06-21 15:02:09 [INFO] [zIAAvrxT_-U] sending super thanks...
+2025-06-21 15:02:49 [INFO] [zIAAvrxT_-U] 성공적으로 완료되었습니다.
+2025-06-21 15:02:49 [INFO] [zIAAvrxT_-U] 작업 끝
+2025-06-21 15:03:04 [INFO] [피드 체크 중...]
+2025-06-21 15:04:00 [INFO] [피드 체크 중...]
+2025-06-21 15:04:56 [INFO] [피드 체크 중...]
+2025-06-21 15:05:52 [INFO] [피드 체크 중...]
+2025-06-21 15:06:48 [INFO] [피드 체크 중...]
+2025-06-21 15:07:45 [INFO] [피드 체크 중...]
+2025-06-21 15:08:41 [INFO] [피드 체크 중...]
+2025-06-21 15:09:37 [INFO] [피드 체크 중...]
+2025-06-21 15:10:33 [INFO] [피드 체크 중...]
+2025-06-21 15:11:29 [INFO] [피드 체크 중...]
+2025-06-21 15:12:25 [INFO] [피드 체크 중...]
+2025-06-21 15:13:21 [INFO] [피드 체크 중...]
+2025-06-21 15:14:17 [INFO] [피드 체크 중...]
+2025-06-21 15:15:13 [INFO] [피드 체크 중...]
+2025-06-21 15:15:59 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 새 영상 발견! 5pvFCmU-4j0
+2025-06-21 15:15:59 [INFO] [5pvFCmU-4j0] 작업 시작
+2025-06-21 15:15:59 [INFO] [5pvFCmU-4j0] 영상ID: 5pvFCmU-4j0
+2025-06-21 15:15:59 [INFO] [5pvFCmU-4j0] sending super thanks...
+2025-06-21 15:16:10 [INFO] [피드 체크 중...]
+2025-06-21 15:16:23 [INFO] [5pvFCmU-4j0] superthanks를 받지 않는 영상입니다.
+2025-06-21 15:16:23 [INFO] [5pvFCmU-4j0] 작업 끝
+2025-06-21 15:17:06 [INFO] [피드 체크 중...]
+2025-06-21 15:18:02 [INFO] [피드 체크 중...]
+2025-06-21 15:18:58 [INFO] [피드 체크 중...]
+2025-06-21 15:19:54 [INFO] [피드 체크 중...]
+2025-06-21 15:20:50 [INFO] [피드 체크 중...]
+2025-06-21 15:21:46 [INFO] [피드 체크 중...]
+2025-06-21 15:22:42 [INFO] [피드 체크 중...]
+2025-06-21 15:23:38 [INFO] [피드 체크 중...]
+2025-06-21 15:24:34 [INFO] [피드 체크 중...]
+2025-06-21 15:25:30 [INFO] [피드 체크 중...]
+2025-06-21 15:26:26 [INFO] [피드 체크 중...]
+2025-06-21 15:27:23 [INFO] [피드 체크 중...]
+2025-06-21 15:28:19 [INFO] [피드 체크 중...]
+2025-06-21 15:29:15 [INFO] [피드 체크 중...]
+2025-06-21 15:30:11 [INFO] [피드 체크 중...]
+2025-06-21 15:31:07 [INFO] [피드 체크 중...]
+2025-06-21 15:32:03 [INFO] [피드 체크 중...]
+2025-06-21 15:32:59 [INFO] [피드 체크 중...]
+2025-06-21 15:33:55 [INFO] [피드 체크 중...]
+2025-06-21 15:34:51 [INFO] [피드 체크 중...]
+2025-06-21 15:35:48 [INFO] [피드 체크 중...]
+2025-06-21 15:36:44 [INFO] [피드 체크 중...]
+2025-06-21 15:37:40 [INFO] [피드 체크 중...]
+2025-06-21 15:38:26 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 새 영상 발견! JB2tZxU1t8M
+2025-06-21 15:38:26 [INFO] [JB2tZxU1t8M] 작업 시작
+2025-06-21 15:38:26 [INFO] [JB2tZxU1t8M] 영상ID: JB2tZxU1t8M
+2025-06-21 15:38:26 [INFO] [JB2tZxU1t8M] sending super thanks...
+2025-06-21 15:38:36 [INFO] [피드 체크 중...]
+2025-06-21 15:38:45 [INFO] [JB2tZxU1t8M] superthanks를 받지 않는 영상입니다.
+2025-06-21 15:38:45 [INFO] [JB2tZxU1t8M] 작업 끝
+2025-06-21 15:39:32 [INFO] [피드 체크 중...]
+2025-06-21 15:40:28 [INFO] [피드 체크 중...]
+2025-06-21 15:41:24 [INFO] [피드 체크 중...]
+2025-06-21 15:42:20 [INFO] [피드 체크 중...]
+2025-06-21 15:43:16 [INFO] [피드 체크 중...]
+2025-06-21 15:44:12 [INFO] [피드 체크 중...]
+2025-06-21 15:45:09 [INFO] [피드 체크 중...]
+2025-06-21 15:46:05 [INFO] [피드 체크 중...]
+2025-06-21 15:47:01 [INFO] [피드 체크 중...]
+2025-06-21 15:47:57 [INFO] [피드 체크 중...]
+2025-06-21 15:48:53 [INFO] [피드 체크 중...]
+2025-06-21 15:49:49 [INFO] [피드 체크 중...]
+2025-06-21 15:50:45 [INFO] [피드 체크 중...]
+2025-06-21 15:51:41 [INFO] [피드 체크 중...]
+2025-06-21 15:52:37 [INFO] [피드 체크 중...]
+2025-06-21 15:53:34 [INFO] [피드 체크 중...]
+2025-06-21 15:54:30 [INFO] [피드 체크 중...]
+2025-06-21 15:55:26 [INFO] [피드 체크 중...]
+2025-06-21 15:56:22 [INFO] [피드 체크 중...]
+2025-06-21 15:57:18 [INFO] [피드 체크 중...]
+2025-06-21 15:58:14 [INFO] [피드 체크 중...]
+2025-06-21 15:59:10 [INFO] [피드 체크 중...]
+2025-06-21 16:00:06 [INFO] [피드 체크 중...]
+2025-06-21 16:00:52 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 새 영상 발견! aM9f87ntbd4
+2025-06-21 16:00:52 [INFO] [aM9f87ntbd4] 작업 시작
+2025-06-21 16:00:52 [INFO] [aM9f87ntbd4] 영상ID: aM9f87ntbd4
+2025-06-21 16:00:52 [INFO] [aM9f87ntbd4] sending super thanks...
+2025-06-21 16:01:02 [INFO] [피드 체크 중...]
+2025-06-21 16:01:08 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 새 영상 발견! _nmrOlVvA_s
+2025-06-21 16:01:12 [INFO] [aM9f87ntbd4] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:01:12 [INFO] [aM9f87ntbd4] 작업 끝
+2025-06-21 16:01:12 [INFO] [_nmrOlVvA_s] 작업 시작
+2025-06-21 16:01:12 [INFO] [_nmrOlVvA_s] 영상ID: _nmrOlVvA_s
+2025-06-21 16:01:12 [INFO] [_nmrOlVvA_s] sending super thanks...
+2025-06-21 16:01:31 [INFO] [_nmrOlVvA_s] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:01:31 [INFO] [_nmrOlVvA_s] 작업 끝
+2025-06-21 16:01:48 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 새 영상 발견! gTPKLZfoXVk
+2025-06-21 16:01:48 [INFO] [gTPKLZfoXVk] 작업 시작
+2025-06-21 16:01:48 [INFO] [gTPKLZfoXVk] 영상ID: gTPKLZfoXVk
+2025-06-21 16:01:48 [INFO] [gTPKLZfoXVk] sending super thanks...
+2025-06-21 16:01:58 [INFO] [피드 체크 중...]
+2025-06-21 16:02:09 [INFO] [gTPKLZfoXVk] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:02:09 [INFO] [gTPKLZfoXVk] 작업 끝
+2025-06-21 16:02:54 [INFO] [피드 체크 중...]
+2025-06-21 16:03:51 [INFO] [피드 체크 중...]
+2025-06-21 16:04:47 [INFO] [피드 체크 중...]
+2025-06-21 16:05:43 [INFO] [피드 체크 중...]
+2025-06-21 16:06:39 [INFO] [피드 체크 중...]
+2025-06-21 16:07:35 [INFO] [피드 체크 중...]
+2025-06-21 16:08:31 [INFO] [피드 체크 중...]
+2025-06-21 16:09:27 [INFO] [피드 체크 중...]
+2025-06-21 16:10:23 [INFO] [피드 체크 중...]
+2025-06-21 16:11:19 [INFO] [피드 체크 중...]
+2025-06-21 16:12:15 [INFO] [피드 체크 중...]
+2025-06-21 16:13:12 [INFO] [피드 체크 중...]
+2025-06-21 16:14:08 [INFO] [피드 체크 중...]
+2025-06-21 16:15:04 [INFO] [피드 체크 중...]
+2025-06-21 16:16:00 [INFO] [피드 체크 중...]
+2025-06-21 16:16:56 [INFO] [피드 체크 중...]
+2025-06-21 16:17:52 [INFO] [피드 체크 중...]
+2025-06-21 16:18:48 [INFO] [피드 체크 중...]
+2025-06-21 16:19:44 [INFO] [피드 체크 중...]
+2025-06-21 16:20:40 [INFO] [피드 체크 중...]
+2025-06-21 16:21:37 [INFO] [피드 체크 중...]
+2025-06-21 16:22:33 [INFO] [피드 체크 중...]
+2025-06-21 16:23:29 [INFO] [피드 체크 중...]
+2025-06-21 16:24:25 [INFO] [피드 체크 중...]
+2025-06-21 16:25:21 [INFO] [피드 체크 중...]
+2025-06-21 16:26:17 [INFO] [피드 체크 중...]
+2025-06-21 16:27:13 [INFO] [피드 체크 중...]
+2025-06-21 16:28:09 [INFO] [피드 체크 중...]
+2025-06-21 16:29:05 [INFO] [피드 체크 중...]
+2025-06-21 16:30:01 [INFO] [피드 체크 중...]
+2025-06-21 16:30:58 [INFO] [피드 체크 중...]
+2025-06-21 16:31:43 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 새 영상 발견! RtUvzFuHI28
+2025-06-21 16:31:43 [INFO] [RtUvzFuHI28] 작업 시작
+2025-06-21 16:31:43 [INFO] [RtUvzFuHI28] 영상ID: RtUvzFuHI28
+2025-06-21 16:31:43 [INFO] [RtUvzFuHI28] sending super thanks...
+2025-06-21 16:31:54 [INFO] [피드 체크 중...]
+2025-06-21 16:32:04 [INFO] [RtUvzFuHI28] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:32:04 [INFO] [RtUvzFuHI28] 작업 끝
+2025-06-21 16:32:50 [INFO] [피드 체크 중...]
+2025-06-21 16:33:46 [INFO] [피드 체크 중...]
+2025-06-21 16:34:42 [INFO] [피드 체크 중...]
+2025-06-21 16:35:38 [INFO] [피드 체크 중...]
+2025-06-21 16:36:34 [INFO] [피드 체크 중...]
+2025-06-21 16:37:30 [INFO] [피드 체크 중...]
+2025-06-21 16:38:26 [INFO] [피드 체크 중...]
+2025-06-21 16:39:22 [INFO] [피드 체크 중...]
+2025-06-21 16:40:19 [INFO] [피드 체크 중...]
+2025-06-21 16:41:09 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 새 영상 발견! lCOoFNuEbyw
+2025-06-21 16:41:09 [INFO] [lCOoFNuEbyw] 작업 시작
+2025-06-21 16:41:09 [INFO] [lCOoFNuEbyw] 영상ID: lCOoFNuEbyw
+2025-06-21 16:41:09 [INFO] [lCOoFNuEbyw] sending super thanks...
+2025-06-21 16:41:15 [INFO] [피드 체크 중...]
+2025-06-21 16:41:29 [INFO] [lCOoFNuEbyw] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:41:29 [INFO] [lCOoFNuEbyw] 작업 끝
+2025-06-21 16:42:11 [INFO] [피드 체크 중...]
+2025-06-21 16:43:07 [INFO] [피드 체크 중...]
+2025-06-21 16:44:03 [INFO] [피드 체크 중...]
+2025-06-21 16:44:59 [INFO] [피드 체크 중...]
+2025-06-21 16:45:55 [INFO] [피드 체크 중...]
+2025-06-21 16:46:41 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 새 영상 발견! D23Kf390vqs
+2025-06-21 16:46:41 [INFO] [D23Kf390vqs] 작업 시작
+2025-06-21 16:46:41 [INFO] [D23Kf390vqs] 영상ID: D23Kf390vqs
+2025-06-21 16:46:41 [INFO] [D23Kf390vqs] sending super thanks...
+2025-06-21 16:46:51 [INFO] [피드 체크 중...]
+2025-06-21 16:47:00 [INFO] [D23Kf390vqs] superthanks를 받지 않는 영상입니다.
+2025-06-21 16:47:00 [INFO] [D23Kf390vqs] 작업 끝
+2025-06-21 16:47:47 [INFO] [피드 체크 중...]
+2025-06-21 16:48:43 [INFO] [피드 체크 중...]
+2025-06-21 16:49:40 [INFO] [피드 체크 중...]
+2025-06-21 16:50:36 [INFO] [피드 체크 중...]
+2025-06-21 16:51:32 [INFO] [피드 체크 중...]
+2025-06-21 16:52:28 [INFO] [피드 체크 중...]
+2025-06-21 16:53:24 [INFO] [피드 체크 중...]
+2025-06-21 16:54:20 [INFO] [피드 체크 중...]
+2025-06-21 16:55:16 [INFO] [피드 체크 중...]
+2025-06-21 16:56:12 [INFO] [피드 체크 중...]
+2025-06-21 16:57:08 [INFO] [피드 체크 중...]
+2025-06-21 16:58:04 [INFO] [피드 체크 중...]
+2025-06-21 16:59:01 [INFO] [피드 체크 중...]
+2025-06-21 16:59:57 [INFO] [피드 체크 중...]
+2025-06-21 17:00:53 [INFO] [피드 체크 중...]
+2025-06-21 17:01:49 [INFO] [피드 체크 중...]
+2025-06-21 17:02:45 [INFO] [피드 체크 중...]
+2025-06-21 17:03:41 [INFO] [피드 체크 중...]
+2025-06-21 17:04:37 [INFO] [피드 체크 중...]
+2025-06-21 17:05:33 [INFO] [피드 체크 중...]
+2025-06-21 17:06:30 [INFO] [피드 체크 중...]
+2025-06-21 17:07:26 [INFO] [피드 체크 중...]
+2025-06-21 17:08:22 [INFO] [피드 체크 중...]
+2025-06-21 17:09:18 [INFO] [피드 체크 중...]
+2025-06-21 17:10:14 [INFO] [피드 체크 중...]
+2025-06-21 17:11:10 [INFO] [피드 체크 중...]
+2025-06-21 17:12:06 [INFO] [피드 체크 중...]
+2025-06-21 17:12:37 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-21 17:13:12 [INFO] 
+2025-06-21 17:13:12 [INFO] ==================================================
+2025-06-21 17:13:12 [INFO] ------- 프로그램 시작 -------
+2025-06-21 17:13:12 [INFO] ==================================================
+2025-06-21 17:13:12 [INFO] isTest: 3, Ticket: 100
+2025-06-21 17:13:12 [INFO] 초기화 중...
+2025-06-21 17:13:13 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-21 17:13:13 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: H8oAtIEM5yg
+2025-06-21 17:13:13 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-21 17:13:14 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-21 17:13:14 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: zIAAvrxT_-U
+2025-06-21 17:13:15 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-21 17:13:15 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-21 17:13:16 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-21 17:13:16 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-21 17:13:17 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-21 17:13:17 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-21 17:13:18 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-21 17:13:18 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-21 17:13:18 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM
+2025-06-21 17:13:19 [INFO] [UCWgXoKQ4rl7SY9UHuAwxvzQ] 초기화 완료: k9yiB5dAAeQ
+2025-06-21 17:13:19 [INFO] [UCQ1Rn1d6FfB3x2b0n0J6pMQ] 초기화 완료: OhtwAh3aKTo
+2025-06-21 17:13:20 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 초기화 완료: _nmrOlVvA_s
+2025-06-21 17:13:20 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 초기화 완료: MaYi_EwM9nY
+2025-06-21 17:13:21 [INFO] [UCO-e0J-Qsilkv_4tBa3LyYw] 초기화 완료: 0qtbvAPL2AA
+2025-06-21 17:13:21 [INFO] [UCQ2DWm5Md16Dc3xRwwhVE7Q] 초기화 완료: YFUVMPOIeAo
+2025-06-21 17:13:21 [INFO] [UC_KjTyC5e0DFNxn6GIgBxcQ] 초기화 완료: y5V0My-arCA
+2025-06-21 17:13:22 [INFO] [UCBbJv4YWyu89pP1tg9laatw] 초기화 완료: -zV_W5NMFWw
+2025-06-21 17:13:22 [INFO] [UC9cCBxBAQW2CzLYeT20q49A] 초기화 완료: N9NNw8wzu4I
+2025-06-21 17:13:23 [INFO] [UCPhP8VrLREoTLTON63of0GA] 초기화 완료: KdM_aEW_sG4
+2025-06-21 17:13:24 [INFO] [UCKsJpdKhf5aqxsVo6pxjlcw] 초기화 완료: UHchEnB8iig
+2025-06-21 17:13:24 [INFO] [UCK2YrOMgAbsAraGrWyyAvdw] 초기화 완료: DQ-K2dUNZIk
+2025-06-21 17:13:24 [INFO] [UCgheNMc3gGHLsT-RISdCzDQ] 초기화 완료: -4p-7dTLdK8
+2025-06-21 17:13:25 [INFO] [UC30q8UbkZhQw9zloU4ZhnZw] 초기화 완료: -1dIa5BBLbM
+2025-06-21 17:13:25 [INFO] [UC5ZqaJ9klJrwgsKjYW42JtA] 초기화 완료: Cc2UbgkQFc0
+2025-06-21 17:13:26 [INFO] [UC2xkO7XCiStWfR3fKbzkbqw] 초기화 완료: 5mgbdhZpyqA
+2025-06-21 17:13:26 [INFO] [UC4Aa3OPkMenwTANpf0oWVRQ] 초기화 완료: ckAo79oDdjA
+2025-06-21 17:13:27 [INFO] [UC80zFRpqbg1rmuQUbO6HABQ] 초기화 완료: TcdELA21Ado
+2025-06-21 17:13:27 [INFO] [UC3hRpIQ4x5niJDwjajQSVPg] 초기화 완료: tMXihTcjdxI
+2025-06-21 17:13:27 [INFO] [UC3IZKseVpdzPSBaWxBxundA] 초기화 완료: Flc76dRcIdQ
+2025-06-21 17:13:28 [INFO] [UCm3IV_RvXMOWczBbarPSQSg] 초기화 완료: hasF3aRW4xI
+2025-06-21 17:13:28 [INFO] [UCyPYQTT20IgzVw92LDvtClw] 초기화 완료: iI2Gke8ctAk
+2025-06-21 17:13:29 [INFO] [UCbifFcHncE89RrKSm3HlNAg] 초기화 완료: TjnPCbfh5Uo
+2025-06-21 17:13:30 [INFO] [UCQZ1iBgGYGSTYhe5RnXsC1w] 초기화 완료: LE7C22Qg_J8
+2025-06-21 17:13:30 [INFO] [UC4wbC_nZ6xT5RLYf8U4preg] 초기화 완료: qMwkD4rSKN8
+2025-06-21 17:13:30 [INFO] [UCqC_GY2ZiENFz2pwL0cSfAw] 초기화 완료: 2SCgbcwEY98
+2025-06-21 17:13:31 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 초기화 완료: czosWwTxn1Y
+2025-06-21 17:13:31 [INFO] [UCXA6AK9-wpHs7BjEB2JRZEg] 초기화 완료: Y1FSYVnKUU4
+2025-06-21 17:13:32 [INFO] [UCr8P1J6sVkzP9hDGkV5r8AA] 초기화 완료: I0EQZEtixD8
+2025-06-21 17:13:32 [INFO] [UCsT0YIqwnpJCM-mx7-gSA4Q] 초기화 완료: VMuHHVr3Nbg
+2025-06-21 17:13:32 [INFO] [UCpVm7bg6pXKo1Pr6k5kxG9A] 초기화 완료: GqTaW7ZzXog
+2025-06-21 17:13:33 [INFO] [UCLXo7UDZvByw2ixzpQCufnA] 초기화 완료: sYj09lx15ik
+2025-06-21 17:13:33 [INFO] [UCsXVk37bltHxD1rDPwtNM8Q] 초기화 완료: zxq60I5RSW8
+2025-06-21 17:13:34 [INFO] [UCHnyfMqiRRG1u-2MsSQLbXA] 초기화 완료: x32Zq-XvID4
+2025-06-21 17:13:34 [INFO] [UCZYTClx2T1of7BRZ86-8fow] 초기화 완료: G0H3nu18HIc
+2025-06-21 17:13:35 [INFO] [UCX6b17PVsYBQ0ip5gyeme-Q] 초기화 완료: 27zUjzYG4gY
+2025-06-21 17:13:35 [INFO] [UCUHW94eEFW7hkUMVaZz4eDg] 초기화 완료: WIu38oWkCTc
+2025-06-21 17:13:35 [INFO] [UCC552Sd-3nyi_tk2BudLUzA] 초기화 완료: Urgf5zoJNzU
+2025-06-21 17:13:36 [INFO] [UC6107grRI4m0o2-emgoDnAA] 초기화 완료: 3ZTGwcHQfLY
+2025-06-21 17:13:36 [INFO] [UC6n8I1UDTKP1IWjQMg6_TwA] 초기화 완료: 8d1ugv8vQ4w
+2025-06-21 17:13:37 [INFO] [UCR1IuLEqb6UEA_zQ81kwXfg] 초기화 완료: z_PlyQAWT4g
+2025-06-21 17:13:37 [INFO] [UCY1kMZp36IQSyNx_9h4mpCg] 초기화 완료: qr1AvisQcV8
+2025-06-21 17:13:38 [INFO] [UCzPsEwQIN1jHfDHUPjhHIgA] 초기화 완료: KBqvXH4tsZI
+2025-06-21 17:13:38 [INFO] [UCJHA_jMfCvEnv-3kRjTCQXw] 초기화 완료: 0y27oRNuoYM
+2025-06-21 17:13:39 [INFO] [UCbpMy0Fg74eXXkvxJrtEn3w] 초기화 완료: JSH2GW2Aaxw
+2025-06-21 17:13:39 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 초기화 완료: GfY4V-ubHjY
+2025-06-21 17:13:40 [INFO] [UCcjhYlL1WRBjKaJsMH_h7Lg] 초기화 완료: SL_fNEFj2Eo
+2025-06-21 17:13:40 [INFO] [UCRIZtPl9nb9RiXc9btSTQNw] 초기화 완료: ffKCdtIDGs8
+2025-06-21 17:13:40 [INFO] [UCJFp8uSYCjXOMnkUyb3CQ3Q] 초기화 완료: pZIN_LDkreE
+2025-06-21 17:13:41 [INFO] [UC8gFadPgK2r1ndqLI04Xvvw] 초기화 완료: tLZ8V1HJFQ0
+2025-06-21 17:13:41 [INFO] [UCRxAgfYexGLlu1WHGIMUDqw] 초기화 완료: RSu5EyD5wIw
+2025-06-21 17:13:42 [INFO] [UCQBG3PzyQKY8ieMG2gDAyOQ] 초기화 완료: RGF3X_-wpp0
+2025-06-21 17:13:42 [INFO] [UCzH5n3Ih5kgQoiDAQt2FwLw] 초기화 완료: F7iWdYtTWNE
+2025-06-21 17:13:43 [INFO] [UCsTcErHg8oDvUnTzoqsYeNw] 초기화 완료: 3ARGa97OFxM
+2025-06-21 17:13:43 [INFO] [UCBJycsmduvYEL83R_U4JriQ] 초기화 완료: alDhOLhbkbY
+2025-06-21 17:13:43 [INFO] [UCXuqSBlHAE6Xw-yeJA0Tunw] 초기화 완료: fTTiECufO1s
+2025-06-21 17:13:44 [INFO] [UCVYamHliCI9rw1tHR1xbkfw] 초기화 완료: b6mo-rTiJoE
+2025-06-21 17:13:44 [INFO] [UCey_c7U86mJGz1VJWH5CYPA] 초기화 완료: f6NrcuXmaxc
+2025-06-21 17:13:45 [INFO] [UCXGgrKt94gR6lmN4aN3mYTg] 초기화 완료: C7I1-H5FUiY
+2025-06-21 17:13:45 [INFO] [UCddiUEpeqJcYeBxX1IVBKvQ] 초기화 완료: LcjUkzmkI4U
+2025-06-21 17:13:46 [INFO] [UC-6OW5aJYBFM33zXQlBKPNA] 초기화 완료: VETpWr-_fRk
+2025-06-21 17:13:46 [INFO] [UCOmcA3f_RrH6b9NmcNa4tdg] 초기화 완료: M1oZ3iUQKHU
+2025-06-21 17:13:47 [INFO] [UCCjyq_K1Xwfg8Lndy7lKMpA] 초기화 완료: mZAi102kUY4
+2025-06-21 17:13:47 [INFO] [UCSpFnDQr88xCZ80N-X7t0nQ] 초기화 완료: DPkRwUR7eoc
+2025-06-21 17:13:47 [INFO] [UC3DkFux8Iv-aYnTRWzwaiBA] 초기화 완료: PfDtHx-Aq4s
+2025-06-21 17:13:48 [INFO] [UC5bp5_6h-ZxkBz6S_33ZUVg] 초기화 완료: nEupzATExWA
+2025-06-21 17:13:48 [INFO] [UCpnxVX81-qPyCdJ8NY0cTRg] 초기화 완료: zdsK66suuYg
+2025-06-21 17:13:49 [INFO] [UCvK4bOhULCpmLabd2pDMtnA] 초기화 완료: TosLIg3o91k
+2025-06-21 17:13:49 [INFO] [UC4ijq8Cg-8zQKx8OH12dUSw] 초기화 완료: ekWc5TlNjK4
+2025-06-21 17:13:49 [INFO] [UCt_NLJ4McJlCyYM-dSPRo7Q] 초기화 완료: sVkFvXB5Slc
+2025-06-21 17:13:50 [INFO] [UC0Ize0RLIbGdH5x4wI45G-A] 초기화 완료: RsRRa9MAEdc
+2025-06-21 17:13:50 [INFO] [UCyEd6QBSgat5kkC6svyjudA] 초기화 완료: X208zbkkmAE
+2025-06-21 17:13:51 [INFO] [UCXOKEdfOFxsHO_-Su3K8SHg] 초기화 완료: h6i98isWWt4
+2025-06-21 17:13:51 [INFO] [UCiAq_SU0ED1C6vWFMnw8Ekg] 초기화 완료: 5QVdLXpqCto
+2025-06-21 17:13:52 [INFO] [UCbqZsserFV_YjPk0subGEmA] 초기화 완료: WzI8o743bUk
+2025-06-21 17:13:52 [INFO] [UCzqbfYjQmf9nLQPMxVgPhiA] 초기화 완료: ylp2kRGb3o4
+2025-06-21 17:13:53 [INFO] [UCfE5Cz44GlZVyoaYTHJbuZw] 초기화 완료: 8Nzwd3eSAeU
+2025-06-21 17:13:53 [INFO] [UCfyehHM_eo4g5JUyWmms2LA] 초기화 완료: t0q7KO8IE9s
+2025-06-21 17:13:53 [INFO] [UC9_p50tH3WmMslWRWKnM7dQ] 초기화 완료: Vdy1Jup1jHA
+2025-06-21 17:13:54 [INFO] [UCX6OQ3DkcsbYNE6H8uQQuVA] 초기화 완료: hTSaweR8qMI
+2025-06-21 17:13:55 [INFO] [UC-lHJZR3Gqxm24_Vd_AJ5Yw] 초기화 완료: 4uqo-brP3xs
+2025-06-21 17:13:55 [INFO] [UCq-Fj5jknLsUf-MWSy4_brA] 초기화 완료: 9FdcRExAIi8
+2025-06-21 17:13:55 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 초기화 완료: aM9f87ntbd4
+2025-06-21 17:13:56 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 초기화 완료: D23Kf390vqs
+2025-06-21 17:13:56 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 초기화 완료: lCOoFNuEbyw
+2025-06-21 17:13:56 [INFO] {'UCu0elhwDIhuEIEwJa2xs3fw': 'PDTMYs5nfXY', 'UCu1yyUnlvqj4qZM5WZtUONg': 'H8oAtIEM5yg', 'UCg-Fh9r6mN0XjLQLfQOFWOA': 'UOHtl-jJmk8', 'UCmgRYMK5d65PbjN8qkjAUBA': 'QWE_U4nDmVY', 'UCMc4EmuDxnHPc6pgGW-QWvQ': 'zIAAvrxT_-U', 'UC9_Cw4aS3khZg3-lUV_R8fg': 'HdiWfnXkkCQ', 'UCQNE2JmbasNYbjGAcuBiRRg': 'yf-KIyXa62U', 'UC_iT-dQV96rPviS4G4p5b9A': '-f7o6mAT4eQ', 'UCXG8hH02Em6_6pF38THOlSg': 'nmVW9BC4UZ4', 'UCOcC03WTSNOCoAkCDide6jA': 'FLf0kDDI3yA', 'UCzmyfZl7lxV-lLZxpSJWsWQ': 'Mp3RxzLfPFg', 'UCM0h5eNMPQTyZibB9GtW3yA': 'dpcXQKe19Dc', 'UCj-MI9DaXgAz412O9ybQ9WA': 'dg7bUP9Xipw', 'UCF97u_Y5C3FxAcD0nn1DCKQ': 'x3Z63NXDXRM', 'UCWgXoKQ4rl7SY9UHuAwxvzQ': 'k9yiB5dAAeQ', 'UCQ1Rn1d6FfB3x2b0n0J6pMQ': 'OhtwAh3aKTo', 'UCvil4OAt-zShzkKHsg9EQAw': '_nmrOlVvA_s', 'UC8a6z7i9qypp9PqJ_0HhBrw': 'MaYi_EwM9nY', 'UCO-e0J-Qsilkv_4tBa3LyYw': '0qtbvAPL2AA', 'UCQ2DWm5Md16Dc3xRwwhVE7Q': 'YFUVMPOIeAo', 'UC_KjTyC5e0DFNxn6GIgBxcQ': 'y5V0My-arCA', 'UCBbJv4YWyu89pP1tg9laatw': '-zV_W5NMFWw', 'UC9cCBxBAQW2CzLYeT20q49A': 'N9NNw8wzu4I', 'UCPhP8VrLREoTLTON63of0GA': 'KdM_aEW_sG4', 'UCKsJpdKhf5aqxsVo6pxjlcw': 'UHchEnB8iig', 'UCK2YrOMgAbsAraGrWyyAvdw': 'DQ-K2dUNZIk', 'UCgheNMc3gGHLsT-RISdCzDQ': '-4p-7dTLdK8', 'UC30q8UbkZhQw9zloU4ZhnZw': '-1dIa5BBLbM', 'UC5ZqaJ9klJrwgsKjYW42JtA': 'Cc2UbgkQFc0', 'UC2xkO7XCiStWfR3fKbzkbqw': '5mgbdhZpyqA', 'UC4Aa3OPkMenwTANpf0oWVRQ': 'ckAo79oDdjA', 'UC80zFRpqbg1rmuQUbO6HABQ': 'TcdELA21Ado', 'UC3hRpIQ4x5niJDwjajQSVPg': 'tMXihTcjdxI', 'UC3IZKseVpdzPSBaWxBxundA': 'Flc76dRcIdQ', 'UCm3IV_RvXMOWczBbarPSQSg': 'hasF3aRW4xI', 'UCyPYQTT20IgzVw92LDvtClw': 'iI2Gke8ctAk', 'UCbifFcHncE89RrKSm3HlNAg': 'TjnPCbfh5Uo', 'UCQZ1iBgGYGSTYhe5RnXsC1w': 'LE7C22Qg_J8', 'UC4wbC_nZ6xT5RLYf8U4preg': 'qMwkD4rSKN8', 'UCqC_GY2ZiENFz2pwL0cSfAw': '2SCgbcwEY98', 'UCCIOK_muw3wg0vWEAkBueAA': 'czosWwTxn1Y', 'UCXA6AK9-wpHs7BjEB2JRZEg': 'Y1FSYVnKUU4', 'UCr8P1J6sVkzP9hDGkV5r8AA': 'I0EQZEtixD8', 'UCsT0YIqwnpJCM-mx7-gSA4Q': 'VMuHHVr3Nbg', 'UCpVm7bg6pXKo1Pr6k5kxG9A': 'GqTaW7ZzXog', 'UCLXo7UDZvByw2ixzpQCufnA': 'sYj09lx15ik', 'UCsXVk37bltHxD1rDPwtNM8Q': 'zxq60I5RSW8', 'UCHnyfMqiRRG1u-2MsSQLbXA': 'x32Zq-XvID4', 'UCZYTClx2T1of7BRZ86-8fow': 'G0H3nu18HIc', 'UCX6b17PVsYBQ0ip5gyeme-Q': '27zUjzYG4gY', 'UCUHW94eEFW7hkUMVaZz4eDg': 'WIu38oWkCTc', 'UCC552Sd-3nyi_tk2BudLUzA': 'Urgf5zoJNzU', 'UC6107grRI4m0o2-emgoDnAA': '3ZTGwcHQfLY', 'UC6n8I1UDTKP1IWjQMg6_TwA': '8d1ugv8vQ4w', 'UCR1IuLEqb6UEA_zQ81kwXfg': 'z_PlyQAWT4g', 'UCY1kMZp36IQSyNx_9h4mpCg': 'qr1AvisQcV8', 'UCzPsEwQIN1jHfDHUPjhHIgA': 'KBqvXH4tsZI', 'UCJHA_jMfCvEnv-3kRjTCQXw': '0y27oRNuoYM', 'UCbpMy0Fg74eXXkvxJrtEn3w': 'JSH2GW2Aaxw', 'UChBEbMKI1eCcejTtmI32UEw': 'GfY4V-ubHjY', 'UCcjhYlL1WRBjKaJsMH_h7Lg': 'SL_fNEFj2Eo', 'UCRIZtPl9nb9RiXc9btSTQNw': 'ffKCdtIDGs8', 'UCJFp8uSYCjXOMnkUyb3CQ3Q': 'pZIN_LDkreE', 'UC8gFadPgK2r1ndqLI04Xvvw': 'tLZ8V1HJFQ0', 'UCRxAgfYexGLlu1WHGIMUDqw': 'RSu5EyD5wIw', 'UCQBG3PzyQKY8ieMG2gDAyOQ': 'RGF3X_-wpp0', 'UCzH5n3Ih5kgQoiDAQt2FwLw': 'F7iWdYtTWNE', 'UCsTcErHg8oDvUnTzoqsYeNw': '3ARGa97OFxM', 'UCBJycsmduvYEL83R_U4JriQ': 'alDhOLhbkbY', 'UCXuqSBlHAE6Xw-yeJA0Tunw': 'fTTiECufO1s', 'UCVYamHliCI9rw1tHR1xbkfw': 'b6mo-rTiJoE', 'UCey_c7U86mJGz1VJWH5CYPA': 'f6NrcuXmaxc', 'UCXGgrKt94gR6lmN4aN3mYTg': 'C7I1-H5FUiY', 'UCddiUEpeqJcYeBxX1IVBKvQ': 'LcjUkzmkI4U', 'UC-6OW5aJYBFM33zXQlBKPNA': 'VETpWr-_fRk', 'UCOmcA3f_RrH6b9NmcNa4tdg': 'M1oZ3iUQKHU', 'UCCjyq_K1Xwfg8Lndy7lKMpA': 'mZAi102kUY4', 'UCSpFnDQr88xCZ80N-X7t0nQ': 'DPkRwUR7eoc', 'UC3DkFux8Iv-aYnTRWzwaiBA': 'PfDtHx-Aq4s', 'UC5bp5_6h-ZxkBz6S_33ZUVg': 'nEupzATExWA', 'UCpnxVX81-qPyCdJ8NY0cTRg': 'zdsK66suuYg', 'UCvK4bOhULCpmLabd2pDMtnA': 'TosLIg3o91k', 'UC4ijq8Cg-8zQKx8OH12dUSw': 'ekWc5TlNjK4', 'UCt_NLJ4McJlCyYM-dSPRo7Q': 'sVkFvXB5Slc', 'UC0Ize0RLIbGdH5x4wI45G-A': 'RsRRa9MAEdc', 'UCyEd6QBSgat5kkC6svyjudA': 'X208zbkkmAE', 'UCXOKEdfOFxsHO_-Su3K8SHg': 'h6i98isWWt4', 'UCiAq_SU0ED1C6vWFMnw8Ekg': '5QVdLXpqCto', 'UCbqZsserFV_YjPk0subGEmA': 'WzI8o743bUk', 'UCzqbfYjQmf9nLQPMxVgPhiA': 'ylp2kRGb3o4', 'UCfE5Cz44GlZVyoaYTHJbuZw': '8Nzwd3eSAeU', 'UCfyehHM_eo4g5JUyWmms2LA': 't0q7KO8IE9s', 'UC9_p50tH3WmMslWRWKnM7dQ': 'Vdy1Jup1jHA', 'UCX6OQ3DkcsbYNE6H8uQQuVA': 'hTSaweR8qMI', 'UC-lHJZR3Gqxm24_Vd_AJ5Yw': '4uqo-brP3xs', 'UCq-Fj5jknLsUf-MWSy4_brA': '9FdcRExAIi8', 'UCbCmjCuTUZos6Inko4u57UQ': 'aM9f87ntbd4', 'UCpEhnqL0y41EpW2TvWAHD7Q': 'D23Kf390vqs', 'UC295-Dw_tDNtZXFeAPAW6Aw': 'lCOoFNuEbyw'}
+2025-06-21 17:13:56 [INFO] 초기화 완료
+2025-06-21 17:13:56 [INFO] [피드 체크 중...]
+2025-06-21 17:13:57 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 새 영상 발견! H8oAtIEM5yg
+2025-06-21 17:13:57 [INFO] [H8oAtIEM5yg] 작업 시작
+2025-06-21 17:13:57 [INFO] [H8oAtIEM5yg] 영상ID: H8oAtIEM5yg
+2025-06-21 17:13:57 [INFO] [H8oAtIEM5yg] sending super thanks...
+2025-06-21 17:13:57 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 새 영상 발견! HdiWfnXkkCQ
+2025-06-21 17:13:57 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 새 영상 발견! PDTMYs5nfXY
+2025-06-21 17:14:35 [INFO] [H8oAtIEM5yg] 성공적으로 완료되었습니다.
+2025-06-21 17:14:35 [INFO] [H8oAtIEM5yg] 작업 끝
+2025-06-21 17:14:35 [INFO] [HdiWfnXkkCQ] 작업 시작
+2025-06-21 17:14:35 [INFO] [HdiWfnXkkCQ] 영상ID: HdiWfnXkkCQ
+2025-06-21 17:14:35 [INFO] [HdiWfnXkkCQ] sending super thanks...
+2025-06-21 17:14:42 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-21 17:16:56 [INFO] 
+2025-06-21 17:16:56 [INFO] ==================================================
+2025-06-21 17:16:56 [INFO] ------- 프로그램 시작 -------
+2025-06-21 17:16:56 [INFO] ==================================================
+2025-06-21 17:16:56 [INFO] isTest: 3, Ticket: 100
+2025-06-21 17:16:56 [INFO] 초기화 중...
+2025-06-21 17:16:56 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-21 17:16:57 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: H8oAtIEM5yg
+2025-06-21 17:16:57 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-21 17:16:59 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-21 17:17:00 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: zIAAvrxT_-U
+2025-06-21 17:17:01 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-21 17:17:01 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-21 17:17:01 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-21 17:17:02 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-21 17:17:03 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-21 17:17:03 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-21 17:17:04 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-21 17:17:04 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-21 17:17:04 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM

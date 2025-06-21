@@ -93,6 +93,32 @@ def click_with_img(img_path, max_attempts=15, confidence=0.8):
             return scale_x, scale_y
         return 2.0, 2.0  # Retina 기본값
 
+    def save_capture_on_failure(img_path):
+        """버튼을 찾을 수 없을 때 스크린샷을 captures 폴더에 저장"""
+        try:
+            # captures 폴더가 없으면 생성
+            if not os.path.exists("captures"):
+                os.makedirs("captures")
+            
+            # 현재 시간으로 파일명 생성
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            img_name = os.path.basename(img_path).replace('.png', '')
+            capture_filename = f"captures/failed_{img_name}_{timestamp}.png"
+            
+            # 스크린샷 저장
+            subprocess.run(["screencapture", "-x", capture_filename], capture_output=True)
+            
+            if os.path.exists(capture_filename):
+                print(f"📸 캡처 저장됨: {capture_filename}")
+                return capture_filename
+            else:
+                print("❌ 캡처 저장 실패")
+                return None
+                
+        except Exception as e:
+            print(f"❌ 캡처 저장 중 오류: {e}")
+            return None
+
     scale_x, scale_y = get_display_scale()
     
     for attempt in range(max_attempts):
@@ -139,6 +165,10 @@ def click_with_img(img_path, max_attempts=15, confidence=0.8):
             smart_delay('short', multiplier=0.5)
     
     print(f"❌ 이미지 {img_path}를 찾을 수 없습니다. ({max_attempts}회 시도, confidence: {confidence})")
+    
+    # 실패 시 스크린샷 저장
+    save_capture_on_failure(img_path)
+    
     return False
 
 
