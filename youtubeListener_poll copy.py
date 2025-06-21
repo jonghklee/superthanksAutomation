@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import re
 import logging
 
-isTest = 0
+isTest = 3
 Ticket = 100
 
 

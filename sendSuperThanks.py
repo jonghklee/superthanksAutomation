@@ -22,6 +22,40 @@ namespaces = {
 
 executor = ThreadPoolExecutor(max_workers=1)
 
+# 딜레이 관련 상수
+DELAYS = {
+    'short': (0.5, 1.0),      # 짧은 딜레이
+    'medium': (1.0, 2.0),     # 중간 딜레이  
+    'long': (2.0, 3.0),       # 긴 딜레이
+    'ui_update': (1.0, 1.5),  # UI 업데이트 대기
+    'click': (0.1, 0.3),      # 클릭 후 대기
+    'type': (0.05, 0.1),      # 타이핑 간격
+}
+
+def smart_delay(delay_type='medium', multiplier=1.0):
+    """스마트 딜레이 함수 - 랜덤한 딜레이로 봇 탐지 방지"""
+    if delay_type in DELAYS:
+        min_delay, max_delay = DELAYS[delay_type]
+        delay_time = random.uniform(min_delay, max_delay) * multiplier
+        time.sleep(delay_time)
+        return delay_time
+    else:
+        time.sleep(1.0)
+        return 1.0
+
+def wait_and_retry(func, max_attempts=5, delay_type='medium'):
+    """재시도 로직이 포함된 대기 함수"""
+    for attempt in range(max_attempts):
+        try:
+            result = func()
+            if result:
+                return True
+            smart_delay(delay_type)
+        except Exception as e:
+            print(f"시도 {attempt + 1} 실패: {e}")
+            smart_delay('short')
+    return False
+
 # 특정 위치로 이동하여 클릭하는 함수 정의
 def click_button(x, y, wait_time):
     # 버튼 클릭 전 랜덤 이동
@@ -41,16 +75,23 @@ def click_button(x, y, wait_time):
 
 # 열고자 하는 URL
 
-def click_with_img(img_path):
-    for attempt in range(15):
+def click_with_img(img_path, max_attempts=15, confidence=0.8):
+    """이미지를 찾아서 클릭하는 함수 - 개선된 딜레이 적용"""
+    for attempt in range(max_attempts):
         try:
-            img = pyautogui.locateOnScreen(img_path, confidence=0.8)
+            img = pyautogui.locateOnScreen(img_path, confidence=confidence)
+            if img:
+                center_x = img.left + img.width / 2
+                center_y = img.top + img.height / 2
+                click_button(center_x, center_y, smart_delay('click'))
+                return True
         except Exception as e:
-            print(f"이미지 찾기 시도 {attempt + 1} 실패, 다시 시도합니다...")
-            continue
-        if img:
-            click_button(img.left + img.width / 2, img.top + img.height / 2, 0.5)
-            return True
+            print(f"이미지 찾기 시도 {attempt + 1} 실패: {e}")
+        
+        # 재시도 전 딜레이
+        smart_delay('short', multiplier=0.5)
+    
+    print(f"이미지 {img_path}를 찾을 수 없습니다. ({max_attempts}회 시도)")
     return False
 
 
@@ -73,38 +114,48 @@ def sendSuperThanks(url, message):
     if result.returncode != 0:
         return f"URL 열기 실패: {result.stderr}"
 
-    # 버튼 클릭 함수 호출
-
-    # img/superthanks1.png 이미지를 직접 찾아 클릭 시도
-    time.sleep(2)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
+    # 페이지 로딩 대기
+    smart_delay('ui_update')
+    
+    # dots 버튼 클릭 시도
     if click_with_img("img/dots.png"):
-        # img/dots.png 클릭 성공, 잠시 대기 후 img/superthanks2.png 시도
-        time.sleep(1)  # UI가 업데이트될 시간을 줍니다. 필요에 따라 조절하세요.
+        smart_delay('ui_update')  # 메뉴가 나타날 시간 대기
+        
         if click_with_img("img/superthanks2.png"):
-            pass
+            print("Super Thanks 메뉴 클릭 성공")
         else:
             return "superthanks를 받지 않는 영상입니다."
     else:
         return "superthanks를 받지 않는 영상입니다."
 
-    time.sleep(1)
-    click_with_img("img/3_text.png")
-    pyautogui.hotkey('command', 'a')  # cmd + a로 지우기
-    pyautogui.press('backspace')
-    # 메시지 입력 전 잠시 대기
-    time.sleep(0.5)
-    # 메시지를 한 글자씩 입력
-    pyperclip.copy(message)
-    pyautogui.hotkey('command', 'v')
+    # 텍스트 입력 필드 클릭 및 메시지 입력
+    smart_delay('medium')
+    if click_with_img("img/3_text.png"):
+        smart_delay('click')
+        pyautogui.hotkey('command', 'a')  # 기존 텍스트 선택
+        smart_delay('type')
+        pyautogui.press('backspace')  # 삭제
+        smart_delay('click')
+        
+        # 메시지 입력
+        pyperclip.copy(message)
+        pyautogui.hotkey('command', 'v')
+        smart_delay('medium')
     
-    time.sleep(0.1)  # 각 글자 입력 사이에 약간의 딜레이
-    time.sleep(1)
-    click_with_img("img/4_buyandsend.png")
-    time.sleep(5)
-    click_with_img("img/5_buy.png")
-    time.sleep(2)
-    #click_button(312, 476, 0.5)  # Verify_button
-    time.sleep(5)
+    # Buy and Send 버튼 클릭
+    if click_with_img("img/4_buyandsend.png"):
+        smart_delay('long')  # 결제 페이지 로딩 대기
+        
+        # Buy 버튼 클릭
+        if click_with_img("img/5_buy.png"):
+            smart_delay('long', multiplier=2)  # 결제 처리 대기
+        else:
+            print("Buy 버튼을 찾을 수 없습니다.")
+    else:
+        print("Buy and Send 버튼을 찾을 수 없습니다.")
+    
+    # 최종 처리 완료 대기
+    smart_delay('long')
 
     # 크롬 탭 닫기 AppleScript 명령어 수정
     close_script = '''
@@ -123,7 +174,7 @@ def sendSuperThanks(url, message):
     # AppleScript 실행하여 특정 URL의 크롬 탭 닫기
     close_result = subprocess.run(["osascript", "-e", close_script], capture_output=True, text=True)
 
-    time.sleep(1)
+    smart_delay('medium')  # 탭 닫기 후 안정화 대기
     
     if close_result.returncode != 0:
         return f"탭 닫기 실패: {close_result.stderr}"
@@ -161,4 +212,4 @@ if __name__ == "__main__":
     # 핸들러 등록
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-    run_in_sequence(sendSuperThanks, "mTJdHpAHKKk", logger, "감사합니다!")
+    #run_in_sequence(sendSuperThanks, "mTJdHpAHKKk", logger, "감사합니다!")
