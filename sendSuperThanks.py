@@ -61,17 +61,28 @@ def wait_and_retry(func, max_attempts=5, delay_type='medium'):
     return False
 
 # 특정 위치로 이동하여 클릭하는 함수 정의
+def move_mouse_to_corner():
+    """마우스를 화면 구석으로 이동시켜 이미지 인식 방해 방지"""
+    try:
+        screen_width, screen_height = pyautogui.size()
+        # 화면 왼쪽 상단 구석으로 이동 (10, 10)
+        pyautogui.moveTo(10, 10, duration=0.3)
+        smart_delay('short', multiplier=0.5)
+        print("🖱️ 마우스를 구석으로 이동했습니다")
+    except Exception as e:
+        print(f"마우스 이동 중 오류: {e}")
+
 def click_button(x, y, wait_time):
     # 버튼 클릭 전 랜덤 이동
     for _ in range(3):
         x_offset = random.randint(-10, 10)
-        y_offset = random.randint(-10, 10)
+        y_offset = random.randint(-1, 1)  # Y축 편차를 -10~10에서 -5~5로 줄임
         duration = random.uniform(0.1, 0.2)
         pyautogui.move(x_offset, y_offset, duration=duration)
         time.sleep(random.uniform(0.05, 0.1))
     # 좌표에 랜덤 오프셋 추가 후 클릭
     random_x = x + random.randint(-3, 3)
-    random_y = y + random.randint(-3, 3)
+    random_y = y + random.randint(-1, 1)  # Y축 편차를 -3~3에서 -2~2로 줄임
     pyautogui.moveTo(random_x, random_y, duration=0.5)
     time.sleep(random.uniform(0.05, 0.1))
     pyautogui.click()
@@ -79,7 +90,7 @@ def click_button(x, y, wait_time):
 
 # 열고자 하는 URL
 
-def click_with_img(img_path, max_attempts=15, confidence=0.8):
+def click_with_img(img_path, max_attempts=15, confidence=0.8, offset_x=0, offset_y=0):
     """macOS screencapture를 사용한 이미지 찾기 함수 - Retina 디스플레이 지원"""
     # 해상도 스케일 계산 (한 번만)
     def get_display_scale():
@@ -143,11 +154,18 @@ def click_with_img(img_path, max_attempts=15, confidence=0.8):
             
             if max_val >= confidence:
                 # PyAutoGUI 좌표계로 변환 (중심점 계산)
-                click_x = max_loc[0] / scale_x + target_img.shape[1] / (2 * scale_x)
-                click_y = max_loc[1] / scale_y + target_img.shape[0] / (2 * scale_y)
+                base_x = max_loc[0] / scale_x + target_img.shape[1] / (2 * scale_x)
+                base_y = max_loc[1] / scale_y + target_img.shape[0] / (2 * scale_y)
+                
+                # 오프셋 적용
+                click_x = base_x + offset_x
+                click_y = base_y + offset_y
                 
                 print(f"✅ 이미지 {img_path} 발견 (confidence: {max_val:.3f}, 시도: {attempt + 1})")
-                print(f"   클릭 좌표: ({click_x:.1f}, {click_y:.1f})")
+                print(f"   기본 좌표: ({base_x:.1f}, {base_y:.1f})")
+                if offset_x != 0 or offset_y != 0:
+                    print(f"   오프셋 적용: ({offset_x}, {offset_y})")
+                print(f"   최종 클릭 좌표: ({click_x:.1f}, {click_y:.1f})")
                 
                 os.remove("temp_screen.png")
                 click_button(click_x, click_y, smart_delay('click'))
@@ -195,6 +213,9 @@ def sendSuperThanks(url, message):
         # 페이지 로딩 대기
         smart_delay('ui_update')
         
+        # 마우스를 구석으로 이동하여 이미지 인식 방해 방지
+        move_mouse_to_corner()
+        
         # dots 버튼 클릭 시도
         if click_with_img("img/dots.png"):
             smart_delay('ui_update')  # 메뉴가 나타날 시간 대기
@@ -208,7 +229,7 @@ def sendSuperThanks(url, message):
 
         # 텍스트 입력 필드 클릭 및 메시지 입력
         smart_delay('medium')
-        if click_with_img("img/3_text.png"):
+        if click_with_img("img/3_text.png", offset_x=-150):
             smart_delay('click')
             pyautogui.hotkey('command', 'a')  # 기존 텍스트 선택
             smart_delay('type')
