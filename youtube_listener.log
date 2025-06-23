@@ -49286,3 +49286,397 @@ Original exception(s) from parser:
 2025-06-23 15:35:14 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
 2025-06-23 15:35:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
 2025-06-23 15:35:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:35:17 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:35:19 [INFO] [=== 피드 체크 사이클 #391 시작 ===]
+2025-06-23 15:35:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:35:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:35:21 [INFO] [=== 피드 체크 사이클 완료: 9.00초 ===]
+2025-06-23 15:35:21 [INFO] 다음 사이클까지 51.0초 대기...
+2025-06-23 15:35:23 [INFO] [=== 사이클 #391 완료: 4.10초, 24.6 채널/초 ===]
+2025-06-23 15:35:23 [INFO] 다음 사이클까지 55.9초 대기...
+2025-06-23 15:36:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:36:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:36:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:36:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:36:13 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:36:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:36:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:36:17 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:36:19 [INFO] [=== 피드 체크 사이클 #392 시작 ===]
+2025-06-23 15:36:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:36:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:36:20 [INFO] [=== 피드 체크 사이클 완료: 7.81초 ===]
+2025-06-23 15:36:20 [INFO] 다음 사이클까지 52.2초 대기...
+2025-06-23 15:36:23 [INFO] [=== 사이클 #392 완료: 3.88초, 26.0 채널/초 ===]
+2025-06-23 15:36:23 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 15:37:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:37:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:37:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:37:13 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:37:14 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:37:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:37:15 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:37:16 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:37:19 [INFO] [=== 피드 체크 사이클 #393 시작 ===]
+2025-06-23 15:37:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:37:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:37:20 [INFO] [=== 피드 체크 사이클 완료: 8.47초 ===]
+2025-06-23 15:37:20 [INFO] 다음 사이클까지 51.5초 대기...
+2025-06-23 15:37:23 [INFO] [=== 사이클 #393 완료: 3.73초, 27.1 채널/초 ===]
+2025-06-23 15:37:23 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 15:38:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:38:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:38:13 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:38:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:38:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:38:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:38:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:38:18 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:38:19 [INFO] [=== 피드 체크 사이클 #394 시작 ===]
+2025-06-23 15:38:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:38:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:38:20 [INFO] [=== 피드 체크 사이클 완료: 8.76초 ===]
+2025-06-23 15:38:20 [INFO] 다음 사이클까지 51.2초 대기...
+2025-06-23 15:38:23 [INFO] [=== 사이클 #394 완료: 4.07초, 24.8 채널/초 ===]
+2025-06-23 15:38:23 [INFO] 다음 사이클까지 55.9초 대기...
+2025-06-23 15:39:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:39:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:39:13 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:39:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:39:14 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:39:14 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:39:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:39:17 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:39:19 [INFO] [=== 피드 체크 사이클 #395 시작 ===]
+2025-06-23 15:39:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:39:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:39:20 [INFO] [=== 피드 체크 사이클 완료: 7.83초 ===]
+2025-06-23 15:39:20 [INFO] 다음 사이클까지 52.2초 대기...
+2025-06-23 15:39:22 [INFO] [=== 사이클 #395 완료: 3.59초, 28.2 채널/초 ===]
+2025-06-23 15:39:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:40:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:40:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:40:13 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:40:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:40:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:40:13 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:40:15 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:40:17 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:40:19 [INFO] [=== 피드 체크 사이클 #396 시작 ===]
+2025-06-23 15:40:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:40:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:40:21 [WARNING] [UC30q8UbkZhQw9zloU4ZhnZw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 15:40:21 [INFO] [=== 피드 체크 사이클 완료: 9.00초 ===]
+2025-06-23 15:40:21 [INFO] 다음 사이클까지 51.0초 대기...
+2025-06-23 15:40:21 [WARNING] [UCcjhYlL1WRBjKaJsMH_h7Lg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�\n�Pk*A��O���˧���'
+2025-06-23 15:40:23 [INFO] [=== 사이클 #396 완료: 3.85초, 26.2 채널/초 ===]
+2025-06-23 15:40:23 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:41:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:41:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:41:13 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:41:13 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:41:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:41:14 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:41:15 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:41:19 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:41:19 [INFO] [=== 피드 체크 사이클 #397 시작 ===]
+2025-06-23 15:41:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:41:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:41:20 [INFO] [=== 피드 체크 사이클 완료: 8.41초 ===]
+2025-06-23 15:41:20 [INFO] 다음 사이클까지 51.6초 대기...
+2025-06-23 15:41:23 [INFO] [=== 사이클 #397 완료: 3.63초, 27.8 채널/초 ===]
+2025-06-23 15:41:23 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:41:40 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-23 15:41:42 [INFO] 
+2025-06-23 15:41:42 [INFO] ==================================================
+2025-06-23 15:41:42 [INFO] ------- 프로그램 시작 -------
+2025-06-23 15:41:42 [INFO] ==================================================
+2025-06-23 15:41:42 [INFO] isTest: 3, Ticket: 100
+2025-06-23 15:41:42 [INFO] 빠른 초기화 중...
+2025-06-23 15:41:42 [INFO] 총 101개 채널 초기화 시작...
+2025-06-23 15:41:44 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-23 15:41:44 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-23 15:41:44 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-23 15:41:44 [INFO] [UCQ1Rn1d6FfB3x2b0n0J6pMQ] 초기화 완료: OhtwAh3aKTo
+2025-06-23 15:41:44 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-23 15:41:44 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-23 15:41:44 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-23 15:41:44 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-23 15:41:44 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-23 15:41:44 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-23 15:41:44 [INFO] [UCWgXoKQ4rl7SY9UHuAwxvzQ] 초기화 완료: IKNm08kJKEY
+2025-06-23 15:41:44 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 초기화 완료: e8qdJHtLpCs
+2025-06-23 15:41:44 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 초기화 완료: WeV8H18eTpI
+2025-06-23 15:41:44 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-23 15:41:44 [INFO] [UCO-e0J-Qsilkv_4tBa3LyYw] 초기화 완료: auByuzRXxkw
+2025-06-23 15:41:44 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: s-Kt6W6y-ZU
+2025-06-23 15:41:44 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM
+2025-06-23 15:41:44 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: Ep_lOCgAwY4
+2025-06-23 15:41:44 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-23 15:41:45 [INFO] [UCQ2DWm5Md16Dc3xRwwhVE7Q] 초기화 완료: YFUVMPOIeAo
+2025-06-23 15:41:45 [INFO] [UC_KjTyC5e0DFNxn6GIgBxcQ] 초기화 완료: y5V0My-arCA
+2025-06-23 15:41:45 [INFO] [UCKsJpdKhf5aqxsVo6pxjlcw] 초기화 완료: UHchEnB8iig
+2025-06-23 15:41:45 [INFO] [UCBbJv4YWyu89pP1tg9laatw] 초기화 완료: -zV_W5NMFWw
+2025-06-23 15:41:45 [INFO] [UCPhP8VrLREoTLTON63of0GA] 초기화 완료: KdM_aEW_sG4
+2025-06-23 15:41:45 [INFO] [UC3hRpIQ4x5niJDwjajQSVPg] 초기화 완료: tMXihTcjdxI
+2025-06-23 15:41:45 [INFO] [UC30q8UbkZhQw9zloU4ZhnZw] 초기화 완료: Ku6TPisifRo
+2025-06-23 15:41:45 [INFO] [UCm3IV_RvXMOWczBbarPSQSg] 초기화 완료: hasF3aRW4xI
+2025-06-23 15:41:45 [INFO] [UC9cCBxBAQW2CzLYeT20q49A] 초기화 완료: N9NNw8wzu4I
+2025-06-23 15:41:45 [INFO] [UCK2YrOMgAbsAraGrWyyAvdw] 초기화 완료: DQ-K2dUNZIk
+2025-06-23 15:41:45 [INFO] [UC3IZKseVpdzPSBaWxBxundA] 초기화 완료: uHG-2mCfyT4
+2025-06-23 15:41:45 [INFO] [UCyPYQTT20IgzVw92LDvtClw] 초기화 완료: iI2Gke8ctAk
+2025-06-23 15:41:45 [INFO] [UCgheNMc3gGHLsT-RISdCzDQ] 초기화 완료: -4p-7dTLdK8
+2025-06-23 15:41:45 [INFO] [UC80zFRpqbg1rmuQUbO6HABQ] 초기화 완료: TcdELA21Ado
+2025-06-23 15:41:45 [INFO] [UCbifFcHncE89RrKSm3HlNAg] 초기화 완료: 3e2DLCqGBOc
+2025-06-23 15:41:45 [INFO] [UC5ZqaJ9klJrwgsKjYW42JtA] 초기화 완료: xSCec5ulpPk
+2025-06-23 15:41:46 [INFO] [UC4Aa3OPkMenwTANpf0oWVRQ] 초기화 완료: OhfhSq_BtcE
+2025-06-23 15:41:46 [INFO] [UCQZ1iBgGYGSTYhe5RnXsC1w] 초기화 완료: LE7C22Qg_J8
+2025-06-23 15:41:46 [INFO] [UCqC_GY2ZiENFz2pwL0cSfAw] 초기화 완료: 2SCgbcwEY98
+2025-06-23 15:41:46 [INFO] [UCpVm7bg6pXKo1Pr6k5kxG9A] 초기화 완료: gsB9nX8FS5I
+2025-06-23 15:41:46 [INFO] [UC2xkO7XCiStWfR3fKbzkbqw] 초기화 완료: 5mgbdhZpyqA
+2025-06-23 15:41:46 [INFO] [UC4wbC_nZ6xT5RLYf8U4preg] 초기화 완료: XG90q4TFrXI
+2025-06-23 15:41:46 [INFO] [UCr8P1J6sVkzP9hDGkV5r8AA] 초기화 완료: sI8R17L7Iww
+2025-06-23 15:41:46 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 초기화 완료: nEVY5BKcZxU
+2025-06-23 15:41:46 [INFO] [UCXA6AK9-wpHs7BjEB2JRZEg] 초기화 완료: DrNXKLwQb-M
+2025-06-23 15:41:46 [INFO] [UCLXo7UDZvByw2ixzpQCufnA] 초기화 완료: sYj09lx15ik
+2025-06-23 15:41:46 [INFO] [UCsT0YIqwnpJCM-mx7-gSA4Q] 초기화 완료: foHEGfmvE9c
+2025-06-23 15:41:46 [INFO] [UCsXVk37bltHxD1rDPwtNM8Q] 초기화 완료: zxq60I5RSW8
+2025-06-23 15:41:47 [INFO] [UCHnyfMqiRRG1u-2MsSQLbXA] 초기화 완료: x32Zq-XvID4
+2025-06-23 15:41:47 [INFO] [UCUHW94eEFW7hkUMVaZz4eDg] 초기화 완료: WIu38oWkCTc
+2025-06-23 15:41:47 [INFO] [UCX6b17PVsYBQ0ip5gyeme-Q] 초기화 완료: 27zUjzYG4gY
+2025-06-23 15:41:47 [INFO] [UCzPsEwQIN1jHfDHUPjhHIgA] 초기화 완료: KBqvXH4tsZI
+2025-06-23 15:41:47 [INFO] [UCZYTClx2T1of7BRZ86-8fow] 초기화 완료: G0H3nu18HIc
+2025-06-23 15:41:47 [INFO] [UCbpMy0Fg74eXXkvxJrtEn3w] 초기화 완료: JSH2GW2Aaxw
+2025-06-23 15:41:47 [INFO] [UC6n8I1UDTKP1IWjQMg6_TwA] 초기화 완료: 8d1ugv8vQ4w
+2025-06-23 15:41:47 [INFO] [UCcjhYlL1WRBjKaJsMH_h7Lg] 초기화 완료: SL_fNEFj2Eo
+2025-06-23 15:41:47 [INFO] [UC6107grRI4m0o2-emgoDnAA] 초기화 완료: 3ZTGwcHQfLY
+2025-06-23 15:41:47 [INFO] [UCR1IuLEqb6UEA_zQ81kwXfg] 초기화 완료: z_PlyQAWT4g
+2025-06-23 15:41:47 [INFO] [UCY1kMZp36IQSyNx_9h4mpCg] 초기화 완료: 9IiYOTzJ2uw
+2025-06-23 15:41:47 [INFO] [UCJFp8uSYCjXOMnkUyb3CQ3Q] 초기화 완료: pZIN_LDkreE
+2025-06-23 15:41:47 [INFO] [UCC552Sd-3nyi_tk2BudLUzA] 초기화 완료: Urgf5zoJNzU
+2025-06-23 15:41:47 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 초기화 완료: GfY4V-ubHjY
+2025-06-23 15:41:47 [INFO] [UCRIZtPl9nb9RiXc9btSTQNw] 초기화 완료: ffKCdtIDGs8
+2025-06-23 15:41:48 [INFO] [UCzH5n3Ih5kgQoiDAQt2FwLw] 초기화 완료: F7iWdYtTWNE
+2025-06-23 15:41:48 [INFO] [UCsTcErHg8oDvUnTzoqsYeNw] 초기화 완료: u2u8qZN4DXs
+2025-06-23 15:41:48 [INFO] [UCRxAgfYexGLlu1WHGIMUDqw] 초기화 완료: RSu5EyD5wIw
+2025-06-23 15:41:48 [INFO] [UC8gFadPgK2r1ndqLI04Xvvw] 초기화 완료: tLZ8V1HJFQ0
+2025-06-23 15:41:48 [INFO] [UCQBG3PzyQKY8ieMG2gDAyOQ] 초기화 완료: RGF3X_-wpp0
+2025-06-23 15:41:48 [INFO] [UCVYamHliCI9rw1tHR1xbkfw] 초기화 완료: b6mo-rTiJoE
+2025-06-23 15:41:48 [INFO] [UCJHA_jMfCvEnv-3kRjTCQXw] 초기화 완료: 7Qlgn6hKn9g
+2025-06-23 15:41:48 [INFO] [UCSpFnDQr88xCZ80N-X7t0nQ] 초기화 완료: aA8LLjTghVQ
+2025-06-23 15:41:48 [INFO] [UCey_c7U86mJGz1VJWH5CYPA] 초기화 완료: f6NrcuXmaxc
+2025-06-23 15:41:48 [INFO] [UCddiUEpeqJcYeBxX1IVBKvQ] 초기화 완료: LcjUkzmkI4U
+2025-06-23 15:41:48 [INFO] [UCBJycsmduvYEL83R_U4JriQ] 초기화 완료: alDhOLhbkbY
+2025-06-23 15:41:48 [INFO] [UCXGgrKt94gR6lmN4aN3mYTg] 초기화 완료: Dcae8HlEL20
+2025-06-23 15:41:49 [INFO] [UCXuqSBlHAE6Xw-yeJA0Tunw] 초기화 완료: HZgQp-WDebU
+2025-06-23 15:41:49 [INFO] [UCpnxVX81-qPyCdJ8NY0cTRg] 초기화 완료: zdsK66suuYg
+2025-06-23 15:41:49 [INFO] [UC5bp5_6h-ZxkBz6S_33ZUVg] 초기화 완료: nEupzATExWA
+2025-06-23 15:41:49 [INFO] [UCCjyq_K1Xwfg8Lndy7lKMpA] 초기화 완료: mZAi102kUY4
+2025-06-23 15:41:49 [INFO] [UCOmcA3f_RrH6b9NmcNa4tdg] 초기화 완료: 8zuhkN_75bU
+2025-06-23 15:41:49 [INFO] [UC-6OW5aJYBFM33zXQlBKPNA] 초기화 완료: UnMvxPbVVaE
+2025-06-23 15:41:49 [INFO] [UC3DkFux8Iv-aYnTRWzwaiBA] 초기화 완료: PfDtHx-Aq4s
+2025-06-23 15:41:49 [INFO] [UCt_NLJ4McJlCyYM-dSPRo7Q] 초기화 완료: sVkFvXB5Slc
+2025-06-23 15:41:49 [INFO] [UC4ijq8Cg-8zQKx8OH12dUSw] 초기화 완료: ekWc5TlNjK4
+2025-06-23 15:41:49 [INFO] [UCbqZsserFV_YjPk0subGEmA] 초기화 완료: WzI8o743bUk
+2025-06-23 15:41:49 [INFO] [UCvK4bOhULCpmLabd2pDMtnA] 초기화 완료: TosLIg3o91k
+2025-06-23 15:41:49 [INFO] [UCfyehHM_eo4g5JUyWmms2LA] 초기화 완료: BIrI3Jg-6xY
+2025-06-23 15:41:49 [INFO] [UCyEd6QBSgat5kkC6svyjudA] 초기화 완료: iziCZ8aJe2Q
+2025-06-23 15:41:49 [INFO] [UCXOKEdfOFxsHO_-Su3K8SHg] 초기화 완료: SBeFGf-1ADo
+2025-06-23 15:41:49 [INFO] [UCfE5Cz44GlZVyoaYTHJbuZw] 초기화 완료: HxNNb-jAXwE
+2025-06-23 15:41:50 [INFO] [UCq-Fj5jknLsUf-MWSy4_brA] 초기화 완료: xGwQpU-Kn1o
+2025-06-23 15:41:50 [INFO] [UC0Ize0RLIbGdH5x4wI45G-A] 초기화 완료: ZXvsjdImrOc
+2025-06-23 15:41:50 [INFO] [UCzqbfYjQmf9nLQPMxVgPhiA] 초기화 완료: sAfyCC8U3c4
+2025-06-23 15:41:50 [INFO] [UC9_p50tH3WmMslWRWKnM7dQ] 초기화 완료: Vdy1Jup1jHA
+2025-06-23 15:41:50 [INFO] [UCX6OQ3DkcsbYNE6H8uQQuVA] 초기화 완료: pe_ejTiIcSs
+2025-06-23 15:41:50 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 초기화 완료: aM9f87ntbd4
+2025-06-23 15:41:50 [INFO] [UC-lHJZR3Gqxm24_Vd_AJ5Yw] 초기화 완료: 4uqo-brP3xs
+2025-06-23 15:41:50 [INFO] [UCiAq_SU0ED1C6vWFMnw8Ekg] 초기화 완료: 5QVdLXpqCto
+2025-06-23 15:41:50 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 초기화 완료: 6dMcX8NpC3g
+2025-06-23 15:41:50 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 초기화 완료: 4M5UWs2Ae_c
+2025-06-23 15:41:50 [INFO] 초기화 완료: 99개 채널
+2025-06-23 15:41:50 [INFO] 초기화 완료 - 피드 폴링 시작
+2025-06-23 15:41:50 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:41:50 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:41:50 [INFO] 채널당 평균 간격: 0.50초
+2025-06-23 15:41:50 [INFO] 배치 1/11 시작 (10개 채널)
+2025-06-23 15:41:51 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 새 영상 발견! s-Kt6W6y-ZU
+2025-06-23 15:41:51 [INFO] [s-Kt6W6y-ZU] 작업 시작
+2025-06-23 15:41:51 [INFO] [s-Kt6W6y-ZU] 영상ID: s-Kt6W6y-ZU
+2025-06-23 15:41:51 [INFO] [s-Kt6W6y-ZU] sending super thanks...
+2025-06-23 15:41:51 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 새 영상 발견! QWE_U4nDmVY
+2025-06-23 15:41:51 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:41:51 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 새 영상 발견! UOHtl-jJmk8
+2025-06-23 15:41:51 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:41:51 [INFO] 배치 1 완료 (0.87초, 진행률: 10/101)
+2025-06-23 15:41:51 [INFO] 다음 배치까지 3.7초 대기...
+2025-06-23 15:41:54 [INFO] 배치 2/11 시작 (10개 채널)
+2025-06-23 15:41:55 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:41:55 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:41:56 [INFO] 배치 2 완료 (1.12초, 진행률: 20/101)
+2025-06-23 15:41:56 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:41:59 [INFO] 배치 3/11 시작 (10개 채널)
+2025-06-23 15:42:00 [INFO] 배치 3 완료 (1.38초, 진행률: 30/101)
+2025-06-23 15:42:00 [INFO] 다음 배치까지 3.2초 대기...
+2025-06-23 15:42:04 [INFO] 배치 4/11 시작 (10개 채널)
+2025-06-23 15:42:05 [INFO] 배치 4 완료 (1.21초, 진행률: 40/101)
+2025-06-23 15:42:05 [INFO] 다음 배치까지 3.3초 대기...
+2025-06-23 15:42:08 [INFO] 배치 5/11 시작 (10개 채널)
+2025-06-23 15:42:09 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:42:09 [INFO] 배치 5 완료 (0.91초, 진행률: 50/101)
+2025-06-23 15:42:09 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:42:13 [INFO] 배치 6/11 시작 (10개 채널)
+2025-06-23 15:42:14 [INFO] 배치 6 완료 (1.15초, 진행률: 60/101)
+2025-06-23 15:42:14 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:42:17 [INFO] 배치 7/11 시작 (10개 채널)
+2025-06-23 15:42:18 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:42:18 [INFO] 배치 7 완료 (0.87초, 진행률: 70/101)
+2025-06-23 15:42:18 [INFO] 다음 배치까지 3.7초 대기...
+2025-06-23 15:42:19 [INFO] [=== 피드 체크 사이클 #398 시작 ===]
+2025-06-23 15:42:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:42:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:42:22 [INFO] 배치 8/11 시작 (10개 채널)
+2025-06-23 15:42:24 [INFO] 배치 8 완료 (1.81초, 진행률: 80/101)
+2025-06-23 15:42:24 [INFO] 다음 배치까지 2.7초 대기...
+2025-06-23 15:42:24 [INFO] [=== 사이클 #398 완료: 4.77초, 21.2 채널/초 ===]
+2025-06-23 15:42:24 [INFO] 다음 사이클까지 55.2초 대기...
+2025-06-23 15:42:26 [INFO] 배치 9/11 시작 (10개 채널)
+2025-06-23 15:42:28 [INFO] 배치 9 완료 (1.53초, 진행률: 90/101)
+2025-06-23 15:42:28 [INFO] 다음 배치까지 3.0초 대기...
+2025-06-23 15:42:31 [INFO] 배치 10/11 시작 (10개 채널)
+2025-06-23 15:42:32 [INFO] 배치 10 완료 (1.17초, 진행률: 100/101)
+2025-06-23 15:42:32 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:42:35 [INFO] 배치 11/11 시작 (1개 채널)
+2025-06-23 15:42:36 [INFO] 배치 11 완료 (0.62초, 진행률: 101/101)
+2025-06-23 15:42:36 [INFO] [=== 피드 체크 사이클 완료: 46.08초 ===]
+2025-06-23 15:42:36 [INFO] 다음 사이클까지 13.9초 대기...
+2025-06-23 15:42:40 [INFO] [s-Kt6W6y-ZU] 성공적으로 완료되었습니다.
+2025-06-23 15:42:40 [INFO] [s-Kt6W6y-ZU] 작업 끝
+2025-06-23 15:42:40 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 송금 완료 영상 저장: s-Kt6W6y-ZU
+2025-06-23 15:42:40 [INFO] [QWE_U4nDmVY] 작업 시작
+2025-06-23 15:42:40 [INFO] [QWE_U4nDmVY] 영상ID: QWE_U4nDmVY
+2025-06-23 15:42:40 [INFO] [QWE_U4nDmVY] sending super thanks...
+2025-06-23 15:42:50 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:42:50 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:42:50 [INFO] 채널당 평균 간격: 0.50초
+2025-06-23 15:42:50 [INFO] 배치 1/11 시작 (10개 채널)
+2025-06-23 15:42:51 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:42:51 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 이미 송금 완료된 영상: s-Kt6W6y-ZU
+2025-06-23 15:42:51 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:42:51 [INFO] 배치 1 완료 (1.20초, 진행률: 10/101)
+2025-06-23 15:42:51 [INFO] 다음 배치까지 3.3초 대기...
+2025-06-23 15:42:54 [INFO] 배치 2/11 시작 (10개 채널)
+2025-06-23 15:42:55 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:42:55 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:42:56 [INFO] 배치 2 완료 (1.26초, 진행률: 20/101)
+2025-06-23 15:42:56 [INFO] 다음 배치까지 3.3초 대기...
+2025-06-23 15:42:59 [INFO] 배치 3/11 시작 (10개 채널)
+2025-06-23 15:43:00 [INFO] 배치 3 완료 (0.93초, 진행률: 30/101)
+2025-06-23 15:43:00 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:43:04 [INFO] 배치 4/11 시작 (10개 채널)
+2025-06-23 15:43:05 [INFO] 배치 4 완료 (1.06초, 진행률: 40/101)
+2025-06-23 15:43:05 [INFO] 다음 배치까지 3.5초 대기...
+2025-06-23 15:43:08 [INFO] 배치 5/11 시작 (10개 채널)
+2025-06-23 15:43:09 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:43:10 [INFO] 배치 5 완료 (1.92초, 진행률: 50/101)
+2025-06-23 15:43:10 [INFO] 다음 배치까지 2.6초 대기...
+2025-06-23 15:43:13 [INFO] 배치 6/11 시작 (10개 채널)
+2025-06-23 15:43:14 [INFO] 배치 6 완료 (0.96초, 진행률: 60/101)
+2025-06-23 15:43:14 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:43:17 [INFO] 배치 7/11 시작 (10개 채널)
+2025-06-23 15:43:18 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:43:18 [INFO] 배치 7 완료 (1.08초, 진행률: 70/101)
+2025-06-23 15:43:18 [INFO] 다음 배치까지 3.5초 대기...
+2025-06-23 15:43:19 [INFO] [=== 피드 체크 사이클 #399 시작 ===]
+2025-06-23 15:43:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:43:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:43:22 [INFO] 배치 8/11 시작 (10개 채널)
+2025-06-23 15:43:24 [INFO] 배치 8 완료 (2.12초, 진행률: 80/101)
+2025-06-23 15:43:24 [INFO] 다음 배치까지 2.4초 대기...
+2025-06-23 15:43:24 [INFO] [=== 사이클 #399 완료: 5.00초, 20.2 채널/초 ===]
+2025-06-23 15:43:24 [INFO] 다음 사이클까지 55.0초 대기...
+2025-06-23 15:43:26 [INFO] 배치 9/11 시작 (10개 채널)
+2025-06-23 15:43:27 [INFO] 배치 9 완료 (1.15초, 진행률: 90/101)
+2025-06-23 15:43:27 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:43:28 [INFO] [QWE_U4nDmVY] 성공적으로 완료되었습니다.
+2025-06-23 15:43:28 [INFO] [QWE_U4nDmVY] 작업 끝
+2025-06-23 15:43:28 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 송금 완료 영상 저장: QWE_U4nDmVY
+2025-06-23 15:43:28 [INFO] [UOHtl-jJmk8] 작업 시작
+2025-06-23 15:43:28 [INFO] [UOHtl-jJmk8] 영상ID: UOHtl-jJmk8
+2025-06-23 15:43:28 [INFO] [UOHtl-jJmk8] sending super thanks...
+2025-06-23 15:43:31 [INFO] 배치 10/11 시작 (10개 채널)
+2025-06-23 15:43:32 [INFO] 배치 10 완료 (1.03초, 진행률: 100/101)
+2025-06-23 15:43:32 [INFO] 다음 배치까지 3.5초 대기...
+2025-06-23 15:43:35 [INFO] 배치 11/11 시작 (1개 채널)
+2025-06-23 15:43:36 [INFO] 배치 11 완료 (0.55초, 진행률: 101/101)
+2025-06-23 15:43:36 [INFO] [=== 피드 체크 사이클 완료: 46.00초 ===]
+2025-06-23 15:43:36 [INFO] 다음 사이클까지 14.0초 대기...
+2025-06-23 15:43:50 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:43:50 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:43:50 [INFO] 채널당 평균 간격: 0.50초
+2025-06-23 15:43:50 [INFO] 배치 1/11 시작 (10개 채널)
+2025-06-23 15:43:51 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:43:51 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 이미 송금 완료된 영상: QWE_U4nDmVY
+2025-06-23 15:43:51 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 이미 송금 완료된 영상: s-Kt6W6y-ZU
+2025-06-23 15:43:51 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:43:51 [INFO] 배치 1 완료 (1.55초, 진행률: 10/101)
+2025-06-23 15:43:51 [INFO] 다음 배치까지 3.0초 대기...
+2025-06-23 15:43:54 [INFO] 배치 2/11 시작 (10개 채널)
+2025-06-23 15:43:55 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:43:55 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:43:55 [INFO] 배치 2 완료 (1.04초, 진행률: 20/101)
+2025-06-23 15:43:55 [INFO] 다음 배치까지 3.5초 대기...
+2025-06-23 15:43:59 [INFO] 배치 3/11 시작 (10개 채널)
+2025-06-23 15:44:00 [INFO] 배치 3 완료 (0.92초, 진행률: 30/101)
+2025-06-23 15:44:00 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:44:04 [INFO] 배치 4/11 시작 (10개 채널)
+2025-06-23 15:44:05 [INFO] 배치 4 완료 (1.15초, 진행률: 40/101)
+2025-06-23 15:44:05 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:44:08 [INFO] 배치 5/11 시작 (10개 채널)
+2025-06-23 15:44:09 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:44:09 [INFO] 배치 5 완료 (1.27초, 진행률: 50/101)
+2025-06-23 15:44:09 [INFO] 다음 배치까지 3.3초 대기...
+2025-06-23 15:44:13 [INFO] 배치 6/11 시작 (10개 채널)
+2025-06-23 15:44:14 [INFO] 배치 6 완료 (0.88초, 진행률: 60/101)
+2025-06-23 15:44:14 [INFO] 다음 배치까지 3.7초 대기...
+2025-06-23 15:44:15 [INFO] [UOHtl-jJmk8] 성공적으로 완료되었습니다.
+2025-06-23 15:44:15 [INFO] [UOHtl-jJmk8] 작업 끝
+2025-06-23 15:44:15 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 송금 완료 영상 저장: UOHtl-jJmk8
+2025-06-23 15:44:17 [INFO] 배치 7/11 시작 (10개 채널)
+2025-06-23 15:44:18 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:44:18 [INFO] 배치 7 완료 (0.96초, 진행률: 70/101)
+2025-06-23 15:44:18 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:44:19 [INFO] [=== 피드 체크 사이클 #400 시작 ===]
+2025-06-23 15:44:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:44:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:44:22 [INFO] 배치 8/11 시작 (10개 채널)
+2025-06-23 15:44:23 [INFO] 배치 8 완료 (1.48초, 진행률: 80/101)
+2025-06-23 15:44:23 [INFO] 다음 배치까지 3.1초 대기...
+2025-06-23 15:44:23 [INFO] [=== 사이클 #400 완료: 4.42초, 22.8 채널/초 ===]
+2025-06-23 15:44:23 [INFO] 다음 사이클까지 55.6초 대기...
+2025-06-23 15:44:26 [INFO] 배치 9/11 시작 (10개 채널)
+2025-06-23 15:44:27 [INFO] 배치 9 완료 (0.98초, 진행률: 90/101)
+2025-06-23 15:44:27 [INFO] 다음 배치까지 3.6초 대기...
+2025-06-23 15:44:31 [INFO] 배치 10/11 시작 (10개 채널)
+2025-06-23 15:44:32 [INFO] 배치 10 완료 (1.16초, 진행률: 100/101)
+2025-06-23 15:44:32 [INFO] 다음 배치까지 3.4초 대기...
+2025-06-23 15:44:35 [INFO] 배치 11/11 시작 (1개 채널)
+2025-06-23 15:44:36 [INFO] 배치 11 완료 (0.57초, 진행률: 101/101)
+2025-06-23 15:44:36 [INFO] [=== 피드 체크 사이클 완료: 46.02초 ===]
+2025-06-23 15:44:36 [INFO] 다음 사이클까지 14.0초 대기...
+2025-06-23 15:44:50 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:44:50 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:44:50 [INFO] 채널당 평균 간격: 0.50초
+2025-06-23 15:44:50 [INFO] 배치 1/11 시작 (10개 채널)
+2025-06-23 15:44:51 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:44:51 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 이미 송금 완료된 영상: UOHtl-jJmk8
+2025-06-23 15:44:51 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:44:51 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 이미 송금 완료된 영상: QWE_U4nDmVY
+2025-06-23 15:44:51 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 이미 송금 완료된 영상: s-Kt6W6y-ZU
+2025-06-23 15:44:51 [INFO] 배치 1 완료 (0.86초, 진행률: 10/101)
+2025-06-23 15:44:51 [INFO] 다음 배치까지 3.7초 대기...

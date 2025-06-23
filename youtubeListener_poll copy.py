@@ -308,7 +308,7 @@ def initialize_last_video_ids():
     logger.info(f"초기화 완료: {len(last_video_ids)}개 채널")
 
 def poll_feed():
-    """최적화된 피드 폴링 - 1분 안에 100개 채널 확인"""
+    """분산 처리 방식 - 50초 동안 채널들을 골고루 확인"""
     global last_video_ids
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as mother_executor:
@@ -321,24 +321,58 @@ def poll_feed():
                     channel_ids = read_channel_ids()
                     messages = read_message()
                     
-                    logger.info(f"확인할 채널 수: {len(channel_ids)}개")
+                    total_channels = len(channel_ids)
+                    logger.info(f"확인할 채널 수: {total_channels}개")
                     
-                    # 최대 20개 채널을 동시에 처리 (100개 채널을 50초 안에 처리하기 위해)
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-                        futures = []
-                        
-                        for i, channel_id in enumerate(channel_ids):
-                            message = messages[i] if i < len(messages) else ""
-                            future = executor.submit(fetch_and_process, channel_id, mother_executor, message)
-                            futures.append(future)
-                        
-                        # 모든 작업 완료 대기 (최대 50초)
-                        completed_futures = concurrent.futures.wait(futures, timeout=50)
-                        
-                        # 완료되지 않은 작업 확인
-                        not_done = len(completed_futures.not_done)
-                        if not_done > 0:
-                            logger.warning(f"⚠️ {not_done}개 채널 확인이 시간 초과로 완료되지 않았습니다")
+                    # 50초 동안 골고루 분산 처리
+                    check_duration = 50  # 채널 확인에 할당된 시간
+                    interval_per_channel = check_duration / total_channels if total_channels > 0 else 1
+                    
+                    logger.info(f"채널당 평균 간격: {interval_per_channel:.2f}초")
+                    
+                    # 10개씩 배치로 나누어 처리 (너무 많은 동시 연결 방지)
+                    batch_size = 10
+                    batches = [channel_ids[i:i + batch_size] for i in range(0, total_channels, batch_size)]
+                    
+                    processed_count = 0
+                    
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=batch_size) as executor:
+                        for batch_index, batch in enumerate(batches):
+                            batch_start_time = time.time()
+                            
+                            logger.info(f"배치 {batch_index + 1}/{len(batches)} 시작 ({len(batch)}개 채널)")
+                            
+                            # 배치 내 채널들을 병렬로 처리
+                            futures = []
+                            for channel_id in batch:
+                                message_index = processed_count + len(futures)
+                                message = messages[message_index] if message_index < len(messages) else ""
+                                future = executor.submit(fetch_and_process, channel_id, mother_executor, message)
+                                futures.append(future)
+                            
+                            # 배치 완료 대기 (각 채널당 충분한 시간 할당)
+                            batch_timeout = len(batch) * interval_per_channel + 5  # 여유시간 5초 추가
+                            completed_futures = concurrent.futures.wait(futures, timeout=batch_timeout)
+                            
+                            # 완료되지 않은 작업 확인
+                            not_done = len(completed_futures.not_done)
+                            if not_done > 0:
+                                logger.warning(f"⚠️ 배치 {batch_index + 1}에서 {not_done}개 채널이 시간 초과")
+                            
+                            processed_count += len(batch)
+                            batch_elapsed = time.time() - batch_start_time
+                            
+                            logger.info(f"배치 {batch_index + 1} 완료 ({batch_elapsed:.2f}초, 진행률: {processed_count}/{total_channels})")
+                            
+                            # 다음 배치까지 적절한 간격 유지 (마지막 배치가 아닐 때만)
+                            if batch_index < len(batches) - 1:
+                                expected_time = (batch_index + 1) * (check_duration / len(batches))
+                                actual_time = time.time() - cycle_start
+                                
+                                if actual_time < expected_time:
+                                    wait_time = expected_time - actual_time
+                                    logger.info(f"다음 배치까지 {wait_time:.1f}초 대기...")
+                                    time.sleep(wait_time)
                     
                     cycle_elapsed = time.time() - cycle_start
                     logger.info(f"[=== 피드 체크 사이클 완료: {cycle_elapsed:.2f}초 ===]")
