@@ -46408,3 +46408,2881 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.youtube.com',
 2025-06-23 09:00:48 [INFO] [피드 체크 중...]
 2025-06-23 09:01:44 [INFO] [피드 체크 중...]
 2025-06-23 09:02:40 [INFO] [피드 체크 중...]
+2025-06-23 09:03:36 [INFO] [피드 체크 중...]
+2025-06-23 09:03:37 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-23 09:05:13 [INFO] 
+2025-06-23 09:05:13 [INFO] ==================================================
+2025-06-23 09:05:13 [INFO] ------- 프로그램 시작 -------
+2025-06-23 09:05:13 [INFO] ==================================================
+2025-06-23 09:05:13 [INFO] isTest: 3, Ticket: 100
+2025-06-23 09:05:13 [INFO] 빠른 초기화 중...
+2025-06-23 09:05:13 [INFO] 총 101개 채널 초기화 시작... (Free Threading: 비활성화)
+2025-06-23 09:05:13 [INFO] 초기화 워커 수: 16
+2025-06-23 09:05:15 [WARNING] [UCY1kMZp36IQSyNx_9h4mpCg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�,\x19�\\c�����nE�@l'
+2025-06-23 09:05:16 [INFO] 초기화 완료: 0개 채널
+2025-06-23 09:05:16 [INFO] 초기화 완료 - 피드 폴링 시작
+2025-06-23 09:05:16 [INFO] [=== 피드 체크 사이클 #1 시작 ===]
+2025-06-23 09:05:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:05:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:05:19 [WARNING] [UCiAq_SU0ED1C6vWFMnw8Ekg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k@['
+2025-06-23 09:05:19 [INFO] [=== 사이클 #1 완료: 3.04초, 33.3 채널/초 ===]
+2025-06-23 09:05:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:06:16 [INFO] [=== 피드 체크 사이클 #2 시작 ===]
+2025-06-23 09:06:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:06:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:06:19 [INFO] [=== 사이클 #2 완료: 2.74초, 36.8 채널/초 ===]
+2025-06-23 09:06:19 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 09:07:05 [INFO] 
+2025-06-23 09:07:05 [INFO] ==================================================
+2025-06-23 09:07:05 [INFO] ------- 프로그램 시작 -------
+2025-06-23 09:07:05 [INFO] ==================================================
+2025-06-23 09:07:05 [INFO] isTest: 3, Ticket: 100
+2025-06-23 09:07:05 [INFO] 빠른 초기화 중...
+2025-06-23 09:07:05 [INFO] 총 101개 채널 초기화 시작... (Free Threading: 비활성화)
+2025-06-23 09:07:05 [INFO] 초기화 워커 수: 16
+2025-06-23 09:07:08 [INFO] 초기화 완료: 0개 채널
+2025-06-23 09:07:08 [INFO] 초기화 완료 - 피드 폴링 시작
+2025-06-23 09:07:08 [INFO] [=== 피드 체크 사이클 #1 시작 ===]
+2025-06-23 09:07:08 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:07:08 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:07:11 [INFO] [=== 사이클 #1 완료: 3.00초, 33.6 채널/초 ===]
+2025-06-23 09:07:11 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:07:16 [INFO] [=== 피드 체크 사이클 #3 시작 ===]
+2025-06-23 09:07:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:07:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:07:19 [INFO] [=== 사이클 #3 완료: 2.92초, 34.6 채널/초 ===]
+2025-06-23 09:07:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:08:08 [INFO] [=== 피드 체크 사이클 #2 시작 ===]
+2025-06-23 09:08:08 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:08:08 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:08:10 [INFO] [=== 사이클 #2 완료: 2.96초, 34.2 채널/초 ===]
+2025-06-23 09:08:10 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:08:16 [INFO] [=== 피드 체크 사이클 #4 시작 ===]
+2025-06-23 09:08:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:08:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:08:19 [INFO] [=== 사이클 #4 완료: 3.14초, 32.1 채널/초 ===]
+2025-06-23 09:08:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:09:08 [INFO] [=== 피드 체크 사이클 #3 시작 ===]
+2025-06-23 09:09:08 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:09:08 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:09:10 [INFO] [=== 사이클 #3 완료: 2.85초, 35.4 채널/초 ===]
+2025-06-23 09:09:10 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:09:16 [INFO] [=== 피드 체크 사이클 #5 시작 ===]
+2025-06-23 09:09:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:09:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:09:19 [INFO] [=== 사이클 #5 완료: 2.71초, 37.3 채널/초 ===]
+2025-06-23 09:09:19 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 09:09:42 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-23 09:10:16 [INFO] [=== 피드 체크 사이클 #6 시작 ===]
+2025-06-23 09:10:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:10:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:10:18 [WARNING] [UC6107grRI4m0o2-emgoDnAA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 09:10:20 [INFO] [=== 사이클 #6 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 09:10:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 09:11:16 [INFO] [=== 피드 체크 사이클 #7 시작 ===]
+2025-06-23 09:11:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:11:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:11:22 [WARNING] [UCJHA_jMfCvEnv-3kRjTCQXw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c��3l���{��\x15\x05݊���'
+2025-06-23 09:11:24 [WARNING] [UCBJycsmduvYEL83R_U4JriQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 09:11:25 [INFO] [=== 사이클 #7 완료: 9.11초, 11.1 채널/초 ===]
+2025-06-23 09:11:25 [INFO] 다음 사이클까지 50.9초 대기...
+2025-06-23 09:12:16 [INFO] [=== 피드 체크 사이클 #8 시작 ===]
+2025-06-23 09:12:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:12:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:12:26 [INFO] [=== 사이클 #8 완료: 9.80초, 10.3 채널/초 ===]
+2025-06-23 09:12:26 [INFO] 다음 사이클까지 50.2초 대기...
+2025-06-23 09:13:16 [INFO] [=== 피드 체크 사이클 #9 시작 ===]
+2025-06-23 09:13:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:13:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:13:19 [WARNING] [UCfE5Cz44GlZVyoaYTHJbuZw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'b' in marked section
+2025-06-23 09:13:19 [INFO] [=== 사이클 #9 완료: 2.94초, 34.4 채널/초 ===]
+2025-06-23 09:13:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:14:16 [INFO] [=== 피드 체크 사이클 #10 시작 ===]
+2025-06-23 09:14:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:14:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:14:19 [INFO] [=== 사이클 #10 완료: 2.82초, 35.8 채널/초 ===]
+2025-06-23 09:14:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 09:15:16 [INFO] [=== 피드 체크 사이클 #11 시작 ===]
+2025-06-23 09:15:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:15:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:15:18 [WARNING] [UCsXVk37bltHxD1rDPwtNM8Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��X��vJ©���HG=�\r�'
+2025-06-23 09:15:19 [INFO] [=== 사이클 #11 완료: 3.17초, 31.9 채널/초 ===]
+2025-06-23 09:15:19 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:16:16 [INFO] [=== 피드 체크 사이클 #12 시작 ===]
+2025-06-23 09:16:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:16:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:16:19 [INFO] [=== 사이클 #12 완료: 2.79초, 36.2 채널/초 ===]
+2025-06-23 09:16:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 09:17:16 [INFO] [=== 피드 체크 사이클 #13 시작 ===]
+2025-06-23 09:17:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:17:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:17:17 [WARNING] [UC8a6z7i9qypp9PqJ_0HhBrw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06b'
+2025-06-23 09:17:19 [WARNING] [UCey_c7U86mJGz1VJWH5CYPA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'Q ' in marked section
+2025-06-23 09:17:19 [INFO] [=== 사이클 #13 완료: 3.05초, 33.2 채널/초 ===]
+2025-06-23 09:17:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:18:16 [INFO] [=== 피드 체크 사이클 #14 시작 ===]
+2025-06-23 09:18:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:18:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:18:19 [WARNING] [UCQBG3PzyQKY8ieMG2gDAyOQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 09:18:19 [WARNING] [UC4ijq8Cg-8zQKx8OH12dUSw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 09:18:20 [INFO] [=== 사이클 #14 완료: 3.27초, 30.9 채널/초 ===]
+2025-06-23 09:18:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 09:19:16 [INFO] [=== 피드 체크 사이클 #15 시작 ===]
+2025-06-23 09:19:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:19:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:19:21 [INFO] [=== 사이클 #15 완료: 4.37초, 23.1 채널/초 ===]
+2025-06-23 09:19:21 [INFO] 다음 사이클까지 55.6초 대기...
+2025-06-23 09:20:16 [INFO] [=== 피드 체크 사이클 #16 시작 ===]
+2025-06-23 09:20:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:20:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:20:18 [WARNING] [UCUHW94eEFW7hkUMVaZz4eDg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�ET��,`!�.9�B.�Q\x1a'
+2025-06-23 09:20:19 [INFO] [=== 사이클 #16 완료: 2.96초, 34.1 채널/초 ===]
+2025-06-23 09:20:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:21:16 [INFO] [=== 피드 체크 사이클 #17 시작 ===]
+2025-06-23 09:21:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:21:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:21:19 [INFO] [=== 사이클 #17 완료: 3.06초, 33.0 채널/초 ===]
+2025-06-23 09:21:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:22:16 [INFO] [=== 피드 체크 사이클 #18 시작 ===]
+2025-06-23 09:22:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:22:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:22:18 [WARNING] [UCr8P1J6sVkzP9hDGkV5r8AA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0f\r7�Ml\x11�e��G1�L�\x16'
+2025-06-23 09:22:19 [INFO] [=== 사이클 #18 완료: 3.22초, 31.4 채널/초 ===]
+2025-06-23 09:22:19 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:23:16 [INFO] [=== 피드 체크 사이클 #19 시작 ===]
+2025-06-23 09:23:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:23:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:23:20 [INFO] [=== 사이클 #19 완료: 3.52초, 28.7 채널/초 ===]
+2025-06-23 09:23:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 09:24:16 [INFO] [=== 피드 체크 사이클 #20 시작 ===]
+2025-06-23 09:24:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:24:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:24:18 [WARNING] [UCXA6AK9-wpHs7BjEB2JRZEg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'Q' in marked section
+2025-06-23 09:24:19 [INFO] [=== 사이클 #20 완료: 2.87초, 35.2 채널/초 ===]
+2025-06-23 09:24:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:25:16 [INFO] [=== 피드 체크 사이클 #21 시작 ===]
+2025-06-23 09:25:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:25:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:25:18 [WARNING] [UCsT0YIqwnpJCM-mx7-gSA4Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06b'
+2025-06-23 09:25:19 [INFO] [=== 사이클 #21 완료: 3.11초, 32.5 채널/초 ===]
+2025-06-23 09:25:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:26:16 [INFO] [=== 피드 체크 사이클 #22 시작 ===]
+2025-06-23 09:26:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:26:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:26:19 [INFO] [=== 사이클 #22 완료: 2.96초, 34.1 채널/초 ===]
+2025-06-23 09:26:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:27:16 [INFO] [=== 피드 체크 사이클 #23 시작 ===]
+2025-06-23 09:27:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:27:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:27:19 [INFO] [=== 사이클 #23 완료: 3.15초, 32.0 채널/초 ===]
+2025-06-23 09:27:19 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:28:16 [INFO] [=== 피드 체크 사이클 #24 시작 ===]
+2025-06-23 09:28:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:28:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:28:19 [INFO] [=== 사이클 #24 완료: 3.05초, 33.1 채널/초 ===]
+2025-06-23 09:28:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:29:16 [INFO] [=== 피드 체크 사이클 #25 시작 ===]
+2025-06-23 09:29:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:29:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:29:19 [INFO] [=== 사이클 #25 완료: 3.12초, 32.4 채널/초 ===]
+2025-06-23 09:29:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:30:16 [INFO] [=== 피드 체크 사이클 #26 시작 ===]
+2025-06-23 09:30:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:30:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:30:19 [INFO] [=== 사이클 #26 완료: 2.87초, 35.2 채널/초 ===]
+2025-06-23 09:30:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:31:16 [INFO] [=== 피드 체크 사이클 #27 시작 ===]
+2025-06-23 09:31:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:31:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:31:19 [INFO] [=== 사이클 #27 완료: 3.14초, 32.2 채널/초 ===]
+2025-06-23 09:31:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:31:57 [INFO] 
+2025-06-23 09:31:57 [INFO] ==================================================
+2025-06-23 09:31:57 [INFO] ------- 프로그램 시작 -------
+2025-06-23 09:31:57 [INFO] ==================================================
+2025-06-23 09:31:57 [INFO] isTest: 3, Ticket: 100
+2025-06-23 09:31:57 [INFO] 빠른 초기화 중...
+2025-06-23 09:31:57 [INFO] 총 101개 채널 초기화 시작...
+2025-06-23 09:31:57 [INFO] 초기화 워커 수: 8
+2025-06-23 09:31:58 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-23 09:31:58 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-23 09:31:58 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-23 09:31:58 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: Ep_lOCgAwY4
+2025-06-23 09:31:58 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-23 09:31:58 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-23 09:31:58 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: s-Kt6W6y-ZU
+2025-06-23 09:31:58 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-23 09:31:59 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-23 09:31:59 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-23 09:31:59 [INFO] [UCWgXoKQ4rl7SY9UHuAwxvzQ] 초기화 완료: IKNm08kJKEY
+2025-06-23 09:31:59 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-23 09:31:59 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-23 09:31:59 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-23 09:31:59 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM
+2025-06-23 09:31:59 [INFO] [UCQ1Rn1d6FfB3x2b0n0J6pMQ] 초기화 완료: OhtwAh3aKTo
+2025-06-23 09:31:59 [INFO] [UCPhP8VrLREoTLTON63of0GA] 초기화 완료: KdM_aEW_sG4
+2025-06-23 09:31:59 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 초기화 완료: e8qdJHtLpCs
+2025-06-23 09:31:59 [INFO] [UCQ2DWm5Md16Dc3xRwwhVE7Q] 초기화 완료: YFUVMPOIeAo
+2025-06-23 09:31:59 [INFO] [UCBbJv4YWyu89pP1tg9laatw] 초기화 완료: -zV_W5NMFWw
+2025-06-23 09:31:59 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 초기화 완료: WeV8H18eTpI
+2025-06-23 09:31:59 [INFO] [UC9cCBxBAQW2CzLYeT20q49A] 초기화 완료: N9NNw8wzu4I
+2025-06-23 09:31:59 [INFO] [UCO-e0J-Qsilkv_4tBa3LyYw] 초기화 완료: auByuzRXxkw
+2025-06-23 09:31:59 [INFO] [UC_KjTyC5e0DFNxn6GIgBxcQ] 초기화 완료: y5V0My-arCA
+2025-06-23 09:32:00 [INFO] [UCKsJpdKhf5aqxsVo6pxjlcw] 초기화 완료: UHchEnB8iig
+2025-06-23 09:32:00 [INFO] [UCK2YrOMgAbsAraGrWyyAvdw] 초기화 완료: DQ-K2dUNZIk
+2025-06-23 09:32:00 [INFO] [UCgheNMc3gGHLsT-RISdCzDQ] 초기화 완료: -4p-7dTLdK8
+2025-06-23 09:32:00 [INFO] [UC5ZqaJ9klJrwgsKjYW42JtA] 초기화 완료: xSCec5ulpPk
+2025-06-23 09:32:00 [INFO] [UC3hRpIQ4x5niJDwjajQSVPg] 초기화 완료: tMXihTcjdxI
+2025-06-23 09:32:00 [INFO] [UC30q8UbkZhQw9zloU4ZhnZw] 초기화 완료: Naebmt99d_Q
+2025-06-23 09:32:00 [INFO] [UC80zFRpqbg1rmuQUbO6HABQ] 초기화 완료: TcdELA21Ado
+2025-06-23 09:32:00 [INFO] [UC2xkO7XCiStWfR3fKbzkbqw] 초기화 완료: 5mgbdhZpyqA
+2025-06-23 09:32:00 [INFO] [UC4Aa3OPkMenwTANpf0oWVRQ] 초기화 완료: ckAo79oDdjA
+2025-06-23 09:32:00 [INFO] [UCm3IV_RvXMOWczBbarPSQSg] 초기화 완료: hasF3aRW4xI
+2025-06-23 09:32:00 [INFO] [UC3IZKseVpdzPSBaWxBxundA] 초기화 완료: uHG-2mCfyT4
+2025-06-23 09:32:00 [INFO] [UCqC_GY2ZiENFz2pwL0cSfAw] 초기화 완료: 2SCgbcwEY98
+2025-06-23 09:32:01 [INFO] [UCQZ1iBgGYGSTYhe5RnXsC1w] 초기화 완료: LE7C22Qg_J8
+2025-06-23 09:32:01 [INFO] [UCbifFcHncE89RrKSm3HlNAg] 초기화 완료: byWJ-0F3Pb0
+2025-06-23 09:32:01 [INFO] [UC4wbC_nZ6xT5RLYf8U4preg] 초기화 완료: XG90q4TFrXI
+2025-06-23 09:32:01 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 초기화 완료: nEVY5BKcZxU
+2025-06-23 09:32:01 [INFO] [UCyPYQTT20IgzVw92LDvtClw] 초기화 완료: iI2Gke8ctAk
+2025-06-23 09:32:01 [INFO] [UCsT0YIqwnpJCM-mx7-gSA4Q] 초기화 완료: foHEGfmvE9c
+2025-06-23 09:32:01 [INFO] [UCXA6AK9-wpHs7BjEB2JRZEg] 초기화 완료: DrNXKLwQb-M
+2025-06-23 09:32:01 [INFO] [UCpVm7bg6pXKo1Pr6k5kxG9A] 초기화 완료: gsB9nX8FS5I
+2025-06-23 09:32:01 [INFO] [UCr8P1J6sVkzP9hDGkV5r8AA] 초기화 완료: sI8R17L7Iww
+2025-06-23 09:32:01 [INFO] [UCLXo7UDZvByw2ixzpQCufnA] 초기화 완료: sYj09lx15ik
+2025-06-23 09:32:01 [INFO] [UCsXVk37bltHxD1rDPwtNM8Q] 초기화 완료: zxq60I5RSW8
+2025-06-23 09:32:01 [INFO] [UCHnyfMqiRRG1u-2MsSQLbXA] 초기화 완료: x32Zq-XvID4
+2025-06-23 09:32:01 [INFO] [UCZYTClx2T1of7BRZ86-8fow] 초기화 완료: G0H3nu18HIc
+2025-06-23 09:32:01 [INFO] [UCX6b17PVsYBQ0ip5gyeme-Q] 초기화 완료: 27zUjzYG4gY
+2025-06-23 09:32:02 [INFO] [UCUHW94eEFW7hkUMVaZz4eDg] 초기화 완료: WIu38oWkCTc
+2025-06-23 09:32:02 [INFO] [UCC552Sd-3nyi_tk2BudLUzA] 초기화 완료: Urgf5zoJNzU
+2025-06-23 09:32:02 [INFO] [UC6107grRI4m0o2-emgoDnAA] 초기화 완료: 3ZTGwcHQfLY
+2025-06-23 09:32:02 [INFO] [UC6n8I1UDTKP1IWjQMg6_TwA] 초기화 완료: 8d1ugv8vQ4w
+2025-06-23 09:32:02 [INFO] [UCzPsEwQIN1jHfDHUPjhHIgA] 초기화 완료: KBqvXH4tsZI
+2025-06-23 09:32:02 [INFO] [UCR1IuLEqb6UEA_zQ81kwXfg] 초기화 완료: z_PlyQAWT4g
+2025-06-23 09:32:02 [INFO] [UCY1kMZp36IQSyNx_9h4mpCg] 초기화 완료: 9IiYOTzJ2uw
+2025-06-23 09:32:02 [INFO] [UCJHA_jMfCvEnv-3kRjTCQXw] 초기화 완료: 7Qlgn6hKn9g
+2025-06-23 09:32:02 [INFO] [UCRxAgfYexGLlu1WHGIMUDqw] 초기화 완료: RSu5EyD5wIw
+2025-06-23 09:32:02 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 초기화 완료: GfY4V-ubHjY
+2025-06-23 09:32:02 [INFO] [UCbpMy0Fg74eXXkvxJrtEn3w] 초기화 완료: JSH2GW2Aaxw
+2025-06-23 09:32:02 [INFO] [UCRIZtPl9nb9RiXc9btSTQNw] 초기화 완료: ffKCdtIDGs8
+2025-06-23 09:32:02 [INFO] [UCcjhYlL1WRBjKaJsMH_h7Lg] 초기화 완료: SL_fNEFj2Eo
+2025-06-23 09:32:02 [INFO] [UCJFp8uSYCjXOMnkUyb3CQ3Q] 초기화 완료: pZIN_LDkreE
+2025-06-23 09:32:02 [INFO] [UC8gFadPgK2r1ndqLI04Xvvw] 초기화 완료: tLZ8V1HJFQ0
+2025-06-23 09:32:02 [INFO] [UCzH5n3Ih5kgQoiDAQt2FwLw] 초기화 완료: F7iWdYtTWNE
+2025-06-23 09:32:02 [INFO] [UCQBG3PzyQKY8ieMG2gDAyOQ] 초기화 완료: RGF3X_-wpp0
+2025-06-23 09:32:03 [INFO] [UCsTcErHg8oDvUnTzoqsYeNw] 초기화 완료: 3ARGa97OFxM
+2025-06-23 09:32:03 [INFO] [UCBJycsmduvYEL83R_U4JriQ] 초기화 완료: alDhOLhbkbY
+2025-06-23 09:32:03 [INFO] [UCVYamHliCI9rw1tHR1xbkfw] 초기화 완료: b6mo-rTiJoE
+2025-06-23 09:32:03 [INFO] [UCXGgrKt94gR6lmN4aN3mYTg] 초기화 완료: Dcae8HlEL20
+2025-06-23 09:32:03 [INFO] [UCXuqSBlHAE6Xw-yeJA0Tunw] 초기화 완료: HZgQp-WDebU
+2025-06-23 09:32:03 [INFO] [UCey_c7U86mJGz1VJWH5CYPA] 초기화 완료: f6NrcuXmaxc
+2025-06-23 09:32:03 [INFO] [UC-6OW5aJYBFM33zXQlBKPNA] 초기화 완료: UnMvxPbVVaE
+2025-06-23 09:32:03 [INFO] [UCddiUEpeqJcYeBxX1IVBKvQ] 초기화 완료: LcjUkzmkI4U
+2025-06-23 09:32:03 [INFO] [UCOmcA3f_RrH6b9NmcNa4tdg] 초기화 완료: 8zuhkN_75bU
+2025-06-23 09:32:03 [INFO] [UC4ijq8Cg-8zQKx8OH12dUSw] 초기화 완료: ekWc5TlNjK4
+2025-06-23 09:32:03 [INFO] [UCCjyq_K1Xwfg8Lndy7lKMpA] 초기화 완료: mZAi102kUY4
+2025-06-23 09:32:03 [INFO] [UCvK4bOhULCpmLabd2pDMtnA] 초기화 완료: TosLIg3o91k
+2025-06-23 09:32:03 [INFO] [UCSpFnDQr88xCZ80N-X7t0nQ] 초기화 완료: aA8LLjTghVQ
+2025-06-23 09:32:03 [INFO] [UC3DkFux8Iv-aYnTRWzwaiBA] 초기화 완료: PfDtHx-Aq4s
+2025-06-23 09:32:03 [INFO] [UC5bp5_6h-ZxkBz6S_33ZUVg] 초기화 완료: nEupzATExWA
+2025-06-23 09:32:03 [INFO] [UCpnxVX81-qPyCdJ8NY0cTRg] 초기화 완료: zdsK66suuYg
+2025-06-23 09:32:04 [INFO] [UC0Ize0RLIbGdH5x4wI45G-A] 초기화 완료: ZXvsjdImrOc
+2025-06-23 09:32:04 [INFO] [UCXOKEdfOFxsHO_-Su3K8SHg] 초기화 완료: SBeFGf-1ADo
+2025-06-23 09:32:04 [INFO] [UCbqZsserFV_YjPk0subGEmA] 초기화 완료: WzI8o743bUk
+2025-06-23 09:32:04 [INFO] [UCyEd6QBSgat5kkC6svyjudA] 초기화 완료: iziCZ8aJe2Q
+2025-06-23 09:32:04 [INFO] [UCiAq_SU0ED1C6vWFMnw8Ekg] 초기화 완료: 5QVdLXpqCto
+2025-06-23 09:32:04 [INFO] [UCt_NLJ4McJlCyYM-dSPRo7Q] 초기화 완료: sVkFvXB5Slc
+2025-06-23 09:32:04 [INFO] [UCzqbfYjQmf9nLQPMxVgPhiA] 초기화 완료: sAfyCC8U3c4
+2025-06-23 09:32:04 [INFO] [UCfE5Cz44GlZVyoaYTHJbuZw] 초기화 완료: HxNNb-jAXwE
+2025-06-23 09:32:04 [INFO] [UCX6OQ3DkcsbYNE6H8uQQuVA] 초기화 완료: pe_ejTiIcSs
+2025-06-23 09:32:04 [INFO] [UCfyehHM_eo4g5JUyWmms2LA] 초기화 완료: BIrI3Jg-6xY
+2025-06-23 09:32:04 [INFO] [UC-lHJZR3Gqxm24_Vd_AJ5Yw] 초기화 완료: 4uqo-brP3xs
+2025-06-23 09:32:04 [INFO] [UC9_p50tH3WmMslWRWKnM7dQ] 초기화 완료: Vdy1Jup1jHA
+2025-06-23 09:32:04 [INFO] [UCq-Fj5jknLsUf-MWSy4_brA] 초기화 완료: KimJbIImeTk
+2025-06-23 09:32:04 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 초기화 완료: aM9f87ntbd4
+2025-06-23 09:32:04 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 초기화 완료: s2dZfvA0WB0
+2025-06-23 09:32:05 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 초기화 완료: 6dMcX8NpC3g
+2025-06-23 09:32:05 [INFO] 초기화 완료: 99개 채널
+2025-06-23 09:32:05 [INFO] 초기화 완료 - 피드 폴링 시작
+2025-06-23 09:32:05 [INFO] [=== 피드 체크 사이클 #1 시작 ===]
+2025-06-23 09:32:05 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:32:05 [INFO] 워커당 채널 수: 10개 (나머지 1개)
+2025-06-23 09:32:05 [INFO] [워커 #1] 시작 - 11개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #2] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #3] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #4] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #5] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #6] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #7] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #8] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #9] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [워커 #10] 시작 - 10개 채널 처리
+2025-06-23 09:32:05 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 새 영상 발견! PDTMYs5nfXY
+2025-06-23 09:32:05 [INFO] [PDTMYs5nfXY] 작업 시작
+2025-06-23 09:32:05 [INFO] [PDTMYs5nfXY] 영상ID: PDTMYs5nfXY
+2025-06-23 09:32:05 [INFO] [PDTMYs5nfXY] sending super thanks...
+2025-06-23 09:32:05 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 새 영상 발견! nEVY5BKcZxU
+2025-06-23 09:32:05 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 새 영상 발견! GfY4V-ubHjY
+2025-06-23 09:32:12 [WARNING] [워커 #9] 시간 초과 (7.42초)
+2025-06-23 09:32:12 [WARNING] [워커 #2] 시간 초과 (7.64초)
+2025-06-23 09:32:12 [WARNING] [워커 #10] 시간 초과 (7.73초)
+2025-06-23 09:32:12 [WARNING] [워커 #7] 시간 초과 (7.81초)
+2025-06-23 09:32:13 [WARNING] [워커 #4] 시간 초과 (8.05초)
+2025-06-23 09:32:13 [WARNING] [워커 #8] 시간 초과 (8.07초)
+2025-06-23 09:32:13 [WARNING] [워커 #5] 시간 초과 (8.18초)
+2025-06-23 09:32:13 [WARNING] [워커 #6] 시간 초과 (8.28초)
+2025-06-23 09:32:13 [WARNING] [워커 #3] 시간 초과 (8.34초)
+2025-06-23 09:32:13 [WARNING] [워커 #1] 시간 초과 (8.38초)
+2025-06-23 09:32:13 [INFO] [=== 사이클 #1 완료: 8.38초, 12.1 채널/초 ===]
+2025-06-23 09:32:13 [INFO] 다음 사이클까지 51.6초 대기...
+2025-06-23 09:32:16 [INFO] [=== 피드 체크 사이클 #28 시작 ===]
+2025-06-23 09:32:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:32:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:32:19 [INFO] [=== 사이클 #28 완료: 2.99초, 33.8 채널/초 ===]
+2025-06-23 09:32:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:32:31 [INFO] [PDTMYs5nfXY] superthanks를 받지 않는 영상입니다.
+2025-06-23 09:32:31 [INFO] [PDTMYs5nfXY] 작업 끝
+2025-06-23 09:32:31 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 송금 완료 영상 저장: PDTMYs5nfXY
+2025-06-23 09:32:31 [INFO] [nEVY5BKcZxU] 작업 시작
+2025-06-23 09:32:31 [INFO] [nEVY5BKcZxU] 영상ID: nEVY5BKcZxU
+2025-06-23 09:32:31 [INFO] [nEVY5BKcZxU] sending super thanks...
+2025-06-23 09:32:56 [INFO] [nEVY5BKcZxU] superthanks를 받지 않는 영상입니다.
+2025-06-23 09:32:56 [INFO] [nEVY5BKcZxU] 작업 끝
+2025-06-23 09:32:56 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 송금 완료 영상 저장: nEVY5BKcZxU
+2025-06-23 09:32:56 [INFO] [GfY4V-ubHjY] 작업 시작
+2025-06-23 09:32:56 [INFO] [GfY4V-ubHjY] 영상ID: GfY4V-ubHjY
+2025-06-23 09:32:56 [INFO] [GfY4V-ubHjY] sending super thanks...
+2025-06-23 09:33:05 [INFO] [=== 피드 체크 사이클 #2 시작 ===]
+2025-06-23 09:33:05 [INFO] 확인할 채널 수: 101개, 남은 티켓: 97
+2025-06-23 09:33:05 [INFO] 워커당 채널 수: 10개 (나머지 1개)
+2025-06-23 09:33:05 [INFO] [워커 #1] 시작 - 11개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #2] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #3] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #4] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #5] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #6] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #7] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #8] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #9] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [워커 #10] 시작 - 10개 채널 처리
+2025-06-23 09:33:05 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 09:33:05 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 09:33:14 [WARNING] [워커 #7] 시간 초과 (9.25초)
+2025-06-23 09:33:14 [WARNING] [워커 #5] 시간 초과 (9.85초)
+2025-06-23 09:33:15 [WARNING] [워커 #10] 시간 초과 (10.03초)
+2025-06-23 09:33:15 [WARNING] [워커 #8] 시간 초과 (10.12초)
+2025-06-23 09:33:15 [WARNING] [워커 #2] 시간 초과 (10.40초)
+2025-06-23 09:33:15 [WARNING] [워커 #3] 시간 초과 (10.50초)
+2025-06-23 09:33:15 [WARNING] [워커 #9] 시간 초과 (10.68초)
+2025-06-23 09:33:15 [WARNING] [워커 #6] 시간 초과 (10.86초)
+2025-06-23 09:33:15 [WARNING] [워커 #1] 시간 초과 (10.88초)
+2025-06-23 09:33:16 [WARNING] [워커 #4] 시간 초과 (11.14초)
+2025-06-23 09:33:16 [INFO] [=== 사이클 #2 완료: 11.14초, 9.1 채널/초 ===]
+2025-06-23 09:33:16 [INFO] 다음 사이클까지 48.9초 대기...
+2025-06-23 09:33:16 [INFO] [=== 피드 체크 사이클 #29 시작 ===]
+2025-06-23 09:33:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:33:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:33:21 [INFO] [GfY4V-ubHjY] superthanks를 받지 않는 영상입니다.
+2025-06-23 09:33:21 [INFO] [GfY4V-ubHjY] 작업 끝
+2025-06-23 09:33:21 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 송금 완료 영상 저장: GfY4V-ubHjY
+2025-06-23 09:33:21 [INFO] [=== 사이클 #29 완료: 5.12초, 19.7 채널/초 ===]
+2025-06-23 09:33:21 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 09:33:22 [WARNING] 사용자 인터럽트 - 작업 취소 시도
+2025-06-23 09:34:16 [INFO] [=== 피드 체크 사이클 #30 시작 ===]
+2025-06-23 09:34:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:34:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:34:20 [INFO] [=== 사이클 #30 완료: 3.17초, 31.8 채널/초 ===]
+2025-06-23 09:34:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:35:16 [INFO] [=== 피드 체크 사이클 #31 시작 ===]
+2025-06-23 09:35:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:35:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:35:20 [INFO] [=== 사이클 #31 완료: 3.28초, 30.8 채널/초 ===]
+2025-06-23 09:35:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 09:36:16 [INFO] [=== 피드 체크 사이클 #32 시작 ===]
+2025-06-23 09:36:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:36:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:36:17 [WARNING] [UC_KjTyC5e0DFNxn6GIgBxcQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�,\x19�\\c�����nE׀��'
+2025-06-23 09:36:20 [WARNING] [UCpEhnqL0y41EpW2TvWAHD7Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�\x1cS�1�^f~EA��k T'
+2025-06-23 09:36:20 [INFO] [=== 사이클 #32 완료: 3.63초, 27.9 채널/초 ===]
+2025-06-23 09:36:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 09:37:16 [INFO] [=== 피드 체크 사이클 #33 시작 ===]
+2025-06-23 09:37:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:37:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:37:19 [INFO] [=== 사이클 #33 완료: 2.81초, 35.9 채널/초 ===]
+2025-06-23 09:37:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 09:38:16 [INFO] [=== 피드 체크 사이클 #34 시작 ===]
+2025-06-23 09:38:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:38:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:38:19 [INFO] [=== 사이클 #34 완료: 2.98초, 33.8 채널/초 ===]
+2025-06-23 09:38:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:39:16 [INFO] [=== 피드 체크 사이클 #35 시작 ===]
+2025-06-23 09:39:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:39:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:39:20 [INFO] [=== 사이클 #35 완료: 3.24초, 31.2 채널/초 ===]
+2025-06-23 09:39:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:40:16 [INFO] [=== 피드 체크 사이클 #36 시작 ===]
+2025-06-23 09:40:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:40:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:40:17 [WARNING] [UCvil4OAt-zShzkKHsg9EQAw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![=4&\x07oJ\x02B�Yq\th�!��'
+2025-06-23 09:40:20 [INFO] [=== 사이클 #36 완료: 3.27초, 30.8 채널/초 ===]
+2025-06-23 09:40:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 09:41:16 [INFO] [=== 피드 체크 사이클 #37 시작 ===]
+2025-06-23 09:41:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:41:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:41:19 [INFO] [=== 사이클 #37 완료: 3.03초, 33.3 채널/초 ===]
+2025-06-23 09:41:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:42:16 [INFO] [=== 피드 체크 사이클 #38 시작 ===]
+2025-06-23 09:42:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:42:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:42:20 [INFO] [=== 사이클 #38 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 09:42:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 09:43:16 [INFO] [=== 피드 체크 사이클 #39 시작 ===]
+2025-06-23 09:43:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:43:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:43:19 [INFO] [=== 사이클 #39 완료: 3.06초, 33.0 채널/초 ===]
+2025-06-23 09:43:19 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:44:16 [INFO] [=== 피드 체크 사이클 #40 시작 ===]
+2025-06-23 09:44:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:44:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:44:20 [INFO] [=== 사이클 #40 완료: 3.38초, 29.9 채널/초 ===]
+2025-06-23 09:44:20 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 09:45:16 [INFO] [=== 피드 체크 사이클 #41 시작 ===]
+2025-06-23 09:45:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:45:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:45:19 [WARNING] [UCXGgrKt94gR6lmN4aN3mYTg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�\U000ae398�)\x1c�]\x11 ǌ\x0e�l\t\tw\x1d'
+2025-06-23 09:45:20 [INFO] [=== 사이클 #41 완료: 3.15초, 32.1 채널/초 ===]
+2025-06-23 09:45:20 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 09:46:16 [INFO] [=== 피드 체크 사이클 #42 시작 ===]
+2025-06-23 09:46:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:46:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:46:20 [INFO] [=== 사이클 #42 완료: 3.17초, 31.9 채널/초 ===]
+2025-06-23 09:46:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:47:16 [INFO] [=== 피드 체크 사이클 #43 시작 ===]
+2025-06-23 09:47:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:47:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:47:20 [INFO] [=== 사이클 #43 완료: 3.23초, 31.2 채널/초 ===]
+2025-06-23 09:47:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 09:48:16 [INFO] [=== 피드 체크 사이클 #44 시작 ===]
+2025-06-23 09:48:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:48:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:48:17 [WARNING] [UCQjcWFDrMnv65YizIxcjkPA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 09:48:18 [WARNING] [UCUHW94eEFW7hkUMVaZz4eDg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�ET��,`!�.9�B.�Q\x1a'
+2025-06-23 09:48:18 [WARNING] [UC2I6Et1JkidnnbWgJFiMeIA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 09:48:20 [INFO] [=== 사이클 #44 완료: 3.30초, 30.6 채널/초 ===]
+2025-06-23 09:48:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 09:49:16 [INFO] [=== 피드 체크 사이클 #45 시작 ===]
+2025-06-23 09:49:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:49:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:49:20 [INFO] [=== 사이클 #45 완료: 3.51초, 28.8 채널/초 ===]
+2025-06-23 09:49:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 09:50:16 [INFO] [=== 피드 체크 사이클 #46 시작 ===]
+2025-06-23 09:50:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:50:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:50:19 [WARNING] [UC2xkO7XCiStWfR3fKbzkbqw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'k' in marked section
+2025-06-23 09:50:22 [INFO] [=== 사이클 #46 완료: 5.44초, 18.6 채널/초 ===]
+2025-06-23 09:50:22 [INFO] 다음 사이클까지 54.6초 대기...
+2025-06-23 09:51:16 [INFO] [=== 피드 체크 사이클 #47 시작 ===]
+2025-06-23 09:51:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:51:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:51:20 [WARNING] [UC8gFadPgK2r1ndqLI04Xvvw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k@['
+2025-06-23 09:51:20 [INFO] [=== 사이클 #47 완료: 3.92초, 25.8 채널/초 ===]
+2025-06-23 09:51:20 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 09:52:16 [INFO] [=== 피드 체크 사이클 #48 시작 ===]
+2025-06-23 09:52:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:52:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:52:19 [INFO] [=== 사이클 #48 완료: 2.89초, 35.0 채널/초 ===]
+2025-06-23 09:52:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 09:53:16 [INFO] [=== 피드 체크 사이클 #49 시작 ===]
+2025-06-23 09:53:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:53:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:53:19 [WARNING] [UCJFp8uSYCjXOMnkUyb3CQ3Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 09:53:20 [INFO] [=== 사이클 #49 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 09:53:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 09:54:16 [INFO] [=== 피드 체크 사이클 #50 시작 ===]
+2025-06-23 09:54:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:54:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:54:21 [INFO] [=== 사이클 #50 완료: 4.46초, 22.6 채널/초 ===]
+2025-06-23 09:54:21 [INFO] 다음 사이클까지 55.5초 대기...
+2025-06-23 09:55:16 [INFO] [=== 피드 체크 사이클 #51 시작 ===]
+2025-06-23 09:55:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:55:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:55:20 [INFO] [=== 사이클 #51 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 09:55:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 09:56:16 [INFO] [=== 피드 체크 사이클 #52 시작 ===]
+2025-06-23 09:56:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:56:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:56:20 [INFO] [=== 사이클 #52 완료: 3.88초, 26.0 채널/초 ===]
+2025-06-23 09:56:20 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 09:57:16 [INFO] [=== 피드 체크 사이클 #53 시작 ===]
+2025-06-23 09:57:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:57:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:57:19 [WARNING] [UCJFp8uSYCjXOMnkUyb3CQ3Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![����1�\x0c�\n\x12�禟�4�& '
+2025-06-23 09:57:19 [INFO] [=== 사이클 #53 완료: 2.96초, 34.2 채널/초 ===]
+2025-06-23 09:57:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:58:16 [INFO] [=== 피드 체크 사이클 #54 시작 ===]
+2025-06-23 09:58:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:58:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:58:19 [INFO] [=== 사이클 #54 완료: 3.01초, 33.6 채널/초 ===]
+2025-06-23 09:58:19 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 09:59:16 [INFO] [=== 피드 체크 사이클 #55 시작 ===]
+2025-06-23 09:59:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 09:59:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 09:59:18 [WARNING] [UC80zFRpqbg1rmuQUbO6HABQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1o�-�\x05I��\x05�J�;'
+2025-06-23 09:59:19 [INFO] [=== 사이클 #55 완료: 2.94초, 34.3 채널/초 ===]
+2025-06-23 09:59:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:00:16 [INFO] [=== 피드 체크 사이클 #56 시작 ===]
+2025-06-23 10:00:16 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:00:16 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:00:20 [INFO] [=== 사이클 #56 완료: 3.04초, 33.2 채널/초 ===]
+2025-06-23 10:00:20 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 10:01:17 [INFO] [=== 피드 체크 사이클 #57 시작 ===]
+2025-06-23 10:01:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:01:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:01:19 [INFO] [=== 사이클 #57 완료: 2.72초, 37.1 채널/초 ===]
+2025-06-23 10:01:19 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 10:02:17 [INFO] [=== 피드 체크 사이클 #58 시작 ===]
+2025-06-23 10:02:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:02:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:02:20 [INFO] [=== 사이클 #58 완료: 3.05초, 33.2 채널/초 ===]
+2025-06-23 10:02:20 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 10:03:17 [INFO] [=== 피드 체크 사이클 #59 시작 ===]
+2025-06-23 10:03:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:03:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:03:19 [INFO] [=== 사이클 #59 완료: 2.95초, 34.3 채널/초 ===]
+2025-06-23 10:03:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:04:17 [INFO] [=== 피드 체크 사이클 #60 시작 ===]
+2025-06-23 10:04:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:04:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:04:19 [INFO] [=== 사이클 #60 완료: 2.79초, 36.2 채널/초 ===]
+2025-06-23 10:04:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 10:05:17 [INFO] [=== 피드 체크 사이클 #61 시작 ===]
+2025-06-23 10:05:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:05:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:05:20 [INFO] [=== 사이클 #61 완료: 3.23초, 31.3 채널/초 ===]
+2025-06-23 10:05:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 10:06:17 [INFO] [=== 피드 체크 사이클 #62 시작 ===]
+2025-06-23 10:06:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:06:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:06:17 [WARNING] [UCmgRYMK5d65PbjN8qkjAUBA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1cN��\n;���\x10fg��\x16��'
+2025-06-23 10:06:20 [INFO] [=== 사이클 #62 완료: 3.07초, 32.9 채널/초 ===]
+2025-06-23 10:06:20 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 10:07:17 [INFO] [=== 피드 체크 사이클 #63 시작 ===]
+2025-06-23 10:07:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:07:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:07:20 [INFO] [=== 사이클 #63 완료: 3.17초, 31.9 채널/초 ===]
+2025-06-23 10:07:20 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 10:08:17 [INFO] [=== 피드 체크 사이클 #64 시작 ===]
+2025-06-23 10:08:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:08:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:08:18 [WARNING] [UCm3IV_RvXMOWczBbarPSQSg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 10:08:20 [INFO] [=== 사이클 #64 완료: 3.11초, 32.5 채널/초 ===]
+2025-06-23 10:08:20 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 10:09:17 [INFO] [=== 피드 체크 사이클 #65 시작 ===]
+2025-06-23 10:09:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:09:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:09:19 [INFO] [=== 사이클 #65 완료: 2.92초, 34.6 채널/초 ===]
+2025-06-23 10:09:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:10:17 [INFO] [=== 피드 체크 사이클 #66 시작 ===]
+2025-06-23 10:10:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:10:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:10:17 [WARNING] [UCF97u_Y5C3FxAcD0nn1DCKQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'm2V' in marked section
+2025-06-23 10:10:19 [INFO] [=== 사이클 #66 완료: 2.76초, 36.7 채널/초 ===]
+2025-06-23 10:10:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 10:11:17 [INFO] [=== 피드 체크 사이클 #67 시작 ===]
+2025-06-23 10:11:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:11:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:11:20 [INFO] [=== 사이클 #67 완료: 2.93초, 34.5 채널/초 ===]
+2025-06-23 10:11:20 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:12:17 [INFO] [=== 피드 체크 사이클 #68 시작 ===]
+2025-06-23 10:12:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:12:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:12:19 [INFO] [=== 사이클 #68 완료: 2.83초, 35.7 채널/초 ===]
+2025-06-23 10:12:19 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 10:13:17 [INFO] [=== 피드 체크 사이클 #69 시작 ===]
+2025-06-23 10:13:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:13:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:13:19 [INFO] [=== 사이클 #69 완료: 2.69초, 37.5 채널/초 ===]
+2025-06-23 10:13:19 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 10:14:17 [INFO] [=== 피드 체크 사이클 #70 시작 ===]
+2025-06-23 10:14:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:14:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:14:20 [INFO] [=== 사이클 #70 완료: 3.00초, 33.7 채널/초 ===]
+2025-06-23 10:14:20 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 10:15:17 [INFO] [=== 피드 체크 사이클 #71 시작 ===]
+2025-06-23 10:15:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:15:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:15:19 [INFO] [=== 사이클 #71 완료: 2.86초, 35.3 채널/초 ===]
+2025-06-23 10:15:19 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:16:17 [INFO] [=== 피드 체크 사이클 #72 시작 ===]
+2025-06-23 10:16:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:16:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:16:20 [INFO] [=== 사이클 #72 완료: 3.05초, 33.1 채널/초 ===]
+2025-06-23 10:16:20 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 10:17:17 [INFO] [=== 피드 체크 사이클 #73 시작 ===]
+2025-06-23 10:17:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:17:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:17:20 [INFO] [=== 사이클 #73 완료: 3.15초, 32.1 채널/초 ===]
+2025-06-23 10:17:20 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 10:18:17 [INFO] [=== 피드 체크 사이클 #74 시작 ===]
+2025-06-23 10:18:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:18:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:18:18 [WARNING] [UC30q8UbkZhQw9zloU4ZhnZw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:18:20 [INFO] [=== 사이클 #74 완료: 2.89초, 35.0 채널/초 ===]
+2025-06-23 10:18:20 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 10:19:17 [INFO] [=== 피드 체크 사이클 #75 시작 ===]
+2025-06-23 10:19:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:19:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:19:17 [WARNING] [UCQNE2JmbasNYbjGAcuBiRRg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 10:19:20 [INFO] [=== 사이클 #75 완료: 2.95초, 34.2 채널/초 ===]
+2025-06-23 10:19:20 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 10:20:17 [INFO] [=== 피드 체크 사이클 #76 시작 ===]
+2025-06-23 10:20:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:20:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:20:20 [INFO] [=== 사이클 #76 완료: 3.30초, 30.6 채널/초 ===]
+2025-06-23 10:20:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 10:21:17 [INFO] [=== 피드 체크 사이클 #77 시작 ===]
+2025-06-23 10:21:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:21:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:21:20 [WARNING] [UCRxAgfYexGLlu1WHGIMUDqw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:21:20 [WARNING] [UCbCmjCuTUZos6Inko4u57UQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:21:20 [INFO] [=== 사이클 #77 완료: 3.81초, 26.5 채널/초 ===]
+2025-06-23 10:21:20 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 10:22:17 [INFO] [=== 피드 체크 사이클 #78 시작 ===]
+2025-06-23 10:22:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:22:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:22:18 [WARNING] [UCBbJv4YWyu89pP1tg9laatw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:22:20 [INFO] [=== 사이클 #78 완료: 3.82초, 26.4 채널/초 ===]
+2025-06-23 10:22:20 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 10:23:17 [INFO] [=== 피드 체크 사이클 #79 시작 ===]
+2025-06-23 10:23:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:23:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:23:18 [WARNING] [UCR1IuLEqb6UEA_zQ81kwXfg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���b~�n�\x17\x18]��Q6+�'
+2025-06-23 10:23:20 [INFO] [=== 사이클 #79 완료: 3.55초, 28.4 채널/초 ===]
+2025-06-23 10:23:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:24:17 [INFO] [=== 피드 체크 사이클 #80 시작 ===]
+2025-06-23 10:24:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:24:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:24:18 [WARNING] [UC_KjTyC5e0DFNxn6GIgBxcQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 10:24:20 [INFO] [=== 사이클 #80 완료: 3.60초, 28.1 채널/초 ===]
+2025-06-23 10:24:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:25:17 [INFO] [=== 피드 체크 사이클 #81 시작 ===]
+2025-06-23 10:25:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:25:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:25:20 [INFO] [=== 사이클 #81 완료: 3.70초, 27.3 채널/초 ===]
+2025-06-23 10:25:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:26:17 [INFO] [=== 피드 체크 사이클 #82 시작 ===]
+2025-06-23 10:26:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:26:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:26:19 [WARNING] [UCUHW94eEFW7hkUMVaZz4eDg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�ET��,`!�.9�B.�Q�'
+2025-06-23 10:26:20 [INFO] [=== 사이클 #82 완료: 3.54초, 28.5 채널/초 ===]
+2025-06-23 10:26:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 10:27:17 [INFO] [=== 피드 체크 사이클 #83 시작 ===]
+2025-06-23 10:27:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:27:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:27:20 [INFO] [=== 사이클 #83 완료: 3.70초, 27.3 채널/초 ===]
+2025-06-23 10:27:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:28:17 [INFO] [=== 피드 체크 사이클 #84 시작 ===]
+2025-06-23 10:28:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:28:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:28:20 [INFO] [=== 사이클 #84 완료: 3.68초, 27.4 채널/초 ===]
+2025-06-23 10:28:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:29:17 [INFO] [=== 피드 체크 사이클 #85 시작 ===]
+2025-06-23 10:29:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:29:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:29:20 [INFO] [=== 사이클 #85 완료: 3.77초, 26.8 채널/초 ===]
+2025-06-23 10:29:20 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 10:30:17 [INFO] [=== 피드 체크 사이클 #86 시작 ===]
+2025-06-23 10:30:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:30:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:30:20 [INFO] [=== 사이클 #86 완료: 3.58초, 28.2 채널/초 ===]
+2025-06-23 10:30:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:31:17 [INFO] [=== 피드 체크 사이클 #87 시작 ===]
+2025-06-23 10:31:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:31:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:31:20 [INFO] [=== 사이클 #87 완료: 3.73초, 27.1 채널/초 ===]
+2025-06-23 10:31:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:32:17 [INFO] [=== 피드 체크 사이클 #88 시작 ===]
+2025-06-23 10:32:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:32:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:32:21 [INFO] [=== 사이클 #88 완료: 3.86초, 26.2 채널/초 ===]
+2025-06-23 10:32:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 10:33:17 [INFO] [=== 피드 체크 사이클 #89 시작 ===]
+2025-06-23 10:33:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:33:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:33:20 [INFO] [=== 사이클 #89 완료: 3.68초, 27.5 채널/초 ===]
+2025-06-23 10:33:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:34:17 [INFO] [=== 피드 체크 사이클 #90 시작 ===]
+2025-06-23 10:34:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:34:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:34:20 [INFO] [=== 사이클 #90 완료: 3.58초, 28.2 채널/초 ===]
+2025-06-23 10:34:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:35:17 [INFO] [=== 피드 체크 사이클 #91 시작 ===]
+2025-06-23 10:35:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:35:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:35:20 [INFO] [=== 사이클 #91 완료: 3.63초, 27.8 채널/초 ===]
+2025-06-23 10:35:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:36:17 [INFO] [=== 피드 체크 사이클 #92 시작 ===]
+2025-06-23 10:36:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:36:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:36:18 [WARNING] [UCXG8hH02Em6_6pF38THOlSg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![ܒ�\x11S\x16S\x137\nG�2"��% '
+2025-06-23 10:36:21 [INFO] [=== 사이클 #92 완료: 3.86초, 26.2 채널/초 ===]
+2025-06-23 10:36:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 10:37:17 [INFO] [=== 피드 체크 사이클 #93 시작 ===]
+2025-06-23 10:37:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:37:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:37:20 [WARNING] [UCq-Fj5jknLsUf-MWSy4_brA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![@dɰ�\x1as�e�W\x14��k ��'
+2025-06-23 10:37:20 [INFO] [=== 사이클 #93 완료: 3.44초, 29.3 채널/초 ===]
+2025-06-23 10:37:20 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 10:38:17 [INFO] [=== 피드 체크 사이클 #94 시작 ===]
+2025-06-23 10:38:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:38:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:38:20 [INFO] [=== 사이클 #94 완료: 3.67초, 27.6 채널/초 ===]
+2025-06-23 10:38:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:39:17 [INFO] [=== 피드 체크 사이클 #95 시작 ===]
+2025-06-23 10:39:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:39:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:39:17 [WARNING] [UCg-Fh9r6mN0XjLQLfQOFWOA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:39:20 [INFO] [=== 사이클 #95 완료: 3.54초, 28.5 채널/초 ===]
+2025-06-23 10:39:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 10:40:17 [INFO] [=== 피드 체크 사이클 #96 시작 ===]
+2025-06-23 10:40:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:40:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:40:20 [WARNING] [UCddiUEpeqJcYeBxX1IVBKvQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![{���"��\x17��:TW\x06�5-'
+2025-06-23 10:40:20 [INFO] [=== 사이클 #96 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 10:40:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:41:17 [INFO] [=== 피드 체크 사이클 #97 시작 ===]
+2025-06-23 10:41:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:41:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:41:22 [INFO] [=== 사이클 #97 완료: 4.90초, 20.6 채널/초 ===]
+2025-06-23 10:41:22 [INFO] 다음 사이클까지 55.1초 대기...
+2025-06-23 10:42:17 [INFO] [=== 피드 체크 사이클 #98 시작 ===]
+2025-06-23 10:42:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:42:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:42:21 [INFO] [=== 사이클 #98 완료: 3.76초, 26.8 채널/초 ===]
+2025-06-23 10:42:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 10:43:17 [INFO] [=== 피드 체크 사이클 #99 시작 ===]
+2025-06-23 10:43:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:43:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:43:20 [INFO] [=== 사이클 #99 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 10:43:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:44:17 [INFO] [=== 피드 체크 사이클 #100 시작 ===]
+2025-06-23 10:44:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:44:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:44:19 [WARNING] [UCcjhYlL1WRBjKaJsMH_h7Lg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k@['
+2025-06-23 10:44:20 [INFO] [=== 사이클 #100 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 10:44:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:45:17 [INFO] [=== 피드 체크 사이클 #101 시작 ===]
+2025-06-23 10:45:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:45:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:45:20 [INFO] [=== 사이클 #101 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 10:45:20 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:46:17 [INFO] [=== 피드 체크 사이클 #102 시작 ===]
+2025-06-23 10:46:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:46:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:46:19 [WARNING] [UC6n8I1UDTKP1IWjQMg6_TwA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\n�\x17HT��_��c��\x1a�=i'
+2025-06-23 10:46:20 [INFO] [=== 사이클 #102 완료: 3.61초, 28.0 채널/초 ===]
+2025-06-23 10:46:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:47:17 [INFO] [=== 피드 체크 사이클 #103 시작 ===]
+2025-06-23 10:47:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:47:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:47:17 [WARNING] [UCQjcWFDrMnv65YizIxcjkPA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'e' in marked section
+2025-06-23 10:47:19 [WARNING] [UC6n8I1UDTKP1IWjQMg6_TwA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\n�\x17HT��o��+�"_k�w'
+2025-06-23 10:47:19 [WARNING] [UC8gFadPgK2r1ndqLI04Xvvw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:47:21 [INFO] [=== 사이클 #103 완료: 3.71초, 27.2 채널/초 ===]
+2025-06-23 10:47:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:48:17 [INFO] [=== 피드 체크 사이클 #104 시작 ===]
+2025-06-23 10:48:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:48:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:48:18 [WARNING] [UC8a6z7i9qypp9PqJ_0HhBrw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06�'
+2025-06-23 10:48:21 [INFO] [=== 사이클 #104 완료: 3.88초, 26.0 채널/초 ===]
+2025-06-23 10:48:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 10:49:17 [INFO] [=== 피드 체크 사이클 #105 시작 ===]
+2025-06-23 10:49:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:49:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:49:21 [INFO] [=== 사이클 #105 완료: 3.90초, 25.9 채널/초 ===]
+2025-06-23 10:49:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 10:50:17 [INFO] [=== 피드 체크 사이클 #106 시작 ===]
+2025-06-23 10:50:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:50:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:50:21 [INFO] [=== 사이클 #106 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 10:50:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 10:51:17 [INFO] [=== 피드 체크 사이클 #107 시작 ===]
+2025-06-23 10:51:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:51:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:51:18 [WARNING] [UCpVm7bg6pXKo1Pr6k5kxG9A] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���ȋ�F�\r\x06\x1c\x01}O\x7f\x18e�'
+2025-06-23 10:51:20 [INFO] [=== 사이클 #107 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 10:51:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:52:17 [INFO] [=== 피드 체크 사이클 #108 시작 ===]
+2025-06-23 10:52:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:52:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:52:20 [INFO] [=== 사이클 #108 완료: 3.50초, 28.9 채널/초 ===]
+2025-06-23 10:52:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 10:53:17 [INFO] [=== 피드 체크 사이클 #109 시작 ===]
+2025-06-23 10:53:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:53:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:53:20 [INFO] [=== 사이클 #109 완료: 3.41초, 29.6 채널/초 ===]
+2025-06-23 10:53:20 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 10:54:17 [INFO] [=== 피드 체크 사이클 #110 시작 ===]
+2025-06-23 10:54:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:54:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:54:22 [INFO] [=== 사이클 #110 완료: 4.94초, 20.5 채널/초 ===]
+2025-06-23 10:54:22 [INFO] 다음 사이클까지 55.1초 대기...
+2025-06-23 10:55:17 [INFO] [=== 피드 체크 사이클 #111 시작 ===]
+2025-06-23 10:55:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:55:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:55:20 [WARNING] [UCJFp8uSYCjXOMnkUyb3CQ3Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�/\x05\x17��\x08%��\x14��Qτ�\x1b'
+2025-06-23 10:55:21 [INFO] [=== 사이클 #111 완료: 3.88초, 26.1 채널/초 ===]
+2025-06-23 10:55:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 10:56:17 [INFO] [=== 피드 체크 사이클 #112 시작 ===]
+2025-06-23 10:56:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:56:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:56:20 [INFO] [=== 사이클 #112 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 10:56:20 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 10:57:17 [INFO] [=== 피드 체크 사이클 #113 시작 ===]
+2025-06-23 10:57:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:57:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:57:21 [INFO] [=== 사이클 #113 완료: 3.95초, 25.6 채널/초 ===]
+2025-06-23 10:57:21 [INFO] 다음 사이클까지 56.0초 대기...
+2025-06-23 10:58:17 [INFO] [=== 피드 체크 사이클 #114 시작 ===]
+2025-06-23 10:58:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:58:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:58:19 [WARNING] [UCHnyfMqiRRG1u-2MsSQLbXA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 10:58:20 [INFO] [=== 사이클 #114 완료: 3.48초, 29.1 채널/초 ===]
+2025-06-23 10:58:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 10:59:17 [INFO] [=== 피드 체크 사이클 #115 시작 ===]
+2025-06-23 10:59:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 10:59:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 10:59:18 [WARNING] [UCPhP8VrLREoTLTON63of0GA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�S{\x10�є���X88\x1c�KZ�'
+2025-06-23 10:59:21 [INFO] [=== 사이클 #115 완료: 3.64초, 27.8 채널/초 ===]
+2025-06-23 10:59:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:00:17 [INFO] [=== 피드 체크 사이클 #116 시작 ===]
+2025-06-23 11:00:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:00:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:00:21 [INFO] [=== 사이클 #116 완료: 3.90초, 25.9 채널/초 ===]
+2025-06-23 11:00:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 11:01:17 [INFO] [=== 피드 체크 사이클 #117 시작 ===]
+2025-06-23 11:01:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:01:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:01:19 [WARNING] [UCzPsEwQIN1jHfDHUPjhHIgA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0b�\x1f���Ӗc�5��G`K�`'
+2025-06-23 11:01:21 [INFO] [=== 사이클 #117 완료: 3.78초, 26.7 채널/초 ===]
+2025-06-23 11:01:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:02:17 [INFO] [=== 피드 체크 사이클 #118 시작 ===]
+2025-06-23 11:02:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:02:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:02:20 [INFO] [=== 사이클 #118 완료: 3.55초, 28.5 채널/초 ===]
+2025-06-23 11:02:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:03:17 [INFO] [=== 피드 체크 사이클 #119 시작 ===]
+2025-06-23 11:03:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:03:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:03:20 [INFO] [=== 사이클 #119 완료: 3.49초, 28.9 채널/초 ===]
+2025-06-23 11:03:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:04:17 [INFO] [=== 피드 체크 사이클 #120 시작 ===]
+2025-06-23 11:04:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:04:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:04:19 [WARNING] [UCXA6AK9-wpHs7BjEB2JRZEg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k@['
+2025-06-23 11:04:21 [INFO] [=== 사이클 #120 완료: 4.06초, 24.9 채널/초 ===]
+2025-06-23 11:04:21 [INFO] 다음 사이클까지 55.9초 대기...
+2025-06-23 11:05:17 [INFO] [=== 피드 체크 사이클 #121 시작 ===]
+2025-06-23 11:05:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:05:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:05:20 [INFO] [=== 사이클 #121 완료: 3.41초, 29.6 채널/초 ===]
+2025-06-23 11:05:20 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 11:06:17 [INFO] [=== 피드 체크 사이클 #122 시작 ===]
+2025-06-23 11:06:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:06:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:06:21 [INFO] [=== 사이클 #122 완료: 3.85초, 26.3 채널/초 ===]
+2025-06-23 11:06:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:07:17 [INFO] [=== 피드 체크 사이클 #123 시작 ===]
+2025-06-23 11:07:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:07:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:07:20 [INFO] [=== 사이클 #123 완료: 3.47초, 29.1 채널/초 ===]
+2025-06-23 11:07:20 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:08:17 [INFO] [=== 피드 체크 사이클 #124 시작 ===]
+2025-06-23 11:08:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:08:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:08:21 [INFO] [=== 사이클 #124 완료: 3.64초, 27.8 채널/초 ===]
+2025-06-23 11:08:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:09:17 [INFO] [=== 피드 체크 사이클 #125 시작 ===]
+2025-06-23 11:09:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:09:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:09:21 [INFO] [=== 사이클 #125 완료: 3.84초, 26.3 채널/초 ===]
+2025-06-23 11:09:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:10:17 [INFO] [=== 피드 체크 사이클 #126 시작 ===]
+2025-06-23 11:10:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:10:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:10:20 [WARNING] [UCzH5n3Ih5kgQoiDAQt2FwLw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ޡ��zހ��Ѽ�j�j<N�'
+2025-06-23 11:10:20 [WARNING] [UCX6OQ3DkcsbYNE6H8uQQuVA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06b'
+2025-06-23 11:10:21 [INFO] [=== 사이클 #126 완료: 3.70초, 27.3 채널/초 ===]
+2025-06-23 11:10:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:11:17 [INFO] [=== 피드 체크 사이클 #127 시작 ===]
+2025-06-23 11:11:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:11:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:11:21 [INFO] [=== 사이클 #127 완료: 4.42초, 22.9 채널/초 ===]
+2025-06-23 11:11:21 [INFO] 다음 사이클까지 55.6초 대기...
+2025-06-23 11:12:17 [INFO] [=== 피드 체크 사이클 #128 시작 ===]
+2025-06-23 11:12:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:12:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:12:18 [WARNING] [UCPhP8VrLREoTLTON63of0GA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��S{\x12�є���8(��\x80�\x14'
+2025-06-23 11:12:20 [WARNING] [UCXGgrKt94gR6lmN4aN3mYTg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06b'
+2025-06-23 11:12:21 [INFO] [=== 사이클 #128 완료: 3.93초, 25.7 채널/초 ===]
+2025-06-23 11:12:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 11:13:17 [INFO] [=== 피드 체크 사이클 #129 시작 ===]
+2025-06-23 11:13:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:13:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:13:21 [INFO] [=== 사이클 #129 완료: 3.70초, 27.3 채널/초 ===]
+2025-06-23 11:13:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:14:17 [INFO] [=== 피드 체크 사이클 #130 시작 ===]
+2025-06-23 11:14:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:14:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:14:21 [WARNING] [UCpnxVX81-qPyCdJ8NY0cTRg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�;\x18\x11�\x08�X<\x17���ua\x0b�'
+2025-06-23 11:14:21 [WARNING] [UCzqbfYjQmf9nLQPMxVgPhiA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 11:14:21 [INFO] [=== 사이클 #130 완료: 4.13초, 24.5 채널/초 ===]
+2025-06-23 11:14:21 [INFO] 다음 사이클까지 55.9초 대기...
+2025-06-23 11:15:17 [INFO] [=== 피드 체크 사이클 #131 시작 ===]
+2025-06-23 11:15:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:15:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:15:20 [WARNING] [UC6n8I1UDTKP1IWjQMg6_TwA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\n�\x17H���o��+�"_k�w'
+2025-06-23 11:15:22 [INFO] [=== 사이클 #131 완료: 5.11초, 19.8 채널/초 ===]
+2025-06-23 11:15:22 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 11:16:17 [INFO] [=== 피드 체크 사이클 #132 시작 ===]
+2025-06-23 11:16:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:16:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:16:22 [INFO] [=== 사이클 #132 완료: 4.77초, 21.2 채널/초 ===]
+2025-06-23 11:16:22 [INFO] 다음 사이클까지 55.2초 대기...
+2025-06-23 11:17:17 [INFO] [=== 피드 체크 사이클 #133 시작 ===]
+2025-06-23 11:17:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:17:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:17:21 [INFO] [=== 사이클 #133 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 11:17:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:18:17 [INFO] [=== 피드 체크 사이클 #134 시작 ===]
+2025-06-23 11:18:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:18:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:18:21 [INFO] [=== 사이클 #134 완료: 3.82초, 26.4 채널/초 ===]
+2025-06-23 11:18:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:19:17 [INFO] [=== 피드 체크 사이클 #135 시작 ===]
+2025-06-23 11:19:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:19:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:19:20 [WARNING] [UCpEhnqL0y41EpW2TvWAHD7Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x19��\x0c�f\x12�\x08���_,\x03��'
+2025-06-23 11:19:21 [INFO] [=== 사이클 #135 완료: 3.54초, 28.5 채널/초 ===]
+2025-06-23 11:19:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:20:17 [INFO] [=== 피드 체크 사이클 #136 시작 ===]
+2025-06-23 11:20:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:20:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:20:21 [INFO] [=== 사이클 #136 완료: 3.78초, 26.7 채널/초 ===]
+2025-06-23 11:20:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:21:17 [INFO] [=== 피드 체크 사이클 #137 시작 ===]
+2025-06-23 11:21:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:21:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:21:19 [WARNING] [UC3IZKseVpdzPSBaWxBxundA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�r��X��\x1f�� ���\x11F�'
+2025-06-23 11:21:21 [INFO] [=== 사이클 #137 완료: 3.55초, 28.4 채널/초 ===]
+2025-06-23 11:21:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:22:17 [INFO] [=== 피드 체크 사이클 #138 시작 ===]
+2025-06-23 11:22:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:22:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:22:21 [INFO] [=== 사이클 #138 완료: 3.72초, 27.1 채널/초 ===]
+2025-06-23 11:22:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:23:17 [INFO] [=== 피드 체크 사이클 #139 시작 ===]
+2025-06-23 11:23:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:23:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:23:21 [INFO] [=== 사이클 #139 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 11:23:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:24:17 [INFO] [=== 피드 체크 사이클 #140 시작 ===]
+2025-06-23 11:24:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:24:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:24:21 [INFO] [=== 사이클 #140 완료: 4.18초, 24.1 채널/초 ===]
+2025-06-23 11:24:21 [INFO] 다음 사이클까지 55.8초 대기...
+2025-06-23 11:25:17 [INFO] [=== 피드 체크 사이클 #141 시작 ===]
+2025-06-23 11:25:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:25:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:25:21 [INFO] [=== 사이클 #141 완료: 3.61초, 28.0 채널/초 ===]
+2025-06-23 11:25:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:26:17 [INFO] [=== 피드 체크 사이클 #142 시작 ===]
+2025-06-23 11:26:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:26:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:26:19 [WARNING] [UCY1kMZp36IQSyNx_9h4mpCg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�Z���b\x01�H��\x1c�I���'
+2025-06-23 11:26:21 [INFO] [=== 사이클 #142 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 11:26:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:27:17 [INFO] [=== 피드 체크 사이클 #143 시작 ===]
+2025-06-23 11:27:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:27:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:27:21 [INFO] [=== 사이클 #143 완료: 3.59초, 28.1 채널/초 ===]
+2025-06-23 11:27:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:28:17 [INFO] [=== 피드 체크 사이클 #144 시작 ===]
+2025-06-23 11:28:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:28:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:28:21 [INFO] [=== 사이클 #144 완료: 4.16초, 24.3 채널/초 ===]
+2025-06-23 11:28:21 [INFO] 다음 사이클까지 55.8초 대기...
+2025-06-23 11:29:17 [INFO] [=== 피드 체크 사이클 #145 시작 ===]
+2025-06-23 11:29:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:29:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:29:20 [INFO] [=== 사이클 #145 완료: 3.35초, 30.2 채널/초 ===]
+2025-06-23 11:29:20 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 11:30:17 [INFO] [=== 피드 체크 사이클 #146 시작 ===]
+2025-06-23 11:30:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:30:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:30:21 [INFO] [=== 사이클 #146 완료: 3.94초, 25.6 채널/초 ===]
+2025-06-23 11:30:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 11:31:17 [INFO] [=== 피드 체크 사이클 #147 시작 ===]
+2025-06-23 11:31:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:31:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:31:18 [WARNING] [UC4Aa3OPkMenwTANpf0oWVRQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 11:31:21 [INFO] [=== 사이클 #147 완료: 3.93초, 25.7 채널/초 ===]
+2025-06-23 11:31:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 11:32:17 [INFO] [=== 피드 체크 사이클 #148 시작 ===]
+2025-06-23 11:32:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:32:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:32:21 [INFO] [=== 사이클 #148 완료: 3.58초, 28.2 채널/초 ===]
+2025-06-23 11:32:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:33:17 [INFO] [=== 피드 체크 사이클 #149 시작 ===]
+2025-06-23 11:33:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:33:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:33:22 [INFO] [=== 사이클 #149 완료: 4.79초, 21.1 채널/초 ===]
+2025-06-23 11:33:22 [INFO] 다음 사이클까지 55.2초 대기...
+2025-06-23 11:34:17 [INFO] [=== 피드 체크 사이클 #150 시작 ===]
+2025-06-23 11:34:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:34:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:34:21 [INFO] [=== 사이클 #150 완료: 3.86초, 26.2 채널/초 ===]
+2025-06-23 11:34:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 11:35:17 [INFO] [=== 피드 체크 사이클 #151 시작 ===]
+2025-06-23 11:35:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:35:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:35:18 [WARNING] [UCu1yyUnlvqj4qZM5WZtUONg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(jE�@lu'
+2025-06-23 11:35:21 [INFO] [=== 사이클 #151 완료: 3.72초, 27.2 채널/초 ===]
+2025-06-23 11:35:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:36:17 [INFO] [=== 피드 체크 사이클 #152 시작 ===]
+2025-06-23 11:36:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:36:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:36:21 [INFO] [=== 사이클 #152 완료: 3.72초, 27.1 채널/초 ===]
+2025-06-23 11:36:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:37:17 [INFO] [=== 피드 체크 사이클 #153 시작 ===]
+2025-06-23 11:37:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:37:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:37:21 [INFO] [=== 사이클 #153 완료: 3.51초, 28.8 채널/초 ===]
+2025-06-23 11:37:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:38:17 [INFO] [=== 피드 체크 사이클 #154 시작 ===]
+2025-06-23 11:38:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:38:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:38:25 [INFO] [=== 사이클 #154 완료: 7.73초, 13.1 채널/초 ===]
+2025-06-23 11:38:25 [INFO] 다음 사이클까지 52.3초 대기...
+2025-06-23 11:39:17 [INFO] [=== 피드 체크 사이클 #155 시작 ===]
+2025-06-23 11:39:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:39:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:39:22 [INFO] [=== 사이클 #155 완료: 5.07초, 19.9 채널/초 ===]
+2025-06-23 11:39:22 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 11:40:17 [INFO] [=== 피드 체크 사이클 #156 시작 ===]
+2025-06-23 11:40:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:40:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:40:22 [INFO] [=== 사이클 #156 완료: 5.12초, 19.7 채널/초 ===]
+2025-06-23 11:40:22 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 11:41:17 [INFO] [=== 피드 체크 사이클 #157 시작 ===]
+2025-06-23 11:41:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:41:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:41:22 [INFO] [=== 사이클 #157 완료: 4.97초, 20.3 채널/초 ===]
+2025-06-23 11:41:22 [INFO] 다음 사이클까지 55.0초 대기...
+2025-06-23 11:42:17 [INFO] [=== 피드 체크 사이클 #158 시작 ===]
+2025-06-23 11:42:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:42:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:42:20 [WARNING] [UCzH5n3Ih5kgQoiDAQt2FwLw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 11:42:22 [INFO] [=== 사이클 #158 완료: 5.14초, 19.6 채널/초 ===]
+2025-06-23 11:42:22 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 11:43:17 [INFO] [=== 피드 체크 사이클 #159 시작 ===]
+2025-06-23 11:43:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:43:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:43:21 [INFO] [=== 사이클 #159 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 11:43:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:44:17 [INFO] [=== 피드 체크 사이클 #160 시작 ===]
+2025-06-23 11:44:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:44:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:44:19 [WARNING] [UC80zFRpqbg1rmuQUbO6HABQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1e m�\x00��4iϑ�~�\x1d,�\x15'
+2025-06-23 11:44:21 [INFO] [=== 사이클 #160 완료: 3.77초, 26.8 채널/초 ===]
+2025-06-23 11:44:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 11:45:17 [INFO] [=== 피드 체크 사이클 #161 시작 ===]
+2025-06-23 11:45:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:45:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:45:21 [INFO] [=== 사이클 #161 완료: 3.60초, 28.0 채널/초 ===]
+2025-06-23 11:45:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:46:17 [INFO] [=== 피드 체크 사이클 #162 시작 ===]
+2025-06-23 11:46:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:46:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:46:21 [INFO] [=== 사이클 #162 완료: 3.55초, 28.4 채널/초 ===]
+2025-06-23 11:46:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:47:17 [INFO] [=== 피드 체크 사이클 #163 시작 ===]
+2025-06-23 11:47:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:47:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:47:21 [INFO] [=== 사이클 #163 완료: 3.51초, 28.8 채널/초 ===]
+2025-06-23 11:47:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:48:17 [INFO] [=== 피드 체크 사이클 #164 시작 ===]
+2025-06-23 11:48:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:48:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:48:21 [INFO] [=== 사이클 #164 완료: 3.75초, 27.0 채널/초 ===]
+2025-06-23 11:48:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:49:17 [INFO] [=== 피드 체크 사이클 #165 시작 ===]
+2025-06-23 11:49:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:49:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:49:21 [INFO] [=== 사이클 #165 완료: 3.71초, 27.2 채널/초 ===]
+2025-06-23 11:49:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:50:17 [INFO] [=== 피드 체크 사이클 #166 시작 ===]
+2025-06-23 11:50:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:50:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:50:21 [INFO] [=== 사이클 #166 완료: 3.36초, 30.1 채널/초 ===]
+2025-06-23 11:50:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 11:51:17 [INFO] [=== 피드 체크 사이클 #167 시작 ===]
+2025-06-23 11:51:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:51:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:51:21 [INFO] [=== 사이클 #167 완료: 3.61초, 28.0 채널/초 ===]
+2025-06-23 11:51:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:52:17 [INFO] [=== 피드 체크 사이클 #168 시작 ===]
+2025-06-23 11:52:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:52:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:52:21 [INFO] [=== 사이클 #168 완료: 3.52초, 28.7 채널/초 ===]
+2025-06-23 11:52:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 11:53:17 [INFO] [=== 피드 체크 사이클 #169 시작 ===]
+2025-06-23 11:53:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:53:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:53:21 [INFO] [=== 사이클 #169 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 11:53:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:54:17 [INFO] [=== 피드 체크 사이클 #170 시작 ===]
+2025-06-23 11:54:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:54:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:54:21 [INFO] [=== 사이클 #170 완료: 3.68초, 27.4 채널/초 ===]
+2025-06-23 11:54:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:55:17 [INFO] [=== 피드 체크 사이클 #171 시작 ===]
+2025-06-23 11:55:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:55:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:55:19 [WARNING] [UC80zFRpqbg1rmuQUbO6HABQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1e m�\x00��4iϑ�v̽h�+>'
+2025-06-23 11:55:20 [WARNING] [UCJFp8uSYCjXOMnkUyb3CQ3Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(jE�@lu'
+2025-06-23 11:55:21 [INFO] [=== 사이클 #171 완료: 3.75초, 27.0 채널/초 ===]
+2025-06-23 11:55:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 11:56:17 [INFO] [=== 피드 체크 사이클 #172 시작 ===]
+2025-06-23 11:56:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:56:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:56:21 [INFO] [=== 사이클 #172 완료: 3.63초, 27.9 채널/초 ===]
+2025-06-23 11:56:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:57:17 [INFO] [=== 피드 체크 사이클 #173 시작 ===]
+2025-06-23 11:57:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:57:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:57:18 [WARNING] [UCWgXoKQ4rl7SY9UHuAwxvzQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���\x02=~s=��DQ@@�C�'
+2025-06-23 11:57:21 [INFO] [=== 사이클 #173 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 11:57:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 11:58:17 [INFO] [=== 피드 체크 사이클 #174 시작 ===]
+2025-06-23 11:58:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:58:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:58:22 [INFO] [=== 사이클 #174 완료: 4.64초, 21.8 채널/초 ===]
+2025-06-23 11:58:22 [INFO] 다음 사이클까지 55.4초 대기...
+2025-06-23 11:59:17 [INFO] [=== 피드 체크 사이클 #175 시작 ===]
+2025-06-23 11:59:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 11:59:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 11:59:21 [INFO] [=== 사이클 #175 완료: 3.46초, 29.2 채널/초 ===]
+2025-06-23 11:59:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 12:00:17 [INFO] [=== 피드 체크 사이클 #176 시작 ===]
+2025-06-23 12:00:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:00:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:00:21 [INFO] [=== 사이클 #176 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 12:00:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:01:17 [INFO] [=== 피드 체크 사이클 #177 시작 ===]
+2025-06-23 12:01:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:01:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:01:21 [INFO] [=== 사이클 #177 완료: 3.43초, 29.4 채널/초 ===]
+2025-06-23 12:01:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:02:17 [INFO] [=== 피드 체크 사이클 #178 시작 ===]
+2025-06-23 12:02:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:02:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:02:21 [INFO] [=== 사이클 #178 완료: 3.74초, 27.0 채널/초 ===]
+2025-06-23 12:02:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:03:17 [INFO] [=== 피드 체크 사이클 #179 시작 ===]
+2025-06-23 12:03:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:03:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:03:21 [INFO] [=== 사이클 #179 완료: 3.59초, 28.1 채널/초 ===]
+2025-06-23 12:03:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:04:17 [INFO] [=== 피드 체크 사이클 #180 시작 ===]
+2025-06-23 12:04:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:04:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:04:21 [INFO] [=== 사이클 #180 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 12:04:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:05:17 [INFO] [=== 피드 체크 사이클 #181 시작 ===]
+2025-06-23 12:05:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:05:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:05:21 [INFO] [=== 사이클 #181 완료: 3.71초, 27.3 채널/초 ===]
+2025-06-23 12:05:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:06:17 [INFO] [=== 피드 체크 사이클 #182 시작 ===]
+2025-06-23 12:06:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:06:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:06:21 [INFO] [=== 사이클 #182 완료: 3.75초, 26.9 채널/초 ===]
+2025-06-23 12:06:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:07:17 [INFO] [=== 피드 체크 사이클 #183 시작 ===]
+2025-06-23 12:07:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:07:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:07:21 [INFO] [=== 사이클 #183 완료: 3.59초, 28.1 채널/초 ===]
+2025-06-23 12:07:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:08:17 [INFO] [=== 피드 체크 사이클 #184 시작 ===]
+2025-06-23 12:08:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:08:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:08:21 [INFO] [=== 사이클 #184 완료: 3.55초, 28.4 채널/초 ===]
+2025-06-23 12:08:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:09:17 [INFO] [=== 피드 체크 사이클 #185 시작 ===]
+2025-06-23 12:09:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:09:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:09:21 [INFO] [=== 사이클 #185 완료: 3.81초, 26.5 채널/초 ===]
+2025-06-23 12:09:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 12:10:17 [INFO] [=== 피드 체크 사이클 #186 시작 ===]
+2025-06-23 12:10:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:10:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:10:19 [WARNING] [UC4wbC_nZ6xT5RLYf8U4preg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�,\x19�\\c�����n�k �'
+2025-06-23 12:10:21 [INFO] [=== 사이클 #186 완료: 3.80초, 26.6 채널/초 ===]
+2025-06-23 12:10:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 12:11:17 [INFO] [=== 피드 체크 사이클 #187 시작 ===]
+2025-06-23 12:11:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:11:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:11:21 [INFO] [=== 사이클 #187 완료: 3.77초, 26.8 채널/초 ===]
+2025-06-23 12:11:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 12:12:17 [INFO] [=== 피드 체크 사이클 #188 시작 ===]
+2025-06-23 12:12:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:12:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:12:21 [INFO] [=== 사이클 #188 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 12:12:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:13:17 [INFO] [=== 피드 체크 사이클 #189 시작 ===]
+2025-06-23 12:13:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:13:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:13:19 [WARNING] [UC3IZKseVpdzPSBaWxBxundA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 12:13:21 [INFO] [=== 사이클 #189 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 12:13:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:14:17 [INFO] [=== 피드 체크 사이클 #190 시작 ===]
+2025-06-23 12:14:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:14:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:14:21 [INFO] [=== 사이클 #190 완료: 3.59초, 28.1 채널/초 ===]
+2025-06-23 12:14:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:15:17 [INFO] [=== 피드 체크 사이클 #191 시작 ===]
+2025-06-23 12:15:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:15:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:15:21 [INFO] [=== 사이클 #191 완료: 3.78초, 26.7 채널/초 ===]
+2025-06-23 12:15:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 12:16:17 [INFO] [=== 피드 체크 사이클 #192 시작 ===]
+2025-06-23 12:16:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:16:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:16:19 [WARNING] [UCUHW94eEFW7hkUMVaZz4eDg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�ET��,`!�.9�B.�Q\x1a'
+2025-06-23 12:16:21 [INFO] [=== 사이클 #192 완료: 3.42초, 29.5 채널/초 ===]
+2025-06-23 12:16:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:17:17 [INFO] [=== 피드 체크 사이클 #193 시작 ===]
+2025-06-23 12:17:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:17:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:17:21 [INFO] [=== 사이클 #193 완료: 3.45초, 29.3 채널/초 ===]
+2025-06-23 12:17:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:18:17 [INFO] [=== 피드 체크 사이클 #194 시작 ===]
+2025-06-23 12:18:17 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:18:17 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:18:25 [INFO] [=== 사이클 #194 완료: 7.72초, 13.1 채널/초 ===]
+2025-06-23 12:18:25 [INFO] 다음 사이클까지 52.3초 대기...
+2025-06-23 12:19:17 [INFO] [=== 피드 체크 사이클 #195 시작 ===]
+2025-06-23 12:19:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:19:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:19:23 [INFO] [=== 사이클 #195 완료: 5.48초, 18.4 채널/초 ===]
+2025-06-23 12:19:23 [INFO] 다음 사이클까지 54.5초 대기...
+2025-06-23 12:20:18 [INFO] [=== 피드 체크 사이클 #196 시작 ===]
+2025-06-23 12:20:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:20:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:20:25 [INFO] [=== 사이클 #196 완료: 7.09초, 14.2 채널/초 ===]
+2025-06-23 12:20:25 [INFO] 다음 사이클까지 52.9초 대기...
+2025-06-23 12:21:18 [INFO] [=== 피드 체크 사이클 #197 시작 ===]
+2025-06-23 12:21:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:21:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:21:25 [INFO] [=== 사이클 #197 완료: 7.18초, 14.1 채널/초 ===]
+2025-06-23 12:21:25 [INFO] 다음 사이클까지 52.8초 대기...
+2025-06-23 12:22:18 [INFO] [=== 피드 체크 사이클 #198 시작 ===]
+2025-06-23 12:22:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:22:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:22:21 [INFO] [=== 사이클 #198 완료: 3.74초, 27.0 채널/초 ===]
+2025-06-23 12:22:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:23:18 [INFO] [=== 피드 체크 사이클 #199 시작 ===]
+2025-06-23 12:23:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:23:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:23:21 [INFO] [=== 사이클 #199 완료: 3.42초, 29.5 채널/초 ===]
+2025-06-23 12:23:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:24:18 [INFO] [=== 피드 체크 사이클 #200 시작 ===]
+2025-06-23 12:24:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:24:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:24:20 [WARNING] [UCVYamHliCI9rw1tHR1xbkfw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 12:24:21 [WARNING] [UCX6OQ3DkcsbYNE6H8uQQuVA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��8W��>���\x18\U00098641H9ę\x0c\x1f'
+2025-06-23 12:24:21 [INFO] [=== 사이클 #200 완료: 3.40초, 29.7 채널/초 ===]
+2025-06-23 12:24:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:25:18 [INFO] [=== 피드 체크 사이클 #201 시작 ===]
+2025-06-23 12:25:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:25:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:25:19 [WARNING] [UCPhP8VrLREoTLTON63of0GA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��S{\x13�є���\x048��OZ\n'
+2025-06-23 12:25:21 [INFO] [=== 사이클 #201 완료: 3.54초, 28.6 채널/초 ===]
+2025-06-23 12:25:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 12:26:18 [INFO] [=== 피드 체크 사이클 #202 시작 ===]
+2025-06-23 12:26:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:26:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:26:21 [INFO] [=== 사이클 #202 완료: 3.80초, 26.6 채널/초 ===]
+2025-06-23 12:26:21 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 12:27:18 [INFO] [=== 피드 체크 사이클 #203 시작 ===]
+2025-06-23 12:27:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:27:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:27:18 [WARNING] [UCmgRYMK5d65PbjN8qkjAUBA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1cN�n=����&��\x10{\x1c �'
+2025-06-23 12:27:19 [WARNING] [UCyPYQTT20IgzVw92LDvtClw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�o6~�%-(\x07�R!\x00]��'
+2025-06-23 12:27:21 [INFO] [=== 사이클 #203 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 12:27:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:28:18 [INFO] [=== 피드 체크 사이클 #204 시작 ===]
+2025-06-23 12:28:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:28:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:28:21 [INFO] [=== 사이클 #204 완료: 3.65초, 27.7 채널/초 ===]
+2025-06-23 12:28:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:29:18 [INFO] [=== 피드 체크 사이클 #205 시작 ===]
+2025-06-23 12:29:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:29:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:29:19 [WARNING] [UCsXVk37bltHxD1rDPwtNM8Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 12:29:21 [INFO] [=== 사이클 #205 완료: 3.60초, 28.0 채널/초 ===]
+2025-06-23 12:29:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:30:18 [INFO] [=== 피드 체크 사이클 #206 시작 ===]
+2025-06-23 12:30:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:30:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:30:21 [INFO] [=== 사이클 #206 완료: 3.87초, 26.1 채널/초 ===]
+2025-06-23 12:30:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 12:31:18 [INFO] [=== 피드 체크 사이클 #207 시작 ===]
+2025-06-23 12:31:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:31:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:31:19 [WARNING] [UC9cCBxBAQW2CzLYeT20q49A] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![����q\t�襈��yʻ2�\x14$I'
+2025-06-23 12:31:21 [WARNING] [UCfE5Cz44GlZVyoaYTHJbuZw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06B'
+2025-06-23 12:31:21 [INFO] [=== 사이클 #207 완료: 3.50초, 28.8 채널/초 ===]
+2025-06-23 12:31:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 12:32:18 [INFO] [=== 피드 체크 사이클 #208 시작 ===]
+2025-06-23 12:32:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:32:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:32:21 [INFO] [=== 사이클 #208 완료: 3.47초, 29.1 채널/초 ===]
+2025-06-23 12:32:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 12:33:18 [INFO] [=== 피드 체크 사이클 #209 시작 ===]
+2025-06-23 12:33:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:33:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:33:21 [INFO] [=== 사이클 #209 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 12:33:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 12:34:18 [INFO] [=== 피드 체크 사이클 #210 시작 ===]
+2025-06-23 12:34:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:34:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:34:18 [WARNING] [UCg-Fh9r6mN0XjLQLfQOFWOA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06B'
+2025-06-23 12:34:21 [INFO] [=== 사이클 #210 완료: 3.85초, 26.2 채널/초 ===]
+2025-06-23 12:34:21 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 12:35:18 [INFO] [=== 피드 체크 사이클 #211 시작 ===]
+2025-06-23 12:35:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:35:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:35:20 [WARNING] [UCzPsEwQIN1jHfDHUPjhHIgA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(j�k ��'
+2025-06-23 12:35:21 [INFO] [=== 사이클 #211 완료: 3.34초, 30.3 채널/초 ===]
+2025-06-23 12:35:21 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 12:36:18 [INFO] [=== 피드 체크 사이클 #212 시작 ===]
+2025-06-23 12:36:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:36:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:36:21 [INFO] [=== 사이클 #212 완료: 3.55초, 28.4 채널/초 ===]
+2025-06-23 12:36:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:37:18 [INFO] [=== 피드 체크 사이클 #213 시작 ===]
+2025-06-23 12:37:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:37:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:37:21 [INFO] [=== 사이클 #213 완료: 2.92초, 34.5 채널/초 ===]
+2025-06-23 12:37:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 12:38:18 [INFO] [=== 피드 체크 사이클 #214 시작 ===]
+2025-06-23 12:38:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:38:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:38:21 [INFO] [=== 사이클 #214 완료: 2.99초, 33.8 채널/초 ===]
+2025-06-23 12:38:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 12:39:18 [INFO] [=== 피드 체크 사이클 #215 시작 ===]
+2025-06-23 12:39:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:39:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:39:20 [WARNING] [UC4ijq8Cg-8zQKx8OH12dUSw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 12:39:21 [INFO] [=== 사이클 #215 완료: 3.17초, 31.9 채널/초 ===]
+2025-06-23 12:39:21 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 12:40:18 [INFO] [=== 피드 체크 사이클 #216 시작 ===]
+2025-06-23 12:40:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:40:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:40:21 [INFO] [=== 사이클 #216 완료: 2.99초, 33.7 채널/초 ===]
+2025-06-23 12:40:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 12:41:18 [INFO] [=== 피드 체크 사이클 #217 시작 ===]
+2025-06-23 12:41:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:41:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:41:19 [WARNING] [UCzPsEwQIN1jHfDHUPjhHIgA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at "<!['\x1c�!�W� ���K2�V\x07�"
+2025-06-23 12:41:20 [INFO] [=== 사이클 #217 완료: 2.77초, 36.5 채널/초 ===]
+2025-06-23 12:41:20 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 12:42:18 [INFO] [=== 피드 체크 사이클 #218 시작 ===]
+2025-06-23 12:42:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:42:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:42:21 [INFO] [=== 사이클 #218 완료: 2.98초, 33.9 채널/초 ===]
+2025-06-23 12:42:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 12:43:18 [INFO] [=== 피드 체크 사이클 #219 시작 ===]
+2025-06-23 12:43:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:43:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:43:19 [WARNING] [UC80zFRpqbg1rmuQUbO6HABQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![����V�Vܒ��R�g��\x1d�'
+2025-06-23 12:43:19 [WARNING] [UCbifFcHncE89RrKSm3HlNAg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'H' in marked section
+2025-06-23 12:43:20 [INFO] [=== 사이클 #219 완료: 2.78초, 36.3 채널/초 ===]
+2025-06-23 12:43:20 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 12:44:18 [INFO] [=== 피드 체크 사이클 #220 시작 ===]
+2025-06-23 12:44:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:44:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:44:19 [WARNING] [UC6n8I1UDTKP1IWjQMg6_TwA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![٠4aC~8�����x�xo��'
+2025-06-23 12:44:21 [INFO] [=== 사이클 #220 완료: 2.90초, 34.9 채널/초 ===]
+2025-06-23 12:44:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 12:45:18 [INFO] [=== 피드 체크 사이클 #221 시작 ===]
+2025-06-23 12:45:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:45:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:45:20 [INFO] [=== 사이클 #221 완료: 2.82초, 35.8 채널/초 ===]
+2025-06-23 12:45:20 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 12:46:18 [INFO] [=== 피드 체크 사이클 #222 시작 ===]
+2025-06-23 12:46:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:46:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:46:18 [WARNING] [UCPhP8VrLREoTLTON63of0GA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��S�Q�є���h8��Q@Z'
+2025-06-23 12:46:20 [INFO] [=== 사이클 #222 완료: 2.73초, 37.1 채널/초 ===]
+2025-06-23 12:46:20 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 12:47:18 [INFO] [=== 피드 체크 사이클 #223 시작 ===]
+2025-06-23 12:47:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:47:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:47:19 [WARNING] [UC5ZqaJ9klJrwgsKjYW42JtA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(jE�@lu'
+2025-06-23 12:47:21 [INFO] [=== 사이클 #223 완료: 2.92초, 34.6 채널/초 ===]
+2025-06-23 12:47:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 12:48:18 [INFO] [=== 피드 체크 사이클 #224 시작 ===]
+2025-06-23 12:48:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:48:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:48:20 [INFO] [=== 사이클 #224 완료: 2.74초, 36.9 채널/초 ===]
+2025-06-23 12:48:20 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 12:49:18 [INFO] [=== 피드 체크 사이클 #225 시작 ===]
+2025-06-23 12:49:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:49:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:49:20 [WARNING] [UCUHW94eEFW7hkUMVaZz4eDg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�ET��,`!�.9�B.�Q\x1a'
+2025-06-23 12:49:21 [INFO] [=== 사이클 #225 완료: 3.25초, 31.0 채널/초 ===]
+2025-06-23 12:49:21 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 12:50:18 [INFO] [=== 피드 체크 사이클 #226 시작 ===]
+2025-06-23 12:50:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:50:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:50:20 [INFO] [=== 사이클 #226 완료: 2.64초, 38.3 채널/초 ===]
+2025-06-23 12:50:20 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 12:51:18 [INFO] [=== 피드 체크 사이클 #227 시작 ===]
+2025-06-23 12:51:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:51:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:51:20 [INFO] [=== 사이클 #227 완료: 2.63초, 38.4 채널/초 ===]
+2025-06-23 12:51:20 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 12:52:18 [INFO] [=== 피드 체크 사이클 #228 시작 ===]
+2025-06-23 12:52:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:52:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:52:20 [INFO] [=== 사이클 #228 완료: 2.79초, 36.2 채널/초 ===]
+2025-06-23 12:52:20 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 12:53:18 [INFO] [=== 피드 체크 사이클 #229 시작 ===]
+2025-06-23 12:53:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:53:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:53:21 [INFO] [=== 사이클 #229 완료: 2.90초, 34.9 채널/초 ===]
+2025-06-23 12:53:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 12:54:18 [INFO] [=== 피드 체크 사이클 #230 시작 ===]
+2025-06-23 12:54:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:54:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:54:21 [INFO] [=== 사이클 #230 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 12:54:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:55:18 [INFO] [=== 피드 체크 사이클 #231 시작 ===]
+2025-06-23 12:55:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:55:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:55:21 [INFO] [=== 사이클 #231 완료: 3.58초, 28.2 채널/초 ===]
+2025-06-23 12:55:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:56:18 [INFO] [=== 피드 체크 사이클 #232 시작 ===]
+2025-06-23 12:56:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:56:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:56:21 [INFO] [=== 사이클 #232 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 12:56:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 12:57:18 [INFO] [=== 피드 체크 사이클 #233 시작 ===]
+2025-06-23 12:57:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:57:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:57:21 [INFO] [=== 사이클 #233 완료: 3.40초, 29.7 채널/초 ===]
+2025-06-23 12:57:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:58:18 [INFO] [=== 피드 체크 사이클 #234 시작 ===]
+2025-06-23 12:58:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:58:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:58:19 [WARNING] [UC4Aa3OPkMenwTANpf0oWVRQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 12:58:21 [INFO] [=== 사이클 #234 완료: 3.42초, 29.5 채널/초 ===]
+2025-06-23 12:58:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 12:59:18 [INFO] [=== 피드 체크 사이클 #235 시작 ===]
+2025-06-23 12:59:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 12:59:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 12:59:21 [INFO] [=== 사이클 #235 완료: 3.59초, 28.1 채널/초 ===]
+2025-06-23 12:59:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 13:00:18 [INFO] [=== 피드 체크 사이클 #236 시작 ===]
+2025-06-23 13:00:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:00:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:00:18 [WARNING] [UCQjcWFDrMnv65YizIxcjkPA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 13:00:21 [INFO] [=== 사이클 #236 완료: 3.61초, 27.9 채널/초 ===]
+2025-06-23 13:00:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 13:01:18 [INFO] [=== 피드 체크 사이클 #237 시작 ===]
+2025-06-23 13:01:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:01:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:01:21 [WARNING] [UCX6OQ3DkcsbYNE6H8uQQuVA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�\x15oɞm�\x10��\x03�\x1c���\x08s'
+2025-06-23 13:01:21 [INFO] [=== 사이클 #237 완료: 3.65초, 27.7 채널/초 ===]
+2025-06-23 13:01:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 13:02:18 [INFO] [=== 피드 체크 사이클 #238 시작 ===]
+2025-06-23 13:02:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:02:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:02:21 [INFO] [=== 사이클 #238 완료: 3.42초, 29.6 채널/초 ===]
+2025-06-23 13:02:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 13:03:18 [INFO] [=== 피드 체크 사이클 #239 시작 ===]
+2025-06-23 13:03:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:03:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:03:20 [WARNING] [UCbpMy0Fg74eXXkvxJrtEn3w] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'l' in marked section
+2025-06-23 13:03:22 [INFO] [=== 사이클 #239 완료: 3.74초, 27.0 채널/초 ===]
+2025-06-23 13:03:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 13:04:18 [INFO] [=== 피드 체크 사이클 #240 시작 ===]
+2025-06-23 13:04:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:04:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:04:19 [WARNING] [UCgheNMc3gGHLsT-RISdCzDQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 13:04:21 [INFO] [=== 사이클 #240 완료: 3.67초, 27.6 채널/초 ===]
+2025-06-23 13:04:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 13:05:18 [INFO] [=== 피드 체크 사이클 #241 시작 ===]
+2025-06-23 13:05:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:05:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:05:21 [INFO] [=== 사이클 #241 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 13:05:21 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 13:06:18 [INFO] [=== 피드 체크 사이클 #242 시작 ===]
+2025-06-23 13:06:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:06:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:06:21 [INFO] [=== 사이클 #242 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 13:06:21 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 13:07:18 [INFO] [=== 피드 체크 사이클 #243 시작 ===]
+2025-06-23 13:07:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:07:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:07:21 [WARNING] [UCOmcA3f_RrH6b9NmcNa4tdg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�T��1�X\x10^^�\x18\x00�c~�'
+2025-06-23 13:07:21 [INFO] [=== 사이클 #243 완료: 3.37초, 30.0 채널/초 ===]
+2025-06-23 13:07:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 13:08:18 [INFO] [=== 피드 체크 사이클 #244 시작 ===]
+2025-06-23 13:08:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:08:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:08:22 [INFO] [=== 사이클 #244 완료: 3.72초, 27.2 채널/초 ===]
+2025-06-23 13:08:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 13:09:18 [INFO] [=== 피드 체크 사이클 #245 시작 ===]
+2025-06-23 13:09:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:09:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:09:21 [INFO] [=== 사이클 #245 완료: 2.69초, 37.5 채널/초 ===]
+2025-06-23 13:09:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 13:10:18 [INFO] [=== 피드 체크 사이클 #246 시작 ===]
+2025-06-23 13:10:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:10:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:10:18 [WARNING] [UCj-MI9DaXgAz412O9ybQ9WA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x00(�\x0b��\x0bw�t� ����~'
+2025-06-23 13:10:21 [INFO] [=== 사이클 #246 완료: 3.24초, 31.2 채널/초 ===]
+2025-06-23 13:10:21 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 13:11:18 [INFO] [=== 피드 체크 사이클 #247 시작 ===]
+2025-06-23 13:11:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:11:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:11:19 [WARNING] [UC80zFRpqbg1rmuQUbO6HABQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![͎ڟ\x18��c��ۀ�\x1c�d\x07!R�'
+2025-06-23 13:11:21 [INFO] [=== 사이클 #247 완료: 2.90초, 34.9 채널/초 ===]
+2025-06-23 13:11:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:12:18 [INFO] [=== 피드 체크 사이클 #248 시작 ===]
+2025-06-23 13:12:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:12:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:12:21 [INFO] [=== 사이클 #248 완료: 3.17초, 31.8 채널/초 ===]
+2025-06-23 13:12:21 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 13:13:18 [INFO] [=== 피드 체크 사이클 #249 시작 ===]
+2025-06-23 13:13:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:13:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:13:18 [WARNING] [UCQNE2JmbasNYbjGAcuBiRRg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 13:13:21 [INFO] [=== 사이클 #249 완료: 2.71초, 37.3 채널/초 ===]
+2025-06-23 13:13:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 13:14:18 [INFO] [=== 피드 체크 사이클 #250 시작 ===]
+2025-06-23 13:14:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:14:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:14:21 [INFO] [=== 사이클 #250 완료: 2.90초, 34.8 채널/초 ===]
+2025-06-23 13:14:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:15:18 [INFO] [=== 피드 체크 사이클 #251 시작 ===]
+2025-06-23 13:15:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:15:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:15:21 [INFO] [=== 사이클 #251 완료: 2.73초, 37.0 채널/초 ===]
+2025-06-23 13:15:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 13:16:18 [INFO] [=== 피드 체크 사이클 #252 시작 ===]
+2025-06-23 13:16:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:16:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:16:21 [INFO] [=== 사이클 #252 완료: 2.95초, 34.3 채널/초 ===]
+2025-06-23 13:16:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:17:18 [INFO] [=== 피드 체크 사이클 #253 시작 ===]
+2025-06-23 13:17:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:17:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:17:21 [INFO] [=== 사이클 #253 완료: 2.69초, 37.6 채널/초 ===]
+2025-06-23 13:17:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 13:18:18 [INFO] [=== 피드 체크 사이클 #254 시작 ===]
+2025-06-23 13:18:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:18:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:18:21 [INFO] [=== 사이클 #254 완료: 2.93초, 34.5 채널/초 ===]
+2025-06-23 13:18:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:19:18 [INFO] [=== 피드 체크 사이클 #255 시작 ===]
+2025-06-23 13:19:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:19:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:19:19 [WARNING] [UCCIOK_muw3wg0vWEAkBueAA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�o\x13dR�J�\x7f�D������'
+2025-06-23 13:19:21 [INFO] [=== 사이클 #255 완료: 2.77초, 36.4 채널/초 ===]
+2025-06-23 13:19:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:20:18 [INFO] [=== 피드 체크 사이클 #256 시작 ===]
+2025-06-23 13:20:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:20:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:20:20 [WARNING] [UC3hRpIQ4x5niJDwjajQSVPg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14t+�\x06b'
+2025-06-23 13:20:20 [WARNING] [UCCIOK_muw3wg0vWEAkBueAA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�;�gq�샽���\t\u05f6�C�\x00�'
+2025-06-23 13:20:23 [INFO] [=== 사이클 #256 완료: 5.03초, 20.1 채널/초 ===]
+2025-06-23 13:20:23 [INFO] 다음 사이클까지 55.0초 대기...
+2025-06-23 13:21:18 [INFO] [=== 피드 체크 사이클 #257 시작 ===]
+2025-06-23 13:21:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:21:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:21:20 [WARNING] [UCbifFcHncE89RrKSm3HlNAg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'H' in marked section
+2025-06-23 13:21:23 [INFO] [=== 사이클 #257 완료: 4.91초, 20.6 채널/초 ===]
+2025-06-23 13:21:23 [INFO] 다음 사이클까지 55.1초 대기...
+2025-06-23 13:22:18 [INFO] [=== 피드 체크 사이클 #258 시작 ===]
+2025-06-23 13:22:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:22:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:22:23 [INFO] [=== 사이클 #258 완료: 4.73초, 21.3 채널/초 ===]
+2025-06-23 13:22:23 [INFO] 다음 사이클까지 55.3초 대기...
+2025-06-23 13:23:18 [INFO] [=== 피드 체크 사이클 #259 시작 ===]
+2025-06-23 13:23:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:23:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:23:21 [INFO] [=== 사이클 #259 완료: 3.54초, 28.6 채널/초 ===]
+2025-06-23 13:23:21 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 13:24:18 [INFO] [=== 피드 체크 사이클 #260 시작 ===]
+2025-06-23 13:24:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:24:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:24:21 [INFO] [=== 사이클 #260 완료: 3.41초, 29.6 채널/초 ===]
+2025-06-23 13:24:21 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 13:25:18 [INFO] [=== 피드 체크 사이클 #261 시작 ===]
+2025-06-23 13:25:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:25:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:25:21 [INFO] [=== 사이클 #261 완료: 2.84초, 35.6 채널/초 ===]
+2025-06-23 13:25:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:26:18 [INFO] [=== 피드 체크 사이클 #262 시작 ===]
+2025-06-23 13:26:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:26:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:26:21 [WARNING] [UC9_p50tH3WmMslWRWKnM7dQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�  �\x05�ޝ���\x07B�D\x00(I'
+2025-06-23 13:26:21 [INFO] [=== 사이클 #262 완료: 2.87초, 35.2 채널/초 ===]
+2025-06-23 13:26:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:27:18 [INFO] [=== 피드 체크 사이클 #263 시작 ===]
+2025-06-23 13:27:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:27:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:27:21 [INFO] [=== 사이클 #263 완료: 2.89초, 35.0 채널/초 ===]
+2025-06-23 13:27:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:28:18 [INFO] [=== 피드 체크 사이클 #264 시작 ===]
+2025-06-23 13:28:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:28:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:28:21 [INFO] [=== 사이클 #264 완료: 2.92초, 34.6 채널/초 ===]
+2025-06-23 13:28:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:29:18 [INFO] [=== 피드 체크 사이클 #265 시작 ===]
+2025-06-23 13:29:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:29:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:29:21 [INFO] [=== 사이클 #265 완료: 2.84초, 35.6 채널/초 ===]
+2025-06-23 13:29:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:30:18 [INFO] [=== 피드 체크 사이클 #266 시작 ===]
+2025-06-23 13:30:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:30:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:30:21 [INFO] [=== 사이클 #266 완료: 2.82초, 35.8 채널/초 ===]
+2025-06-23 13:30:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:31:18 [INFO] [=== 피드 체크 사이클 #267 시작 ===]
+2025-06-23 13:31:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:31:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:31:21 [INFO] [=== 사이클 #267 완료: 2.91초, 34.7 채널/초 ===]
+2025-06-23 13:31:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:32:18 [INFO] [=== 피드 체크 사이클 #268 시작 ===]
+2025-06-23 13:32:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:32:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:32:18 [WARNING] [UCMc4EmuDxnHPc6pgGW-QWvQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'b' in marked section
+2025-06-23 13:32:21 [INFO] [=== 사이클 #268 완료: 2.81초, 36.0 채널/초 ===]
+2025-06-23 13:32:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:33:18 [INFO] [=== 피드 체크 사이클 #269 시작 ===]
+2025-06-23 13:33:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:33:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:33:21 [INFO] [=== 사이클 #269 완료: 2.86초, 35.3 채널/초 ===]
+2025-06-23 13:33:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:34:18 [INFO] [=== 피드 체크 사이클 #270 시작 ===]
+2025-06-23 13:34:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:34:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:34:21 [INFO] [=== 사이클 #270 완료: 2.76초, 36.5 채널/초 ===]
+2025-06-23 13:34:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:35:18 [INFO] [=== 피드 체크 사이클 #271 시작 ===]
+2025-06-23 13:35:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:35:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:35:21 [INFO] [=== 사이클 #271 완료: 3.09초, 32.7 채널/초 ===]
+2025-06-23 13:35:21 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 13:36:18 [INFO] [=== 피드 체크 사이클 #272 시작 ===]
+2025-06-23 13:36:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:36:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:36:19 [WARNING] [UCK2YrOMgAbsAraGrWyyAvdw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<!["�[\x01�k\u07bfP!���P599�'
+2025-06-23 13:36:21 [INFO] [=== 사이클 #272 완료: 2.91초, 34.7 채널/초 ===]
+2025-06-23 13:36:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:37:18 [INFO] [=== 피드 체크 사이클 #273 시작 ===]
+2025-06-23 13:37:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:37:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:37:19 [WARNING] [UCQZ1iBgGYGSTYhe5RnXsC1w] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 13:37:21 [INFO] [=== 사이클 #273 완료: 2.81초, 36.0 채널/초 ===]
+2025-06-23 13:37:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:38:18 [INFO] [=== 피드 체크 사이클 #274 시작 ===]
+2025-06-23 13:38:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:38:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:38:21 [INFO] [=== 사이클 #274 완료: 2.97초, 34.0 채널/초 ===]
+2025-06-23 13:38:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:39:18 [INFO] [=== 피드 체크 사이클 #275 시작 ===]
+2025-06-23 13:39:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:39:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:39:18 [WARNING] [UCF97u_Y5C3FxAcD0nn1DCKQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1c;\x05\x0b4�\x08�!Faa$��\t�'
+2025-06-23 13:39:21 [INFO] [=== 사이클 #275 완료: 2.76초, 36.6 채널/초 ===]
+2025-06-23 13:39:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:40:18 [INFO] [=== 피드 체크 사이클 #276 시작 ===]
+2025-06-23 13:40:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:40:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:40:21 [INFO] [=== 사이클 #276 완료: 2.89초, 35.0 채널/초 ===]
+2025-06-23 13:40:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:41:18 [INFO] [=== 피드 체크 사이클 #277 시작 ===]
+2025-06-23 13:41:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:41:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:41:21 [INFO] [=== 사이클 #277 완료: 2.83초, 35.7 채널/초 ===]
+2025-06-23 13:41:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:42:18 [INFO] [=== 피드 체크 사이클 #278 시작 ===]
+2025-06-23 13:42:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:42:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:42:21 [INFO] [=== 사이클 #278 완료: 3.08초, 32.8 채널/초 ===]
+2025-06-23 13:42:21 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 13:43:18 [INFO] [=== 피드 체크 사이클 #279 시작 ===]
+2025-06-23 13:43:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:43:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:43:21 [INFO] [=== 사이클 #279 완료: 2.98초, 33.9 채널/초 ===]
+2025-06-23 13:43:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:44:18 [INFO] [=== 피드 체크 사이클 #280 시작 ===]
+2025-06-23 13:44:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:44:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:44:21 [INFO] [=== 사이클 #280 완료: 2.58초, 39.2 채널/초 ===]
+2025-06-23 13:44:21 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 13:45:18 [INFO] [=== 피드 체크 사이클 #281 시작 ===]
+2025-06-23 13:45:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:45:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:45:21 [INFO] [=== 사이클 #281 완료: 2.48초, 40.7 채널/초 ===]
+2025-06-23 13:45:21 [INFO] 다음 사이클까지 57.5초 대기...
+2025-06-23 13:46:18 [INFO] [=== 피드 체크 사이클 #282 시작 ===]
+2025-06-23 13:46:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:46:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:46:20 [WARNING] [UCbqZsserFV_YjPk0subGEmA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 13:46:21 [INFO] [=== 사이클 #282 완료: 2.86초, 35.3 채널/초 ===]
+2025-06-23 13:46:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:47:18 [INFO] [=== 피드 체크 사이클 #283 시작 ===]
+2025-06-23 13:47:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:47:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:47:21 [INFO] [=== 사이클 #283 완료: 2.81초, 35.9 채널/초 ===]
+2025-06-23 13:47:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:48:18 [INFO] [=== 피드 체크 사이클 #284 시작 ===]
+2025-06-23 13:48:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:48:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:48:21 [INFO] [=== 사이클 #284 완료: 2.96초, 34.2 채널/초 ===]
+2025-06-23 13:48:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:49:18 [INFO] [=== 피드 체크 사이클 #285 시작 ===]
+2025-06-23 13:49:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:49:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:49:21 [INFO] [=== 사이클 #285 완료: 3.03초, 33.4 채널/초 ===]
+2025-06-23 13:49:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:50:18 [INFO] [=== 피드 체크 사이클 #286 시작 ===]
+2025-06-23 13:50:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:50:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:50:21 [INFO] [=== 사이클 #286 완료: 3.01초, 33.5 채널/초 ===]
+2025-06-23 13:50:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:51:18 [INFO] [=== 피드 체크 사이클 #287 시작 ===]
+2025-06-23 13:51:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:51:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:51:21 [INFO] [=== 사이클 #287 완료: 3.04초, 33.2 채널/초 ===]
+2025-06-23 13:51:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:52:18 [INFO] [=== 피드 체크 사이클 #288 시작 ===]
+2025-06-23 13:52:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:52:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:52:21 [INFO] [=== 사이클 #288 완료: 2.92초, 34.5 채널/초 ===]
+2025-06-23 13:52:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:53:18 [INFO] [=== 피드 체크 사이클 #289 시작 ===]
+2025-06-23 13:53:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:53:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:53:21 [INFO] [=== 사이클 #289 완료: 2.87초, 35.1 채널/초 ===]
+2025-06-23 13:53:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:54:18 [INFO] [=== 피드 체크 사이클 #290 시작 ===]
+2025-06-23 13:54:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:54:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:54:21 [INFO] [=== 사이클 #290 완료: 2.96초, 34.1 채널/초 ===]
+2025-06-23 13:54:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:55:18 [INFO] [=== 피드 체크 사이클 #291 시작 ===]
+2025-06-23 13:55:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:55:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:55:21 [INFO] [=== 사이클 #291 완료: 2.96초, 34.2 채널/초 ===]
+2025-06-23 13:55:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:56:18 [INFO] [=== 피드 체크 사이클 #292 시작 ===]
+2025-06-23 13:56:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:56:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:56:21 [INFO] [=== 사이클 #292 완료: 2.90초, 34.9 채널/초 ===]
+2025-06-23 13:56:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 13:57:18 [INFO] [=== 피드 체크 사이클 #293 시작 ===]
+2025-06-23 13:57:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:57:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:57:21 [INFO] [=== 사이클 #293 완료: 2.77초, 36.5 채널/초 ===]
+2025-06-23 13:57:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 13:58:18 [INFO] [=== 피드 체크 사이클 #294 시작 ===]
+2025-06-23 13:58:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:58:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:58:21 [INFO] [=== 사이클 #294 완료: 2.99초, 33.8 채널/초 ===]
+2025-06-23 13:58:21 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 13:59:18 [INFO] [=== 피드 체크 사이클 #295 시작 ===]
+2025-06-23 13:59:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 13:59:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 13:59:19 [WARNING] [UCO-e0J-Qsilkv_4tBa3LyYw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 13:59:21 [INFO] [=== 사이클 #295 완료: 2.68초, 37.7 채널/초 ===]
+2025-06-23 13:59:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 14:00:18 [INFO] [=== 피드 체크 사이클 #296 시작 ===]
+2025-06-23 14:00:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:00:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:00:26 [INFO] [=== 사이클 #296 완료: 7.53초, 13.4 채널/초 ===]
+2025-06-23 14:00:26 [INFO] 다음 사이클까지 52.5초 대기...
+2025-06-23 14:01:18 [INFO] [=== 피드 체크 사이클 #297 시작 ===]
+2025-06-23 14:01:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:01:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:01:23 [INFO] [=== 사이클 #297 완료: 4.92초, 20.5 채널/초 ===]
+2025-06-23 14:01:23 [INFO] 다음 사이클까지 55.1초 대기...
+2025-06-23 14:02:18 [INFO] [=== 피드 체크 사이클 #298 시작 ===]
+2025-06-23 14:02:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:02:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:02:22 [INFO] [=== 사이클 #298 완료: 3.43초, 29.4 채널/초 ===]
+2025-06-23 14:02:22 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 14:03:18 [INFO] [=== 피드 체크 사이클 #299 시작 ===]
+2025-06-23 14:03:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:03:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:03:24 [INFO] [=== 사이클 #299 완료: 5.65초, 17.9 채널/초 ===]
+2025-06-23 14:03:24 [INFO] 다음 사이클까지 54.3초 대기...
+2025-06-23 14:04:18 [INFO] [=== 피드 체크 사이클 #300 시작 ===]
+2025-06-23 14:04:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:04:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:04:23 [INFO] [=== 사이클 #300 완료: 5.19초, 19.5 채널/초 ===]
+2025-06-23 14:04:23 [INFO] 다음 사이클까지 54.8초 대기...
+2025-06-23 14:05:18 [INFO] [=== 피드 체크 사이클 #301 시작 ===]
+2025-06-23 14:05:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:05:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:05:19 [WARNING] [UCBbJv4YWyu89pP1tg9laatw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 14:05:23 [INFO] [=== 사이클 #301 완료: 4.38초, 23.1 채널/초 ===]
+2025-06-23 14:05:23 [INFO] 다음 사이클까지 55.6초 대기...
+2025-06-23 14:06:18 [INFO] [=== 피드 체크 사이클 #302 시작 ===]
+2025-06-23 14:06:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:06:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:06:22 [INFO] [=== 사이클 #302 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 14:06:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:07:18 [INFO] [=== 피드 체크 사이클 #303 시작 ===]
+2025-06-23 14:07:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:07:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:07:22 [INFO] [=== 사이클 #303 완료: 3.74초, 27.0 채널/초 ===]
+2025-06-23 14:07:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:08:18 [INFO] [=== 피드 체크 사이클 #304 시작 ===]
+2025-06-23 14:08:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:08:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:08:22 [INFO] [=== 사이클 #304 완료: 3.45초, 29.3 채널/초 ===]
+2025-06-23 14:08:22 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 14:09:18 [INFO] [=== 피드 체크 사이클 #305 시작 ===]
+2025-06-23 14:09:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:09:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:09:19 [WARNING] [UC_iT-dQV96rPviS4G4p5b9A] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 14:09:22 [INFO] [=== 사이클 #305 완료: 3.50초, 28.9 채널/초 ===]
+2025-06-23 14:09:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 14:10:18 [INFO] [=== 피드 체크 사이클 #306 시작 ===]
+2025-06-23 14:10:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:10:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:10:23 [INFO] [=== 사이클 #306 완료: 5.09초, 19.8 채널/초 ===]
+2025-06-23 14:10:23 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 14:11:18 [INFO] [=== 피드 체크 사이클 #307 시작 ===]
+2025-06-23 14:11:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:11:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:11:26 [INFO] [=== 사이클 #307 완료: 7.68초, 13.1 채널/초 ===]
+2025-06-23 14:11:26 [INFO] 다음 사이클까지 52.3초 대기...
+2025-06-23 14:12:18 [INFO] [=== 피드 체크 사이클 #308 시작 ===]
+2025-06-23 14:12:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:12:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:12:24 [INFO] [=== 사이클 #308 완료: 5.46초, 18.5 채널/초 ===]
+2025-06-23 14:12:24 [INFO] 다음 사이클까지 54.5초 대기...
+2025-06-23 14:13:18 [INFO] [=== 피드 체크 사이클 #309 시작 ===]
+2025-06-23 14:13:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:13:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:13:21 [WARNING] [UCsT0YIqwnpJCM-mx7-gSA4Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(jE�@lu'
+2025-06-23 14:13:24 [INFO] [=== 사이클 #309 완료: 5.27초, 19.2 채널/초 ===]
+2025-06-23 14:13:24 [INFO] 다음 사이클까지 54.7초 대기...
+2025-06-23 14:14:18 [INFO] [=== 피드 체크 사이클 #310 시작 ===]
+2025-06-23 14:14:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:14:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:14:22 [INFO] [=== 사이클 #310 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 14:14:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:15:18 [INFO] [=== 피드 체크 사이클 #311 시작 ===]
+2025-06-23 14:15:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:15:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:15:22 [INFO] [=== 사이클 #311 완료: 3.44초, 29.4 채널/초 ===]
+2025-06-23 14:15:22 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 14:16:18 [INFO] [=== 피드 체크 사이클 #312 시작 ===]
+2025-06-23 14:16:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:16:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:16:21 [WARNING] [UC6107grRI4m0o2-emgoDnAA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 14:16:22 [INFO] [=== 사이클 #312 완료: 3.65초, 27.7 채널/초 ===]
+2025-06-23 14:16:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:17:18 [INFO] [=== 피드 체크 사이클 #313 시작 ===]
+2025-06-23 14:17:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:17:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:17:19 [WARNING] [UC8a6z7i9qypp9PqJ_0HhBrw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 14:17:22 [INFO] [=== 사이클 #313 완료: 3.62초, 27.9 채널/초 ===]
+2025-06-23 14:17:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:18:18 [INFO] [=== 피드 체크 사이클 #314 시작 ===]
+2025-06-23 14:18:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:18:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:18:22 [WARNING] [UCzqbfYjQmf9nLQPMxVgPhiA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at "<!['�\x1eqI{�|\x0eDd��v�C\x04"
+2025-06-23 14:18:22 [INFO] [=== 사이클 #314 완료: 3.78초, 26.8 채널/초 ===]
+2025-06-23 14:18:22 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 14:19:18 [INFO] [=== 피드 체크 사이클 #315 시작 ===]
+2025-06-23 14:19:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:19:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:19:22 [INFO] [=== 사이클 #315 완료: 3.64초, 27.7 채널/초 ===]
+2025-06-23 14:19:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:20:18 [INFO] [=== 피드 체크 사이클 #316 시작 ===]
+2025-06-23 14:20:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:20:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:20:22 [INFO] [=== 사이클 #316 완료: 3.73초, 27.1 채널/초 ===]
+2025-06-23 14:20:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:21:18 [INFO] [=== 피드 체크 사이클 #317 시작 ===]
+2025-06-23 14:21:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:21:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:21:22 [INFO] [=== 사이클 #317 완료: 3.85초, 26.2 채널/초 ===]
+2025-06-23 14:21:22 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 14:22:18 [INFO] [=== 피드 체크 사이클 #318 시작 ===]
+2025-06-23 14:22:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:22:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:22:21 [WARNING] [UC8gFadPgK2r1ndqLI04Xvvw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 't' in marked section
+2025-06-23 14:22:22 [INFO] [=== 사이클 #318 완료: 3.60초, 28.0 채널/초 ===]
+2025-06-23 14:22:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:23:18 [INFO] [=== 피드 체크 사이클 #319 시작 ===]
+2025-06-23 14:23:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:23:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:23:23 [INFO] [=== 사이클 #319 완료: 4.54초, 22.2 채널/초 ===]
+2025-06-23 14:23:23 [INFO] 다음 사이클까지 55.5초 대기...
+2025-06-23 14:24:19 [INFO] [=== 피드 체크 사이클 #320 시작 ===]
+2025-06-23 14:24:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:24:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:24:22 [WARNING] [UC9_p50tH3WmMslWRWKnM7dQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5���̯(�VT\r�V'
+2025-06-23 14:24:22 [INFO] [=== 사이클 #320 완료: 3.48초, 29.0 채널/초 ===]
+2025-06-23 14:24:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 14:25:19 [INFO] [=== 피드 체크 사이클 #321 시작 ===]
+2025-06-23 14:25:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:25:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:25:21 [WARNING] [UC5bp5_6h-ZxkBz6S_33ZUVg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at "<![�\x1b\x1fUt�i�I'Ƣ�OX�=\x11"
+2025-06-23 14:25:22 [INFO] [=== 사이클 #321 완료: 3.91초, 25.8 채널/초 ===]
+2025-06-23 14:25:22 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 14:26:19 [INFO] [=== 피드 체크 사이클 #322 시작 ===]
+2025-06-23 14:26:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:26:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:26:19 [WARNING] [UC_KjTyC5e0DFNxn6GIgBxcQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'D' in marked section
+2025-06-23 14:26:21 [WARNING] [UCiAq_SU0ED1C6vWFMnw8Ekg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�k�A�7V�\x00v\x06�\x0f*\x10#\x00'
+2025-06-23 14:26:22 [INFO] [=== 사이클 #322 완료: 3.69초, 27.3 채널/초 ===]
+2025-06-23 14:26:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:27:19 [INFO] [=== 피드 체크 사이클 #323 시작 ===]
+2025-06-23 14:27:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:27:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:27:19 [WARNING] [UCXG8hH02Em6_6pF38THOlSg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'g' in marked section
+2025-06-23 14:27:22 [INFO] [=== 사이클 #323 완료: 3.01초, 33.5 채널/초 ===]
+2025-06-23 14:27:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 14:28:19 [INFO] [=== 피드 체크 사이클 #324 시작 ===]
+2025-06-23 14:28:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:28:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:28:22 [INFO] [=== 사이클 #324 완료: 2.96초, 34.2 채널/초 ===]
+2025-06-23 14:28:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 14:29:19 [INFO] [=== 피드 체크 사이클 #325 시작 ===]
+2025-06-23 14:29:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:29:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:29:22 [INFO] [=== 사이클 #325 완료: 2.97초, 34.0 채널/초 ===]
+2025-06-23 14:29:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 14:30:19 [INFO] [=== 피드 체크 사이클 #326 시작 ===]
+2025-06-23 14:30:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:30:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:30:21 [INFO] [=== 사이클 #326 완료: 2.77초, 36.5 채널/초 ===]
+2025-06-23 14:30:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 14:31:19 [INFO] [=== 피드 체크 사이클 #327 시작 ===]
+2025-06-23 14:31:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:31:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:31:20 [WARNING] [UCX6b17PVsYBQ0ip5gyeme-Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�|�5\\;mX7& KC����'
+2025-06-23 14:31:22 [INFO] [=== 사이클 #327 완료: 3.02초, 33.5 채널/초 ===]
+2025-06-23 14:31:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 14:32:19 [INFO] [=== 피드 체크 사이클 #328 시작 ===]
+2025-06-23 14:32:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:32:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:32:22 [INFO] [=== 사이클 #328 완료: 3.06초, 33.0 채널/초 ===]
+2025-06-23 14:32:22 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 14:33:19 [INFO] [=== 피드 체크 사이클 #329 시작 ===]
+2025-06-23 14:33:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:33:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:33:22 [INFO] [=== 사이클 #329 완료: 3.09초, 32.7 채널/초 ===]
+2025-06-23 14:33:22 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 14:34:19 [INFO] [=== 피드 체크 사이클 #330 시작 ===]
+2025-06-23 14:34:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:34:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:34:22 [INFO] [=== 사이클 #330 완료: 2.97초, 34.0 채널/초 ===]
+2025-06-23 14:34:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 14:35:19 [INFO] [=== 피드 체크 사이클 #331 시작 ===]
+2025-06-23 14:35:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:35:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:35:22 [INFO] [=== 사이클 #331 완료: 3.31초, 30.5 채널/초 ===]
+2025-06-23 14:35:22 [INFO] 다음 사이클까지 56.7초 대기...
+2025-06-23 14:36:18 [INFO] [=== 피드 체크 사이클 #332 시작 ===]
+2025-06-23 14:36:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:36:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:36:22 [INFO] [=== 사이클 #332 완료: 3.07초, 32.9 채널/초 ===]
+2025-06-23 14:36:22 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 14:37:18 [INFO] [=== 피드 체크 사이클 #333 시작 ===]
+2025-06-23 14:37:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:37:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:37:21 [INFO] [=== 사이클 #333 완료: 2.69초, 37.6 채널/초 ===]
+2025-06-23 14:37:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 14:38:18 [INFO] [=== 피드 체크 사이클 #334 시작 ===]
+2025-06-23 14:38:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:38:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:38:21 [INFO] [=== 사이클 #334 완료: 2.67초, 37.8 채널/초 ===]
+2025-06-23 14:38:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 14:39:18 [INFO] [=== 피드 체크 사이클 #335 시작 ===]
+2025-06-23 14:39:18 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:39:18 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:39:20 [WARNING] [UCVYamHliCI9rw1tHR1xbkfw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'G' in marked section
+2025-06-23 14:39:21 [INFO] [=== 사이클 #335 완료: 2.57초, 39.3 채널/초 ===]
+2025-06-23 14:39:21 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 14:40:19 [INFO] [=== 피드 체크 사이클 #336 시작 ===]
+2025-06-23 14:40:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:40:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:40:21 [INFO] [=== 사이클 #336 완료: 2.68초, 37.6 채널/초 ===]
+2025-06-23 14:40:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 14:41:19 [INFO] [=== 피드 체크 사이클 #337 시작 ===]
+2025-06-23 14:41:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:41:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:41:21 [INFO] [=== 사이클 #337 완료: 2.69초, 37.5 채널/초 ===]
+2025-06-23 14:41:21 [INFO] 다음 사이클까지 57.3초 대기...
+2025-06-23 14:42:19 [INFO] [=== 피드 체크 사이클 #338 시작 ===]
+2025-06-23 14:42:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:42:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:42:21 [INFO] [=== 사이클 #338 완료: 2.81초, 35.9 채널/초 ===]
+2025-06-23 14:42:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 14:43:19 [INFO] [=== 피드 체크 사이클 #339 시작 ===]
+2025-06-23 14:43:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:43:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:43:21 [INFO] [=== 사이클 #339 완료: 2.92초, 34.6 채널/초 ===]
+2025-06-23 14:43:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 14:44:19 [INFO] [=== 피드 체크 사이클 #340 시작 ===]
+2025-06-23 14:44:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:44:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:44:21 [WARNING] [UCCjyq_K1Xwfg8Lndy7lKMpA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 14:44:21 [INFO] [=== 사이클 #340 완료: 2.55초, 39.6 채널/초 ===]
+2025-06-23 14:44:21 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 14:45:19 [INFO] [=== 피드 체크 사이클 #341 시작 ===]
+2025-06-23 14:45:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:45:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:45:21 [INFO] [=== 사이클 #341 완료: 2.56초, 39.5 채널/초 ===]
+2025-06-23 14:45:21 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 14:46:19 [INFO] [=== 피드 체크 사이클 #342 시작 ===]
+2025-06-23 14:46:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:46:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:46:21 [INFO] [=== 사이클 #342 완료: 2.57초, 39.3 채널/초 ===]
+2025-06-23 14:46:21 [INFO] 다음 사이클까지 57.4초 대기...
+2025-06-23 14:47:19 [INFO] [=== 피드 체크 사이클 #343 시작 ===]
+2025-06-23 14:47:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:47:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:47:20 [WARNING] [UCC552Sd-3nyi_tk2BudLUzA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![�\x11n����F\r��r�甆�3\x08'
+2025-06-23 14:47:21 [INFO] [=== 사이클 #343 완료: 2.85초, 35.4 채널/초 ===]
+2025-06-23 14:47:21 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 14:48:19 [INFO] [=== 피드 체크 사이클 #344 시작 ===]
+2025-06-23 14:48:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:48:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:48:22 [INFO] [=== 사이클 #344 완료: 3.57초, 28.3 채널/초 ===]
+2025-06-23 14:48:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 14:49:19 [INFO] [=== 피드 체크 사이클 #345 시작 ===]
+2025-06-23 14:49:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:49:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:49:20 [WARNING] [UCbifFcHncE89RrKSm3HlNAg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��ʒa�5�2�{_QЭ�\x1a��'
+2025-06-23 14:49:22 [INFO] [=== 사이클 #345 완료: 3.36초, 30.1 채널/초 ===]
+2025-06-23 14:49:22 [INFO] 다음 사이클까지 56.6초 대기...
+2025-06-23 14:50:19 [INFO] [=== 피드 체크 사이클 #346 시작 ===]
+2025-06-23 14:50:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:50:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:50:19 [WARNING] [UCj-MI9DaXgAz412O9ybQ9WA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'qOP' in marked section
+2025-06-23 14:50:22 [INFO] [=== 사이클 #346 완료: 3.67초, 27.5 채널/초 ===]
+2025-06-23 14:50:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:51:19 [INFO] [=== 피드 체크 사이클 #347 시작 ===]
+2025-06-23 14:51:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:51:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:51:27 [INFO] [=== 사이클 #347 완료: 8.46초, 11.9 채널/초 ===]
+2025-06-23 14:51:27 [INFO] 다음 사이클까지 51.5초 대기...
+2025-06-23 14:52:19 [INFO] [=== 피드 체크 사이클 #348 시작 ===]
+2025-06-23 14:52:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:52:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:52:24 [INFO] [=== 사이클 #348 완료: 5.05초, 20.0 채널/초 ===]
+2025-06-23 14:52:24 [INFO] 다음 사이클까지 54.9초 대기...
+2025-06-23 14:53:19 [INFO] [=== 피드 체크 사이클 #349 시작 ===]
+2025-06-23 14:53:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:53:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:53:22 [INFO] [=== 사이클 #349 완료: 3.66초, 27.6 채널/초 ===]
+2025-06-23 14:53:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 14:54:19 [INFO] [=== 피드 체크 사이클 #350 시작 ===]
+2025-06-23 14:54:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:54:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:54:22 [INFO] [=== 사이클 #350 완료: 3.52초, 28.7 채널/초 ===]
+2025-06-23 14:54:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 14:55:19 [INFO] [=== 피드 체크 사이클 #351 시작 ===]
+2025-06-23 14:55:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:55:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:55:21 [INFO] [=== 사이클 #351 완료: 2.78초, 36.3 채널/초 ===]
+2025-06-23 14:55:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 14:56:19 [INFO] [=== 피드 체크 사이클 #352 시작 ===]
+2025-06-23 14:56:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:56:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:56:22 [INFO] [=== 사이클 #352 완료: 2.93초, 34.5 채널/초 ===]
+2025-06-23 14:56:22 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 14:57:19 [INFO] [=== 피드 체크 사이클 #353 시작 ===]
+2025-06-23 14:57:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:57:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:57:20 [WARNING] [UCsXVk37bltHxD1rDPwtNM8Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![)`�\t�\x04k�\x1a�`nE+�e�'
+2025-06-23 14:57:22 [INFO] [=== 사이클 #353 완료: 3.23초, 31.3 채널/초 ===]
+2025-06-23 14:57:22 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 14:58:19 [INFO] [=== 피드 체크 사이클 #354 시작 ===]
+2025-06-23 14:58:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:58:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:58:22 [INFO] [=== 사이클 #354 완료: 2.89초, 34.9 채널/초 ===]
+2025-06-23 14:58:22 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 14:59:19 [INFO] [=== 피드 체크 사이클 #355 시작 ===]
+2025-06-23 14:59:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 14:59:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 14:59:22 [INFO] [=== 사이클 #355 완료: 3.01초, 33.6 채널/초 ===]
+2025-06-23 14:59:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 15:00:19 [INFO] [=== 피드 체크 사이클 #356 시작 ===]
+2025-06-23 15:00:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:00:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:00:21 [INFO] [=== 사이클 #356 완료: 2.83초, 35.7 채널/초 ===]
+2025-06-23 15:00:21 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 15:01:19 [INFO] [=== 피드 체크 사이클 #357 시작 ===]
+2025-06-23 15:01:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:01:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:01:22 [INFO] [=== 사이클 #357 완료: 3.78초, 26.8 채널/초 ===]
+2025-06-23 15:01:22 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:02:19 [INFO] [=== 피드 체크 사이클 #358 시작 ===]
+2025-06-23 15:02:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:02:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:02:22 [INFO] [=== 사이클 #358 완료: 3.53초, 28.6 채널/초 ===]
+2025-06-23 15:02:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 15:03:19 [INFO] [=== 피드 체크 사이클 #359 시작 ===]
+2025-06-23 15:03:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:03:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:03:22 [INFO] [=== 사이클 #359 완료: 3.74초, 27.0 채널/초 ===]
+2025-06-23 15:03:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 15:04:19 [INFO] [=== 피드 체크 사이클 #360 시작 ===]
+2025-06-23 15:04:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:04:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:04:22 [INFO] [=== 사이클 #360 완료: 3.78초, 26.7 채널/초 ===]
+2025-06-23 15:04:22 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:05:19 [INFO] [=== 피드 체크 사이클 #361 시작 ===]
+2025-06-23 15:05:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:05:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:05:22 [INFO] [=== 사이클 #361 완료: 3.56초, 28.4 채널/초 ===]
+2025-06-23 15:05:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:06:19 [INFO] [=== 피드 체크 사이클 #362 시작 ===]
+2025-06-23 15:06:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:06:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:06:22 [INFO] [=== 사이클 #362 완료: 3.58초, 28.2 채널/초 ===]
+2025-06-23 15:06:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:07:19 [INFO] [=== 피드 체크 사이클 #363 시작 ===]
+2025-06-23 15:07:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:07:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:07:23 [INFO] [=== 사이클 #363 완료: 3.99초, 25.3 채널/초 ===]
+2025-06-23 15:07:23 [INFO] 다음 사이클까지 56.0초 대기...
+2025-06-23 15:08:19 [INFO] [=== 피드 체크 사이클 #364 시작 ===]
+2025-06-23 15:08:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:08:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:08:23 [INFO] [=== 사이클 #364 완료: 3.85초, 26.3 채널/초 ===]
+2025-06-23 15:08:23 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:09:19 [INFO] [=== 피드 체크 사이클 #365 시작 ===]
+2025-06-23 15:09:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:09:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:09:23 [INFO] [=== 사이클 #365 완료: 3.91초, 25.8 채널/초 ===]
+2025-06-23 15:09:23 [INFO] 다음 사이클까지 56.1초 대기...
+2025-06-23 15:10:19 [INFO] [=== 피드 체크 사이클 #366 시작 ===]
+2025-06-23 15:10:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:10:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:10:20 [WARNING] [UCbifFcHncE89RrKSm3HlNAg] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x1c��zbyFUJ�����n�l'
+2025-06-23 15:10:22 [INFO] [=== 사이클 #366 완료: 3.72초, 27.2 채널/초 ===]
+2025-06-23 15:10:22 [INFO] 다음 사이클까지 56.3초 대기...
+2025-06-23 15:11:19 [INFO] [=== 피드 체크 사이클 #367 시작 ===]
+2025-06-23 15:11:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:11:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:11:22 [INFO] [=== 사이클 #367 완료: 3.45초, 29.3 채널/초 ===]
+2025-06-23 15:11:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 15:12:19 [INFO] [=== 피드 체크 사이클 #368 시작 ===]
+2025-06-23 15:12:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:12:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:12:22 [INFO] [=== 사이클 #368 완료: 2.78초, 36.3 채널/초 ===]
+2025-06-23 15:12:22 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 15:13:19 [INFO] [=== 피드 체크 사이클 #369 시작 ===]
+2025-06-23 15:13:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:13:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:13:22 [INFO] [=== 사이클 #369 완료: 3.02초, 33.5 채널/초 ===]
+2025-06-23 15:13:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 15:14:19 [INFO] [=== 피드 체크 사이클 #370 시작 ===]
+2025-06-23 15:14:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:14:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:14:22 [INFO] [=== 사이클 #370 완료: 3.19초, 31.7 채널/초 ===]
+2025-06-23 15:14:22 [INFO] 다음 사이클까지 56.8초 대기...
+2025-06-23 15:15:19 [INFO] [=== 피드 체크 사이클 #371 시작 ===]
+2025-06-23 15:15:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:15:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:15:20 [WARNING] [UCO-e0J-Qsilkv_4tBa3LyYw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'ek_' in marked section
+2025-06-23 15:15:21 [WARNING] [UCt_NLJ4McJlCyYM-dSPRo7Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��5\x10['
+2025-06-23 15:15:22 [INFO] [=== 사이클 #371 완료: 2.88초, 35.1 채널/초 ===]
+2025-06-23 15:15:22 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 15:16:19 [INFO] [=== 피드 체크 사이클 #372 시작 ===]
+2025-06-23 15:16:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:16:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:16:22 [INFO] [=== 사이클 #372 완료: 3.11초, 32.5 채널/초 ===]
+2025-06-23 15:16:22 [INFO] 다음 사이클까지 56.9초 대기...
+2025-06-23 15:17:19 [INFO] [=== 피드 체크 사이클 #373 시작 ===]
+2025-06-23 15:17:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:17:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:17:21 [WARNING] [UCt_NLJ4McJlCyYM-dSPRo7Q] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![Ħ�4*�\x17"��s�����4_'
+2025-06-23 15:17:22 [INFO] [=== 사이클 #373 완료: 2.78초, 36.3 채널/초 ===]
+2025-06-23 15:17:22 [INFO] 다음 사이클까지 57.2초 대기...
+2025-06-23 15:18:19 [INFO] [=== 피드 체크 사이클 #374 시작 ===]
+2025-06-23 15:18:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:18:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:18:22 [INFO] [=== 사이클 #374 완료: 2.95초, 34.2 채널/초 ===]
+2025-06-23 15:18:22 [INFO] 다음 사이클까지 57.1초 대기...
+2025-06-23 15:19:19 [INFO] [=== 피드 체크 사이클 #375 시작 ===]
+2025-06-23 15:19:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:19:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:19:22 [INFO] [=== 사이클 #375 완료: 2.97초, 34.0 채널/초 ===]
+2025-06-23 15:19:22 [INFO] 다음 사이클까지 57.0초 대기...
+2025-06-23 15:20:19 [INFO] [=== 피드 체크 사이클 #376 시작 ===]
+2025-06-23 15:20:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:20:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:20:21 [WARNING] [UCOcC03WTSNOCoAkCDide6jA] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![\x0c�\x1cS�1�^f~EA��k �'
+2025-06-23 15:20:26 [INFO] [=== 사이클 #376 완료: 7.43초, 13.6 채널/초 ===]
+2025-06-23 15:20:26 [INFO] 다음 사이클까지 52.6초 대기...
+2025-06-23 15:21:19 [INFO] [=== 피드 체크 사이클 #377 시작 ===]
+2025-06-23 15:21:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:21:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:21:24 [INFO] [=== 사이클 #377 완료: 4.92초, 20.5 채널/초 ===]
+2025-06-23 15:21:24 [INFO] 다음 사이클까지 55.1초 대기...
+2025-06-23 15:22:19 [INFO] [=== 피드 체크 사이클 #378 시작 ===]
+2025-06-23 15:22:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:22:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:22:24 [INFO] [=== 사이클 #378 완료: 4.99초, 20.2 채널/초 ===]
+2025-06-23 15:22:24 [INFO] 다음 사이클까지 55.0초 대기...
+2025-06-23 15:23:19 [INFO] [=== 피드 체크 사이클 #379 시작 ===]
+2025-06-23 15:23:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:23:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:23:20 [WARNING] [UCvil4OAt-zShzkKHsg9EQAw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![���1�\x1as�e�W\x14��k �'
+2025-06-23 15:23:24 [INFO] [=== 사이클 #379 완료: 4.68초, 21.6 채널/초 ===]
+2025-06-23 15:23:24 [INFO] 다음 사이클까지 55.3초 대기...
+2025-06-23 15:24:19 [INFO] [=== 피드 체크 사이클 #380 시작 ===]
+2025-06-23 15:24:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:24:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:24:24 [INFO] [=== 사이클 #380 완료: 5.29초, 19.1 채널/초 ===]
+2025-06-23 15:24:24 [INFO] 다음 사이클까지 54.7초 대기...
+2025-06-23 15:25:19 [INFO] [=== 피드 체크 사이클 #381 시작 ===]
+2025-06-23 15:25:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:25:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:25:23 [WARNING] [UCBJycsmduvYEL83R_U4JriQ] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: unknown status keyword 'R\x0c' in marked section
+2025-06-23 15:25:24 [INFO] [=== 사이클 #381 완료: 4.85초, 20.8 채널/초 ===]
+2025-06-23 15:25:24 [INFO] 다음 사이클까지 55.2초 대기...
+2025-06-23 15:26:19 [INFO] [=== 피드 체크 사이클 #382 시작 ===]
+2025-06-23 15:26:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:26:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:26:23 [INFO] [=== 사이클 #382 완료: 4.05초, 25.0 채널/초 ===]
+2025-06-23 15:26:23 [INFO] 다음 사이클까지 56.0초 대기...
+2025-06-23 15:27:19 [INFO] [=== 피드 체크 사이클 #383 시작 ===]
+2025-06-23 15:27:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:27:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:27:23 [INFO] [=== 사이클 #383 완료: 3.76초, 26.8 채널/초 ===]
+2025-06-23 15:27:23 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:28:19 [INFO] [=== 피드 체크 사이클 #384 시작 ===]
+2025-06-23 15:28:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:28:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:28:22 [INFO] [=== 사이클 #384 완료: 3.64초, 27.8 채널/초 ===]
+2025-06-23 15:28:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:29:19 [INFO] [=== 피드 체크 사이클 #385 시작 ===]
+2025-06-23 15:29:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:29:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:29:22 [INFO] [=== 사이클 #385 완료: 3.49초, 29.0 채널/초 ===]
+2025-06-23 15:29:22 [INFO] 다음 사이클까지 56.5초 대기...
+2025-06-23 15:30:19 [INFO] [=== 피드 체크 사이클 #386 시작 ===]
+2025-06-23 15:30:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:30:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:30:22 [INFO] [=== 사이클 #386 완료: 3.63초, 27.8 채널/초 ===]
+2025-06-23 15:30:22 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:31:19 [INFO] [=== 피드 체크 사이클 #387 시작 ===]
+2025-06-23 15:31:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:31:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:31:20 [WARNING] [UCyPYQTT20IgzVw92LDvtClw] HTML 파싱 오류: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![��;\x14T��J62α�x��~�'
+2025-06-23 15:31:23 [INFO] [=== 사이클 #387 완료: 3.63초, 27.8 채널/초 ===]
+2025-06-23 15:31:23 [INFO] 다음 사이클까지 56.4초 대기...
+2025-06-23 15:32:19 [INFO] [=== 피드 체크 사이클 #388 시작 ===]
+2025-06-23 15:32:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:32:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:32:23 [INFO] [=== 사이클 #388 완료: 3.82초, 26.5 채널/초 ===]
+2025-06-23 15:32:23 [INFO] 다음 사이클까지 56.2초 대기...
+2025-06-23 15:33:04 [INFO] 
+2025-06-23 15:33:04 [INFO] ==================================================
+2025-06-23 15:33:04 [INFO] ------- 프로그램 시작 -------
+2025-06-23 15:33:04 [INFO] ==================================================
+2025-06-23 15:33:04 [INFO] isTest: 3, Ticket: 100
+2025-06-23 15:33:04 [INFO] 빠른 초기화 중...
+2025-06-23 15:33:04 [INFO] 총 101개 채널 초기화 시작...
+2025-06-23 15:33:05 [INFO] [UC_iT-dQV96rPviS4G4p5b9A] 초기화 완료: -f7o6mAT4eQ
+2025-06-23 15:33:05 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 초기화 완료: nmVW9BC4UZ4
+2025-06-23 15:33:05 [INFO] [UCvil4OAt-zShzkKHsg9EQAw] 초기화 완료: e8qdJHtLpCs
+2025-06-23 15:33:05 [INFO] [UC9_Cw4aS3khZg3-lUV_R8fg] 초기화 완료: HdiWfnXkkCQ
+2025-06-23 15:33:05 [INFO] [UCMc4EmuDxnHPc6pgGW-QWvQ] 초기화 완료: Ep_lOCgAwY4
+2025-06-23 15:33:06 [INFO] [UCQNE2JmbasNYbjGAcuBiRRg] 초기화 완료: yf-KIyXa62U
+2025-06-23 15:33:06 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 초기화 완료: WeV8H18eTpI
+2025-06-23 15:33:06 [INFO] [UCmgRYMK5d65PbjN8qkjAUBA] 초기화 완료: QWE_U4nDmVY
+2025-06-23 15:33:06 [INFO] [UCO-e0J-Qsilkv_4tBa3LyYw] 초기화 완료: auByuzRXxkw
+2025-06-23 15:33:06 [INFO] [UCQ1Rn1d6FfB3x2b0n0J6pMQ] 초기화 완료: OhtwAh3aKTo
+2025-06-23 15:33:06 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 초기화 완료: PDTMYs5nfXY
+2025-06-23 15:33:06 [INFO] [UCF97u_Y5C3FxAcD0nn1DCKQ] 초기화 완료: x3Z63NXDXRM
+2025-06-23 15:33:06 [INFO] [UCg-Fh9r6mN0XjLQLfQOFWOA] 초기화 완료: UOHtl-jJmk8
+2025-06-23 15:33:06 [INFO] [UCzmyfZl7lxV-lLZxpSJWsWQ] 초기화 완료: Mp3RxzLfPFg
+2025-06-23 15:33:06 [INFO] [UCu1yyUnlvqj4qZM5WZtUONg] 초기화 완료: s-Kt6W6y-ZU
+2025-06-23 15:33:06 [INFO] [UCM0h5eNMPQTyZibB9GtW3yA] 초기화 완료: dpcXQKe19Dc
+2025-06-23 15:33:06 [INFO] [UCOcC03WTSNOCoAkCDide6jA] 초기화 완료: FLf0kDDI3yA
+2025-06-23 15:33:06 [INFO] [UCQ2DWm5Md16Dc3xRwwhVE7Q] 초기화 완료: YFUVMPOIeAo
+2025-06-23 15:33:06 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 초기화 완료: dg7bUP9Xipw
+2025-06-23 15:33:06 [INFO] [UC_KjTyC5e0DFNxn6GIgBxcQ] 초기화 완료: y5V0My-arCA
+2025-06-23 15:33:07 [INFO] [UC9cCBxBAQW2CzLYeT20q49A] 초기화 완료: N9NNw8wzu4I
+2025-06-23 15:33:07 [INFO] [UC30q8UbkZhQw9zloU4ZhnZw] 초기화 완료: Ku6TPisifRo
+2025-06-23 15:33:07 [INFO] [UCBbJv4YWyu89pP1tg9laatw] 초기화 완료: -zV_W5NMFWw
+2025-06-23 15:33:07 [INFO] [UC4Aa3OPkMenwTANpf0oWVRQ] 초기화 완료: OhfhSq_BtcE
+2025-06-23 15:33:07 [INFO] [UC5ZqaJ9klJrwgsKjYW42JtA] 초기화 완료: xSCec5ulpPk
+2025-06-23 15:33:07 [INFO] [UCK2YrOMgAbsAraGrWyyAvdw] 초기화 완료: DQ-K2dUNZIk
+2025-06-23 15:33:07 [INFO] [UCPhP8VrLREoTLTON63of0GA] 초기화 완료: KdM_aEW_sG4
+2025-06-23 15:33:07 [INFO] [UCWgXoKQ4rl7SY9UHuAwxvzQ] 초기화 완료: IKNm08kJKEY
+2025-06-23 15:33:07 [INFO] [UCKsJpdKhf5aqxsVo6pxjlcw] 초기화 완료: UHchEnB8iig
+2025-06-23 15:33:07 [INFO] [UCgheNMc3gGHLsT-RISdCzDQ] 초기화 완료: -4p-7dTLdK8
+2025-06-23 15:33:07 [INFO] [UC2xkO7XCiStWfR3fKbzkbqw] 초기화 완료: 5mgbdhZpyqA
+2025-06-23 15:33:07 [INFO] [UCQZ1iBgGYGSTYhe5RnXsC1w] 초기화 완료: LE7C22Qg_J8
+2025-06-23 15:33:07 [INFO] [UC4wbC_nZ6xT5RLYf8U4preg] 초기화 완료: XG90q4TFrXI
+2025-06-23 15:33:07 [INFO] [UCm3IV_RvXMOWczBbarPSQSg] 초기화 완료: hasF3aRW4xI
+2025-06-23 15:33:07 [INFO] [UC3hRpIQ4x5niJDwjajQSVPg] 초기화 완료: tMXihTcjdxI
+2025-06-23 15:33:07 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 초기화 완료: nEVY5BKcZxU
+2025-06-23 15:33:08 [INFO] [UC80zFRpqbg1rmuQUbO6HABQ] 초기화 완료: TcdELA21Ado
+2025-06-23 15:33:08 [INFO] [UCpVm7bg6pXKo1Pr6k5kxG9A] 초기화 완료: gsB9nX8FS5I
+2025-06-23 15:33:08 [INFO] [UCyPYQTT20IgzVw92LDvtClw] 초기화 완료: iI2Gke8ctAk
+2025-06-23 15:33:08 [INFO] [UCr8P1J6sVkzP9hDGkV5r8AA] 초기화 완료: sI8R17L7Iww
+2025-06-23 15:33:08 [INFO] [UCsT0YIqwnpJCM-mx7-gSA4Q] 초기화 완료: foHEGfmvE9c
+2025-06-23 15:33:08 [INFO] [UCLXo7UDZvByw2ixzpQCufnA] 초기화 완료: sYj09lx15ik
+2025-06-23 15:33:08 [INFO] [UCsXVk37bltHxD1rDPwtNM8Q] 초기화 완료: zxq60I5RSW8
+2025-06-23 15:33:08 [INFO] [UCbifFcHncE89RrKSm3HlNAg] 초기화 완료: 3e2DLCqGBOc
+2025-06-23 15:33:08 [INFO] [UC3IZKseVpdzPSBaWxBxundA] 초기화 완료: uHG-2mCfyT4
+2025-06-23 15:33:08 [INFO] [UCXA6AK9-wpHs7BjEB2JRZEg] 초기화 완료: DrNXKLwQb-M
+2025-06-23 15:33:08 [INFO] [UCC552Sd-3nyi_tk2BudLUzA] 초기화 완료: Urgf5zoJNzU
+2025-06-23 15:33:08 [INFO] [UCX6b17PVsYBQ0ip5gyeme-Q] 초기화 완료: 27zUjzYG4gY
+2025-06-23 15:33:08 [INFO] [UCqC_GY2ZiENFz2pwL0cSfAw] 초기화 완료: 2SCgbcwEY98
+2025-06-23 15:33:08 [INFO] [UC6107grRI4m0o2-emgoDnAA] 초기화 완료: 3ZTGwcHQfLY
+2025-06-23 15:33:09 [INFO] [UCR1IuLEqb6UEA_zQ81kwXfg] 초기화 완료: z_PlyQAWT4g
+2025-06-23 15:33:09 [INFO] [UCzPsEwQIN1jHfDHUPjhHIgA] 초기화 완료: KBqvXH4tsZI
+2025-06-23 15:33:09 [INFO] [UCZYTClx2T1of7BRZ86-8fow] 초기화 완료: G0H3nu18HIc
+2025-06-23 15:33:09 [INFO] [UCUHW94eEFW7hkUMVaZz4eDg] 초기화 완료: WIu38oWkCTc
+2025-06-23 15:33:09 [INFO] [UCJHA_jMfCvEnv-3kRjTCQXw] 초기화 완료: 7Qlgn6hKn9g
+2025-06-23 15:33:09 [INFO] [UCQBG3PzyQKY8ieMG2gDAyOQ] 초기화 완료: RGF3X_-wpp0
+2025-06-23 15:33:09 [INFO] [UCbpMy0Fg74eXXkvxJrtEn3w] 초기화 완료: JSH2GW2Aaxw
+2025-06-23 15:33:09 [INFO] [UC6n8I1UDTKP1IWjQMg6_TwA] 초기화 완료: 8d1ugv8vQ4w
+2025-06-23 15:33:09 [INFO] [UCHnyfMqiRRG1u-2MsSQLbXA] 초기화 완료: x32Zq-XvID4
+2025-06-23 15:33:09 [INFO] [UCY1kMZp36IQSyNx_9h4mpCg] 초기화 완료: 9IiYOTzJ2uw
+2025-06-23 15:33:09 [INFO] [UCBJycsmduvYEL83R_U4JriQ] 초기화 완료: alDhOLhbkbY
+2025-06-23 15:33:09 [INFO] [UCJFp8uSYCjXOMnkUyb3CQ3Q] 초기화 완료: pZIN_LDkreE
+2025-06-23 15:33:10 [INFO] [UCzH5n3Ih5kgQoiDAQt2FwLw] 초기화 완료: F7iWdYtTWNE
+2025-06-23 15:33:10 [INFO] [UC-6OW5aJYBFM33zXQlBKPNA] 초기화 완료: UnMvxPbVVaE
+2025-06-23 15:33:10 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 초기화 완료: GfY4V-ubHjY
+2025-06-23 15:33:10 [INFO] [UC8gFadPgK2r1ndqLI04Xvvw] 초기화 완료: tLZ8V1HJFQ0
+2025-06-23 15:33:10 [INFO] [UCXuqSBlHAE6Xw-yeJA0Tunw] 초기화 완료: HZgQp-WDebU
+2025-06-23 15:33:10 [INFO] [UCVYamHliCI9rw1tHR1xbkfw] 초기화 완료: b6mo-rTiJoE
+2025-06-23 15:33:10 [INFO] [UCOmcA3f_RrH6b9NmcNa4tdg] 초기화 완료: 8zuhkN_75bU
+2025-06-23 15:33:10 [INFO] [UCddiUEpeqJcYeBxX1IVBKvQ] 초기화 완료: LcjUkzmkI4U
+2025-06-23 15:33:10 [INFO] [UCRxAgfYexGLlu1WHGIMUDqw] 초기화 완료: RSu5EyD5wIw
+2025-06-23 15:33:10 [INFO] [UCpnxVX81-qPyCdJ8NY0cTRg] 초기화 완료: zdsK66suuYg
+2025-06-23 15:33:10 [INFO] [UCRIZtPl9nb9RiXc9btSTQNw] 초기화 완료: ffKCdtIDGs8
+2025-06-23 15:33:10 [INFO] [UCXGgrKt94gR6lmN4aN3mYTg] 초기화 완료: Dcae8HlEL20
+2025-06-23 15:33:11 [INFO] [UC5bp5_6h-ZxkBz6S_33ZUVg] 초기화 완료: nEupzATExWA
+2025-06-23 15:33:11 [INFO] [UCSpFnDQr88xCZ80N-X7t0nQ] 초기화 완료: aA8LLjTghVQ
+2025-06-23 15:33:11 [INFO] [UCt_NLJ4McJlCyYM-dSPRo7Q] 초기화 완료: sVkFvXB5Slc
+2025-06-23 15:33:11 [INFO] [UCcjhYlL1WRBjKaJsMH_h7Lg] 초기화 완료: SL_fNEFj2Eo
+2025-06-23 15:33:11 [INFO] [UCsTcErHg8oDvUnTzoqsYeNw] 초기화 완료: u2u8qZN4DXs
+2025-06-23 15:33:11 [INFO] [UCey_c7U86mJGz1VJWH5CYPA] 초기화 완료: f6NrcuXmaxc
+2025-06-23 15:33:11 [INFO] [UC4ijq8Cg-8zQKx8OH12dUSw] 초기화 완료: ekWc5TlNjK4
+2025-06-23 15:33:11 [INFO] [UCbqZsserFV_YjPk0subGEmA] 초기화 완료: WzI8o743bUk
+2025-06-23 15:33:11 [INFO] [UCyEd6QBSgat5kkC6svyjudA] 초기화 완료: iziCZ8aJe2Q
+2025-06-23 15:33:11 [INFO] [UCvK4bOhULCpmLabd2pDMtnA] 초기화 완료: TosLIg3o91k
+2025-06-23 15:33:11 [INFO] [UC3DkFux8Iv-aYnTRWzwaiBA] 초기화 완료: PfDtHx-Aq4s
+2025-06-23 15:33:11 [INFO] [UCXOKEdfOFxsHO_-Su3K8SHg] 초기화 완료: SBeFGf-1ADo
+2025-06-23 15:33:11 [INFO] [UCfyehHM_eo4g5JUyWmms2LA] 초기화 완료: BIrI3Jg-6xY
+2025-06-23 15:33:11 [INFO] [UCCjyq_K1Xwfg8Lndy7lKMpA] 초기화 완료: mZAi102kUY4
+2025-06-23 15:33:11 [INFO] [UCzqbfYjQmf9nLQPMxVgPhiA] 초기화 완료: sAfyCC8U3c4
+2025-06-23 15:33:11 [INFO] [UCbCmjCuTUZos6Inko4u57UQ] 초기화 완료: aM9f87ntbd4
+2025-06-23 15:33:11 [INFO] [UCfE5Cz44GlZVyoaYTHJbuZw] 초기화 완료: HxNNb-jAXwE
+2025-06-23 15:33:11 [INFO] [UCiAq_SU0ED1C6vWFMnw8Ekg] 초기화 완료: 5QVdLXpqCto
+2025-06-23 15:33:11 [INFO] [UC0Ize0RLIbGdH5x4wI45G-A] 초기화 완료: ZXvsjdImrOc
+2025-06-23 15:33:11 [INFO] [UCq-Fj5jknLsUf-MWSy4_brA] 초기화 완료: xGwQpU-Kn1o
+2025-06-23 15:33:11 [INFO] [UC9_p50tH3WmMslWRWKnM7dQ] 초기화 완료: Vdy1Jup1jHA
+2025-06-23 15:33:11 [INFO] [UCX6OQ3DkcsbYNE6H8uQQuVA] 초기화 완료: pe_ejTiIcSs
+2025-06-23 15:33:12 [INFO] [UCpEhnqL0y41EpW2TvWAHD7Q] 초기화 완료: 4M5UWs2Ae_c
+2025-06-23 15:33:12 [INFO] [UC-lHJZR3Gqxm24_Vd_AJ5Yw] 초기화 완료: 4uqo-brP3xs
+2025-06-23 15:33:12 [INFO] [UC295-Dw_tDNtZXFeAPAW6Aw] 초기화 완료: 6dMcX8NpC3g
+2025-06-23 15:33:12 [INFO] 초기화 완료: 99개 채널
+2025-06-23 15:33:12 [INFO] 초기화 완료 - 피드 폴링 시작
+2025-06-23 15:33:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:33:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:33:12 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 새 영상 발견! nmVW9BC4UZ4
+2025-06-23 15:33:12 [INFO] [nmVW9BC4UZ4] 작업 시작
+2025-06-23 15:33:12 [INFO] [nmVW9BC4UZ4] 영상ID: nmVW9BC4UZ4
+2025-06-23 15:33:12 [INFO] [nmVW9BC4UZ4] sending super thanks...
+2025-06-23 15:33:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 새 영상 발견! WeV8H18eTpI
+2025-06-23 15:33:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 새 영상 발견! dg7bUP9Xipw
+2025-06-23 15:33:13 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:33:15 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:33:17 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:33:19 [INFO] [=== 피드 체크 사이클 #389 시작 ===]
+2025-06-23 15:33:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:33:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:33:24 [INFO] [=== 사이클 #389 완료: 5.46초, 18.5 채널/초 ===]
+2025-06-23 15:33:24 [INFO] 다음 사이클까지 54.5초 대기...
+2025-06-23 15:33:24 [INFO] [=== 피드 체크 사이클 완료: 12.67초 ===]
+2025-06-23 15:33:24 [INFO] 다음 사이클까지 47.3초 대기...
+2025-06-23 15:34:01 [INFO] [nmVW9BC4UZ4] 성공적으로 완료되었습니다.
+2025-06-23 15:34:01 [INFO] [nmVW9BC4UZ4] 작업 끝
+2025-06-23 15:34:01 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 송금 완료 영상 저장: nmVW9BC4UZ4
+2025-06-23 15:34:01 [INFO] [WeV8H18eTpI] 작업 시작
+2025-06-23 15:34:01 [INFO] [WeV8H18eTpI] 영상ID: WeV8H18eTpI
+2025-06-23 15:34:01 [INFO] [WeV8H18eTpI] sending super thanks...
+2025-06-23 15:34:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:34:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:34:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:34:14 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:34:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
+2025-06-23 15:34:18 [INFO] [UChBEbMKI1eCcejTtmI32UEw] 이미 송금 완료된 영상: GfY4V-ubHjY
+2025-06-23 15:34:19 [INFO] [=== 피드 체크 사이클 #390 시작 ===]
+2025-06-23 15:34:19 [INFO] Free Threading: 비활성화, 최대 워커: 16
+2025-06-23 15:34:19 [INFO] 확인할 채널 수: 101개, 남은 티켓: 100
+2025-06-23 15:34:24 [INFO] [=== 피드 체크 사이클 완료: 12.17초 ===]
+2025-06-23 15:34:24 [INFO] 다음 사이클까지 47.8초 대기...
+2025-06-23 15:34:25 [INFO] [=== 사이클 #390 완료: 5.73초, 17.6 채널/초 ===]
+2025-06-23 15:34:25 [INFO] 다음 사이클까지 54.3초 대기...
+2025-06-23 15:34:25 [INFO] [WeV8H18eTpI] superthanks를 받지 않는 영상입니다.
+2025-06-23 15:34:25 [INFO] [WeV8H18eTpI] 작업 끝
+2025-06-23 15:34:25 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 송금 완료 영상 저장: WeV8H18eTpI
+2025-06-23 15:34:25 [INFO] [dg7bUP9Xipw] 작업 시작
+2025-06-23 15:34:25 [INFO] [dg7bUP9Xipw] 영상ID: dg7bUP9Xipw
+2025-06-23 15:34:25 [INFO] [dg7bUP9Xipw] sending super thanks...
+2025-06-23 15:35:12 [INFO] [=== 피드 체크 사이클 시작 ===]
+2025-06-23 15:35:12 [INFO] 확인할 채널 수: 101개
+2025-06-23 15:35:13 [INFO] [dg7bUP9Xipw] 성공적으로 완료되었습니다.
+2025-06-23 15:35:13 [INFO] [dg7bUP9Xipw] 작업 끝
+2025-06-23 15:35:13 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 송금 완료 영상 저장: dg7bUP9Xipw
+2025-06-23 15:35:13 [INFO] [UC8a6z7i9qypp9PqJ_0HhBrw] 이미 송금 완료된 영상: WeV8H18eTpI
+2025-06-23 15:35:14 [INFO] [UCj-MI9DaXgAz412O9ybQ9WA] 이미 송금 완료된 영상: dg7bUP9Xipw
+2025-06-23 15:35:14 [INFO] [UCXG8hH02Em6_6pF38THOlSg] 이미 송금 완료된 영상: nmVW9BC4UZ4
+2025-06-23 15:35:14 [INFO] [UCu0elhwDIhuEIEwJa2xs3fw] 이미 송금 완료된 영상: PDTMYs5nfXY
+2025-06-23 15:35:16 [INFO] [UCCIOK_muw3wg0vWEAkBueAA] 이미 송금 완료된 영상: nEVY5BKcZxU
