@@ -16,8 +16,8 @@ from datetime import datetime
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-isTest = 3
-Ticket = 100
+isTest = 0
+Ticket = 1000000000
 
 # 송금 완료된 영상 추적을 위한 파일 경로
 COMPLETED_VIDEOS_FILE = "completed_videos.json"
