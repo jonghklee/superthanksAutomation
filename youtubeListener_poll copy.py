@@ -5,7 +5,7 @@ import csv
 from pathlib import Path
 import concurrent.futures
 import atexit
-from threading import Event
+from threading import Event, Lock
 from bs4 import BeautifulSoup
 import re
 import logging
@@ -21,6 +21,9 @@ Ticket = 1000000000
 
 # 송금 완료된 영상 추적을 위한 파일 경로
 COMPLETED_VIDEOS_FILE = "completed_videos.json"
+
+# 파일 접근 동기화를 위한 Lock
+file_lock = Lock()
 
 # 로거 생성
 logger = logging.getLogger()
@@ -81,36 +84,44 @@ def capture_screen_on_error(error_info):
         return None
 
 def load_completed_videos():
-    """완료된 영상 목록 로드"""
-    try:
-        if os.path.exists(COMPLETED_VIDEOS_FILE):
-            with open(COMPLETED_VIDEOS_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        return {}
-    except Exception as e:
-        logger.error(f"완료된 영상 목록 로드 실패: {e}")
-        return {}
+    """완료된 영상 목록 로드 (Lock으로 동기화)"""
+    with file_lock:  # 🔒 파일 읽기 동기화
+        try:
+            if os.path.exists(COMPLETED_VIDEOS_FILE):
+                with open(COMPLETED_VIDEOS_FILE, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            return {}
+        except Exception as e:
+            logger.error(f"완료된 영상 목록 로드 실패: {e}")
+            return {}
 
 def save_completed_video(channel_id, video_id, video_title=""):
-    """완료된 영상 정보 저장"""
-    try:
-        completed = load_completed_videos()
-        if channel_id not in completed:
-            completed[channel_id] = {}
-        
-        completed[channel_id][video_id] = {
-            "title": video_title,
-            "completed_at": datetime.now().isoformat(),
-            "timestamp": int(time.time())
-        }
-        
-        with open(COMPLETED_VIDEOS_FILE, 'w', encoding='utf-8') as f:
-            json.dump(completed, f, ensure_ascii=False, indent=2)
-        
-        logger.info(f"[{channel_id}] 송금 완료 영상 저장: {video_id}")
-        
-    except Exception as e:
-        logger.error(f"완료된 영상 저장 실패: {e}")
+    """완료된 영상 정보 저장 (Lock으로 동기화)"""
+    with file_lock:  # 🔒 파일 쓰기 동기화
+        try:
+            # Lock 내부에서 파일 읽기도 수행 (원자적 읽기-수정-쓰기)
+            if os.path.exists(COMPLETED_VIDEOS_FILE):
+                with open(COMPLETED_VIDEOS_FILE, 'r', encoding='utf-8') as f:
+                    completed = json.load(f)
+            else:
+                completed = {}
+            
+            if channel_id not in completed:
+                completed[channel_id] = {}
+            
+            completed[channel_id][video_id] = {
+                "title": video_title,
+                "completed_at": datetime.now().isoformat(),
+                "timestamp": int(time.time())
+            }
+            
+            with open(COMPLETED_VIDEOS_FILE, 'w', encoding='utf-8') as f:
+                json.dump(completed, f, ensure_ascii=False, indent=2)
+            
+            logger.info(f"[{channel_id}] 송금 완료 영상 저장: {video_id}")
+            
+        except Exception as e:
+            logger.error(f"완료된 영상 저장 실패: {e}")
 
 def is_video_completed(channel_id, video_id):
     """영상이 이미 송금 완료되었는지 확인"""
