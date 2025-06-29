@@ -217,10 +217,10 @@ def sendSuperThanks(url, message):
         move_mouse_to_corner()
         
         # dots 버튼 클릭 시도
-        if click_with_img("img/dots.png"):
+        if click_with_img("assets/img/dots.png"):
             smart_delay('ui_update')  # 메뉴가 나타날 시간 대기
             
-            if click_with_img("img/superthanks2.png"):
+            if click_with_img("assets/img/superthanks2.png"):
                 print("Super Thanks 메뉴 클릭 성공")
             else:
                 return "superthanks를 받지 않는 영상입니다."
@@ -229,7 +229,7 @@ def sendSuperThanks(url, message):
 
         # 텍스트 입력 필드 클릭 및 메시지 입력
         smart_delay('medium')
-        if click_with_img("img/3_text.png", offset_x=-150):
+        if click_with_img("assets/img/3_text.png", offset_x=-150):
             smart_delay('click')
             pyautogui.hotkey('command', 'a')  # 기존 텍스트 선택
             smart_delay('type')
@@ -242,11 +242,11 @@ def sendSuperThanks(url, message):
             smart_delay('medium')
         
         # Buy and Send 버튼 클릭
-        if click_with_img("img/4_buyandsend.png"):
+        if click_with_img("assets/img/4_buyandsend.png"):
             smart_delay('long')  # 결제 페이지 로딩 대기
             
             # Buy 버튼 클릭
-            if click_with_img("img/5_buy.png"):
+            if click_with_img("assets/img/5_buy.png"):
                 smart_delay('long', multiplier=2)  # 결제 처리 대기
             else:
                 print("Buy 버튼을 찾을 수 없습니다.")

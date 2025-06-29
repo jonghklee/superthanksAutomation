@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-CSV_PATH = Path("./channel_list.csv")  # username,channel_id
+CSV_PATH = Path("./config/channel_list.csv")  # username,channel_id
 PUBSUB_URL = "https://pubsubhubbub.appspot.com/subscribe"
 CALLBACK_URL = "https://youtubelistener.ngrok.app/notifications"  # 수정 필요
 LEASE_SECONDS = 432000

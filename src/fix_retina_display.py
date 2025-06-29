@@ -61,7 +61,7 @@ def test_with_scale():
         # 스케일 적용된 이미지에서 dots.png 찾기
         try:
             screen_np = cv2.cvtColor(np.array(screenshot_scaled), cv2.COLOR_RGB2BGR)
-            dots_img = cv2.imread("img/dots.png")
+            dots_img = cv2.imread("assets/img/dots.png")
             
             if dots_img is not None:
                 result = cv2.matchTemplate(screen_np, dots_img, cv2.TM_CCOEFF_NORMED)
