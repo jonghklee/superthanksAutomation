@@ -189,7 +189,7 @@ python bulk_channel_setup.py -template
 
 ### 테스트 모드
 ```python
-# youtubeListener_poll copy.py 파일에서
+# main.py 파일에서
 isTest = 3      # 테스트용 송금 횟수
 Ticket = 100    # 총 송금 가능 횟수
 ```
@@ -225,13 +225,15 @@ superThankAutomation/
 ├── run.sh                         # 실행 스크립트
 ├── bulk_channel_setup.py          # 🔥 대량 채널 설정 (권장)
 ├── channel_finder.py              # 개별 채널 찾기
-├── youtubeListener_poll copy.py   # 메인 프로그램
+├── main.py                        # 메인 프로그램
 ├── sendSuperThanks.py            # 송금 처리 모듈
-├── channel_list.csv              # 모니터링 채널 목록
+├── config/
+│   └── channel_list.csv          # 모니터링 채널 목록
 ├── completed_videos.json         # 송금 완료 기록
 ├── requirements.txt              # Python 의존성
 ├── captures/                     # 에러 시 캡처 이미지
-├── img/                          # 매크로용 이미지
+├── assets/
+│   └── img/                      # 매크로용 이미지
 └── logs/                         # 로그 파일
 ```
 
@@ -304,7 +306,7 @@ tail -f youtube_listener.log        # 실시간 로그
 ```
 
 ### 중요 파일
-- **채널 목록**: `channel_list.csv`
+- **채널 목록**: `config/channel_list.csv`
 - **송금 기록**: `completed_videos.json`  
 - **에러 캡처**: `captures/`
 - **실시간 로그**: `youtube_listener.log`
@@ -315,7 +317,7 @@ tail -f youtube_listener.log        # 실시간 로그
 1. **대량 설정을 우선 활용** - 10배 빠름
 2. **실패한 채널은 다른 형식으로 재시도**
 3. **정기적으로 로그 확인** - 문제 조기 발견
-4. **백업 습관** - `cp channel_list.csv backup/`
+4. **백업 습관** - `cp config/channel_list.csv backup/`
 
 ### 성능 최적화
 1. **안정적인 인터넷 연결** 필수
