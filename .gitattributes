@@ -1,3 +1,4 @@
 logs/* filter=lfs diff=lfs merge=lfs -text
 captures/* filter=lfs diff=lfs merge=lfs -text
 captures filter=lfs diff=lfs merge=lfs -text
+capturesd filter=lfs diff=lfs merge=lfs -text
