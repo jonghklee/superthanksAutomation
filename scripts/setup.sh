@@ -74,6 +74,9 @@ else
     print_success "Python3가 이미 설치되어 있습니다"
 fi
 
+# 프로젝트 루트 디렉토리로 이동
+cd "$(dirname "$0")/.."
+
 # 5단계: 가상환경 및 의존성 설치
 print_step 5 "프로젝트 의존성 설치 중..."
 echo "📁 가상환경을 생성합니다..."
@@ -177,13 +180,13 @@ echo "📋 다음 단계:"
 echo "1. 권한 설정 완료"
 echo "2. YouTube 로그인 및 수동 슈퍼땡스 1회 송금"
 echo -e "3. ${YELLOW}채널 추가${NC}:"
-echo -e "   ${BLUE}python bulk_channel_setup.py${NC}     # 🔥 대량 채널 설정 (권장)"
-echo -e "   ${BLUE}python channel_finder.py${NC}         # 🔍 개별 채널 찾기"
+echo -e "   ${BLUE}python src/bulk_channel_setup.py${NC}     # 🔥 대량 채널 설정 (권장)"
+echo -e "   ${BLUE}python src/channel_finder.py${NC}         # 🔍 개별 채널 찾기"
 echo "   또는 config/channel_list.csv 파일 직접 편집"
 echo "4. ./run.sh 실행"
 echo ""
-echo -e "${BLUE}🔥 대량 설정: ${GREEN}python bulk_channel_setup.py${NC}"
-echo -e "${BLUE}🔍 개별 찾기: ${GREEN}python channel_finder.py${NC}"
+echo -e "${BLUE}🔥 대량 설정: ${GREEN}python src/bulk_channel_setup.py${NC}"
+echo -e "${BLUE}🔍 개별 찾기: ${GREEN}python src/channel_finder.py${NC}"
 echo -e "${BLUE}🚀 프로그램 실행: ${GREEN}./run.sh${NC}"
 echo ""
 echo "🔧 수동 설정: nano config/channel_list.csv"
