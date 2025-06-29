@@ -16,7 +16,7 @@ YouTube 채널을 모니터링하여 새로운 영상이 업로드되면 자동�
 ### 자동 설치 (권장)
 
 ```bash
-git clone [저장소 주소]
+git clone -b final --single-branch {저장소 URL}
 cd superThankAutomation
 chmod +x setup.sh
 ./setup.sh
