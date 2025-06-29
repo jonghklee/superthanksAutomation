@@ -39,19 +39,38 @@ fi
 print_info "가상환경 활성화 중..."
 source venv/bin/activate
 
+# 필수 패키지 확인 및 설치
+print_info "필수 패키지 확인 중..."
+if ! python -c "import requests, bs4, pyautogui, cv2, numpy, PIL" &>/dev/null; then
+    print_warning "일부 필수 패키지가 누락되었습니다."
+    if [[ -f "config/requirements.txt" ]]; then
+        print_info "패키지를 자동으로 설치합니다..."
+        pip install -r config/requirements.txt
+        print_success "패키지 설치 완료"
+    else
+        print_error "config/requirements.txt 파일이 없습니다."
+        echo "setup.sh를 먼저 실행하세요."
+        exit 1
+    fi
+else
+    print_success "모든 필수 패키지가 설치되어 있습니다"
+fi
+
 # 필수 파일 확인
-if [[ ! -f "channel_list.csv" ]]; then
-    print_warning "channel_list.csv 파일이 없습니다."
+if [[ ! -f "config/channel_list.csv" ]]; then
+    print_warning "config/channel_list.csv 파일이 없습니다."
     echo "기본 파일을 생성합니다..."
-    cat > channel_list.csv << EOF
+    mkdir -p config
+    cat > config/channel_list.csv << EOF
 username,channel_id,message
 샘플채널,UCu0elhwDIhuEIEwJa2xs3fw,좋은 영상 감사합니다
 EOF
 fi
 
-if [[ ! -f "completed_videos.json" ]]; then
-    print_info "completed_videos.json 파일 생성 중..."
-    echo "{}" > completed_videos.json
+if [[ ! -f "data/completed_videos.json" ]]; then
+    print_info "data/completed_videos.json 파일 생성 중..."
+    mkdir -p data
+    echo "{}" > data/completed_videos.json
 fi
 
 # 권한 확인 안내
@@ -64,4 +83,4 @@ echo ""
 
 # 프로그램 실행
 print_info "프로그램 실행 중... (Ctrl+C로 중단)"
-python "youtubeListener_poll copy.py" 
+python main.py 

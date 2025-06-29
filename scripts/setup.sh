@@ -83,11 +83,11 @@ echo "🔧 가상환경을 활성화합니다..."
 source venv/bin/activate
 
 echo "📦 필요한 라이브러리를 설치합니다..."
-if [[ -f "requirements.txt" ]]; then
-    pip install -r requirements.txt
+if [[ -f "config/requirements.txt" ]]; then
+    pip install -r config/requirements.txt
     print_success "의존성 설치 완료"
 else
-    print_error "requirements.txt 파일을 찾을 수 없습니다."
+    print_error "config/requirements.txt 파일을 찾을 수 없습니다."
     exit 1
 fi
 
@@ -95,8 +95,8 @@ fi
 print_step 6 "설정 파일 확인 중..."
 
 # 필수 디렉토리 확인
-if [[ ! -d "img" ]]; then
-    print_error "img/ 폴더가 없습니다. 매크로 실행에 필요한 이미지 파일들이 누락되었습니다."
+if [[ ! -d "assets/img" ]]; then
+    print_error "assets/img/ 폴더가 없습니다. 매크로 실행에 필요한 이미지 파일들이 누락되었습니다."
     echo "   이 폴더는 프로그램 실행에 필수입니다."
     exit 1
 fi
@@ -106,14 +106,15 @@ if [[ ! -d "captures" ]]; then
     print_success "captures/ 폴더 생성 완료"
 fi
 
-if [[ ! -f "channel_list.csv" ]]; then
-    print_warning "channel_list.csv 파일이 없습니다."
+if [[ ! -f "config/channel_list.csv" ]]; then
+    print_warning "config/channel_list.csv 파일이 없습니다."
     echo "📝 기본 설정 파일을 생성합니다..."
-    cat > channel_list.csv << 'EOF'
+    mkdir -p config
+    cat > config/channel_list.csv << 'EOF'
 username,channel_id,message
 예시채널,UCxxxxxxxxxxxxxxxxxxxxxx,좋은 영상 감사합니다
 EOF
-    echo "✏️  channel_list.csv 파일을 편집하여 모니터링할 채널을 추가하세요."
+    echo "✏️  config/channel_list.csv 파일을 편집하여 모니터링할 채널을 추가하세요."
 fi
 
 # 실행 스크립트 생성
@@ -122,7 +123,7 @@ cat > run.sh << 'EOF'
 echo "🚀 SuperThank 자동화 프로그램을 시작합니다..."
 cd "$(dirname "$0")"
 source venv/bin/activate
-python "youtubeListener_poll copy.py"
+python main.py
 EOF
 
 chmod +x run.sh
@@ -178,14 +179,14 @@ echo "2. YouTube 로그인 및 수동 슈퍼땡스 1회 송금"
 echo -e "3. ${YELLOW}채널 추가${NC}:"
 echo -e "   ${BLUE}python bulk_channel_setup.py${NC}     # 🔥 대량 채널 설정 (권장)"
 echo -e "   ${BLUE}python channel_finder.py${NC}         # 🔍 개별 채널 찾기"
-echo "   또는 channel_list.csv 파일 직접 편집"
+echo "   또는 config/channel_list.csv 파일 직접 편집"
 echo "4. ./run.sh 실행"
 echo ""
 echo -e "${BLUE}🔥 대량 설정: ${GREEN}python bulk_channel_setup.py${NC}"
 echo -e "${BLUE}🔍 개별 찾기: ${GREEN}python channel_finder.py${NC}"
 echo -e "${BLUE}🚀 프로그램 실행: ${GREEN}./run.sh${NC}"
 echo ""
-echo "🔧 수동 설정: nano channel_list.csv"
+echo "🔧 수동 설정: nano config/channel_list.csv"
 echo "📖 도움말: cat README.md"
 echo ""
 print_success "모든 설치가 완료되었습니다!" 
