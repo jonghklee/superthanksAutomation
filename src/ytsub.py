@@ -142,6 +142,8 @@ def main():
 
         if option == '-getcsv':
             updated = False
+            failed_usernames = []  # channel_id 추출에 실패한 username들을 저장
+            
             for username in csv_data.keys():
                 channel_id = csv_data[username][FieldName[1]]
                 if not channel_id:
@@ -151,8 +153,17 @@ def main():
                         csv_data[username][FieldName[1]] = new_id
                         print(f"{username}: 채널 ID 갱신됨 → {new_id}")
                         updated = True
+                    else:
+                        failed_usernames.append(username)
+            
             if updated:
                 write_csv(csv_data)
+            
+            # channel_id가 없는 username들에 대한 경고 메시지
+            if failed_usernames:
+                failed_list = ", ".join(failed_usernames)
+                print(f"\n경고: {failed_list} \n해당 채널 id는 없는 id 입니다. 해당 id를 수정하거나 삭제한 뒤, ytsub.py -getcsv 명령을 다시 실행하시요")
+            
             return
 
         if option == '-sendcsv':
@@ -212,5 +223,94 @@ def main():
         print("잘못된 명령어입니다.")
         return
 
+def integrity_test():
+    print("\n=== 무결성 테스트 시작 ===")
+    
+    if not CSV_PATH.exists():
+        print("❌ CSV 파일이 존재하지 않습니다.")
+        return
+    
+    # CSV 파일을 직접 읽어서 처리 (keys() 함수 사용 안함)
+    usernames = []
+    channel_ids = []
+    messages = []
+    
+    with open(CSV_PATH, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        
+        for row in reader:
+            username = row['username'].lstrip('@')
+            channel_id = row[fieldnames[1]] if len(fieldnames) > 1 else ''
+            message = row[fieldnames[2]] if len(fieldnames) > 2 else ''
+            
+            usernames.append(username)
+            channel_ids.append(channel_id)
+            messages.append(message)
+    
+    print(f"전체 username 목록: {usernames}")
+    
+    # 1. 중복된 username 확인
+    unique_usernames = list(set(usernames))
+    duplicates = [username for username in unique_usernames if usernames.count(username) > 1]
+    
+    if duplicates:
+        print(f"\n❌ 중복된 username 발견: {duplicates}\n하나만 남기고 삭제하세요")
+        # 중복된 항목들의 상세 정보 출력
+        for dup_username in duplicates:
+            indices = [i for i, username in enumerate(usernames) if username == dup_username]
+            print(f"   '{dup_username}' 중복 위치: {[i+1 for i in indices]}행")
+    else:
+        print("✅ 중복된 username 없음")
+    
+    # 2. 중복된 channel_id 확인 (빈 값 제외)
+    non_empty_channel_ids = [cid for cid in channel_ids if cid and cid.strip()]
+    unique_channel_ids = list(set(non_empty_channel_ids))
+    duplicate_ids = [cid for cid in unique_channel_ids if non_empty_channel_ids.count(cid) > 1]
+    
+    if duplicate_ids:
+        print(f"\n❌ 중복된 channel_id 발견: {duplicate_ids}\n하나만 남기고 삭제하세요")
+        # 중복된 channel_id의 상세 정보 출력
+        for dup_id in duplicate_ids:
+            indices = [i for i, cid in enumerate(channel_ids) if cid == dup_id]
+            dup_usernames = [usernames[i] for i in indices]
+            print(f"   '{dup_id}' 사용하는 username: {dup_usernames}")
+    else:
+        print("✅ 중복된 channel_id 없음")
+    
+    # 3. 메시지 누락 확인
+    missing_message_usernames = []
+    for i, (username, message) in enumerate(zip(usernames, messages)):
+        if not message or message.strip() == '':
+            missing_message_usernames.append(f"{username}({i+1}행)")
+    
+    if missing_message_usernames:
+        print(f"\n❌ 메시지가 누락된 username: {missing_message_usernames}\n메시지를 입력하세요")
+    else:
+        print("✅ 모든 항목에 메시지 있음")
+    
+    # 4. 빈 channel_id 확인
+    empty_channel_id_usernames = []
+    for i, (username, channel_id) in enumerate(zip(usernames, channel_ids)):
+        if not channel_id or channel_id.strip() == '':
+            empty_channel_id_usernames.append(f"{username}({i+1}행)")
+    
+    if empty_channel_id_usernames:
+        print(f"\n⚠️  channel_id가 비어있는 username:")
+        for username in empty_channel_id_usernames:
+            print(f"   {username}")
+    else:
+        print("✅ 모든 항목에 channel_id 있음")
+    
+    print("=== 무결성 테스트 완료 ===\n")
+
 if __name__ == "__main__":
-    main()
+    # 무결성 테스트 함수
+    # main 실행 후 무결성 테스트 실행
+    try:
+        main()
+        integrity_test()
+    except Exception as e:
+        print(f"오류 발생: {e}")
+        integrity_test()  # 오류가 발생해도 무결성 테스트는 실행
+

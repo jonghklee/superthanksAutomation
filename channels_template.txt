@@ -1,0 +1,18 @@
+# YouTube 채널 대량 등록 템플릿
+# 한 줄에 하나씩 채널을 입력하세요
+# 
+# 입력 가능한 형식:
+# @channelname              (핸들)
+# channelname               (핸들, @ 없이)
+# https://www.youtube.com/@channelname
+# https://www.youtube.com/channel/UCxxxxx
+#
+# 예시:
+@youtube
+@kbs
+@sbs
+https://www.youtube.com/@mbc
+TeamYouTube
+https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+
+# 아래에 등록하고 싶은 채널들을 입력하세요:
